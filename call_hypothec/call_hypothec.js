@@ -1,7 +1,18 @@
 const CREDIT_MIN = 0;
 const CREDIT_MAX = 15000000;
-const YEARS_MIN = 0;
-const YEARS_MAX = 15;
+const FIRST_CONTRIBUTION_MIN = 0;
+const FIRST_CONTRIBUTION_MAX = 15000000;
+const RETURN_PERIOD_MIN = 1;
+const RETURN_PERIOD_MAX = 50;
+
+const creditText = document.querySelector("#creditText");
+const creditRange = document.querySelector("#creditRange");
+const firstContributionText = document.querySelector("#firstContributionText");
+const firstContributionRange = document.querySelector(
+  "#firstContributionRange"
+);
+const returnPeriodText = document.querySelector("#returnPeriodText");
+const returnPeriodRange = document.querySelector("#returnPeriodRange");
 
 const formatterNumber = new Intl.NumberFormat("ru");
 const formatterCurrency = new Intl.NumberFormat("ru", {
@@ -9,178 +20,84 @@ const formatterCurrency = new Intl.NumberFormat("ru", {
   currency: "RUB",
   minimumFractionDigits: 0,
 });
-
-function formatterYears(value) {
-  const years = parseInt(value);
-  let count = years % 100;
-  let txt = null;
-
-  if (count >= 5 && count <= 20) {
-    txt = "лет";
-  } else {
-    count = years % 10;
-
-    if (count == 1) {
-      txt = "год";
-    } else {
-      if (count >= 2 && count <= 4) {
-        txt = "года";
-      } else {
-        txt = "лет";
-      }
-    }
-  }
-  return value + " " + txt;
-}
-
-//-------------------Стоимость недвижимости------------
-const creditText = document.querySelector("#creditText");
-const creditRange = document.querySelector("#creditRange");
-
-creditText.addEventListener("focus", function (event) {
-  let number = "";
-  for (const letter of this.value) {
-    if ("0123456789".includes(letter)) {
-      number += letter;
-    }
-  }
-  number = parseInt(number);
-  this.value = formatterNumber.format(number);
+const formatterDate = new Intl.DateTimeFormat("ru", {
+  year: "2-digit",
 });
 
-creditText.addEventListener("input", function inputHandler(event) {
-  let number = "";
-  for (const letter of this.value) {
-    if ("0123456789".includes(letter)) {
-      number += letter;
-    }
-  }
-  number = parseInt(number);
-  if (number < CREDIT_MIN) {
-    number = CREDIT_MIN;
-  }
-  if (number > CREDIT_MAX) {
-    number = CREDIT_MAX;
-  }
-  creditRange.value = number;
-
-  number = formatterNumber.format(number);
-  this.value = number;
-});
-
-creditText.addEventListener("blur", function (event) {
-  let number = "";
-  for (const letter of this.value) {
-    if ("0123456789".includes(letter)) {
-      number += letter;
-    }
-  }
-  number = parseInt(number);
-  this.value = formatterCurrency.format(number);
-});
-
-creditRange.addEventListener("input", function (event) {
-  creditText.value = formatterCurrency.format(parseInt(this.value));
-});
-
-//-------------------Первоначальный взнос------------
-const firstContributionText = document.querySelector("#firstContributionText");
-const firstContributionRange = document.querySelector(
-  "#firstContributionRange"
+setDoubleDependencies(
+  creditText,
+  creditRange,
+  formatterNumber,
+  formatterCurrency,
+  CREDIT_MIN,
+  CREDIT_MAX
+);
+setDoubleDependencies(
+  firstContributionText,
+  firstContributionRange,
+  formatterNumber,
+  formatterCurrency,
+  FIRST_CONTRIBUTION_MIN,
+  FIRST_CONTRIBUTION_MAX
+);
+setDoubleDependencies(
+  returnPeriodText,
+  returnPeriodRange,
+  formatterNumber,
+  formatterDate,
+  RETURN_PERIOD_MIN,
+  RETURN_PERIOD_MAX
 );
 
-firstContributionText.addEventListener("focus", function (event) {
-  let number = "";
-  for (const letter of this.value) {
-    if ("0123456789".includes(letter)) {
-      number += letter;
+function setDoubleDependencies(
+  textElement,
+  rangeElement,
+  formatterNumber,
+  formatterGoal
+) {
+  textElement.addEventListener("focus", function (event) {
+    let number = "";
+    for (const letter of this.value) {
+      if ("0123456789".includes(letter)) {
+        number += letter;
+      }
     }
-  }
-  number = parseInt(number);
-  this.value = formatterNumber.format(number);
-});
+    number = parseInt(number);
+    this.value = formatterNumber.format(number);
+  });
 
-firstContributionText.addEventListener("input", function inputHandler(event) {
-  let number = "";
-  for (const letter of this.value) {
-    if ("0123456789".includes(letter)) {
-      number += letter;
+  textElement.addEventListener("input", function inputHandler(event) {
+    let number = "";
+    for (const letter of this.value) {
+      if ("0123456789".includes(letter)) {
+        number += letter;
+      }
     }
-  }
-  number = parseInt(number);
-  if (number < CREDIT_MIN) {
-    number = CREDIT_MIN;
-  }
-  if (number > CREDIT_MAX) {
-    number = CREDIT_MAX;
-  }
-  firstContributionRange.value = number;
-
-  number = formatterNumber.format(number);
-  this.value = number;
-});
-
-firstContributionText.addEventListener("blur", function (event) {
-  let number = "";
-  for (const letter of this.value) {
-    if ("0123456789".includes(letter)) {
-      number += letter;
+    number = parseInt(number);
+    if (number < min) {
+      number = min;
     }
-  }
-  number = parseInt(number);
-  this.value = formatterCurrency.format(number);
-});
-
-firstContributionRange.addEventListener("input", function (event) {
-  firstContributionText.value = formatterCurrency.format(parseInt(this.value));
-});
-
-//-------------------Срок кредита------------
-const returnPeriodText = document.querySelector("#returnPeriodText");
-const returnPeriodRange = document.querySelector("#returnPeriodRange");
-
-returnPeriodText.addEventListener("focus", function (event) {
-  let number = "";
-  for (const letter of this.value) {
-    if ("0123456789".includes(letter)) {
-      number += letter;
+    if (number > max) {
+      number = max;
     }
-  }
-  number = parseInt(number);
-  this.value = formatterNumber.format(number);
-});
+    rangeElement.value = number;
 
-returnPeriodText.addEventListener("input", function inputHandler(event) {
-  let number = "";
-  for (const letter of this.value) {
-    if ("0123456789".includes(letter)) {
-      number += letter;
+    number = formatterNumber.format(number);
+    this.value = number;
+  });
+
+  textElement.addEventListener("blur", function (event) {
+    let number = "";
+    for (const letter of this.value) {
+      if ("0123456789".includes(letter)) {
+        number += letter;
+      }
     }
-  }
-  number = parseInt(number);
-  if (number < YEARS_MIN) {
-    number = YEARS_MIN;
-  }
-  if (number > YEARS_MAX) {
-    number = YEARS_MAX;
-  }
-  returnPeriodRange.value = number;
+    number = parseInt(number);
+    this.value = formatterGoal.format(number);
+  });
 
-  number = formatterNumber.format(number);
-  this.value = number;
-});
-
-returnPeriodText.addEventListener("blur", function (event) {
-  let number = "";
-  for (const letter of this.value) {
-    if ("0123456789".includes(letter)) {
-      number += letter;
-    }
-  }
-
-  this.value = formatterYears(number);
-});
-
-returnPeriodRange.addEventListener("input", function (event) {
-  returnPeriodText.value = formatterYears(this.value);
-});
+  rangeElement.addEventListener("input", function (event) {
+    textElement.value = formatterGoal.format(parseInt(this.value));
+  });
+}

@@ -20,9 +20,26 @@ const formatterCurrency = new Intl.NumberFormat("ru", {
   currency: "RUB",
   minimumFractionDigits: 0,
 });
-const formatterDate = new Intl.DateTimeFormat("ru", {
-  year: "2-digit",
-});
+const formatterDate = {
+  format(years) {
+    years = parseInt(years);
+    let count = years % 10;
+    let txt = "лет";
+
+    if (years >= 5 && years <= 20) {
+      txt = "лет";
+    } else {
+      if (count == 1) {
+        txt = "год";
+      } else {
+        if (count >= 2 && count <= 4) {
+          txt = "года";
+        }
+      }
+    }
+    return years + " " + txt;
+  },
+};
 
 setDoubleDependencies(
   creditText,
@@ -48,13 +65,32 @@ setDoubleDependencies(
   RETURN_PERIOD_MIN,
   RETURN_PERIOD_MAX
 );
+setReaction(
+  creditText,
+  creditRange,
+  firstContributionText,
+  firstContributionRange,
+  returnPeriodText,
+  returnPeriodRange,
+  mainProcess
+);
+
+mainProcess();
 
 function setDoubleDependencies(
   textElement,
   rangeElement,
   formatterNumber,
-  formatterGoal
+  formatterGoal,
+  min,
+  max
 ) {
+  const middle = (min + max) / 2;
+  rangeElement.setAttribute("min", min);
+  rangeElement.setAttribute("max", max);
+  rangeElement.value = middle;
+  textElement.value = formatterGoal.format(middle);
+
   textElement.addEventListener("focus", function (event) {
     let number = "";
     for (const letter of this.value) {
@@ -100,4 +136,36 @@ function setDoubleDependencies(
   rangeElement.addEventListener("input", function (event) {
     textElement.value = formatterGoal.format(parseInt(this.value));
   });
+}
+function setReaction(...args) {
+  const handler = args.splice(-1)[0];
+
+  for (const element of args) {
+    element.addEventListener("input", function (event) {
+      handler.call(this, event, args.slice());
+    });
+  }
+}
+function mainProcess() {
+  const credit = parseInt(creditRange.value);
+  const firstContribution = parseInt(firstContributionRange.value);
+  const returnPeriod = parseInt(returnPeriodRange.value);
+
+  let percent = 10 + Math.log(returnPeriod) / Math.log(0.5);
+  percent = parseInt(percent * 100 + 1) / 100;
+  document.querySelector("#percentNumber").value = percent + " %";
+
+  let commonDebit =
+    ((credit - firstContribution) * (1 + percent)) ^ returnPeriod;
+  document.querySelector("#common").textContent = formatterCurrency.format(
+    commonDebit
+  );
+  const subpayment = commonDebit - (credit - firstContribution);
+  document.querySelector("#subpayment").textContent = formatterCurrency.format(
+    subpayment
+  );
+  const payment = subpayment / (returnPeriod * 12);
+  document.querySelector("#payment").textContent = formatterCurrency.format(
+    payment
+  );
 }

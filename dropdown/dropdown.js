@@ -17,7 +17,7 @@ document.querySelectorAll('.dropdown').forEach(function (dropDownWrapper) {
 	// Клик по кнопке. Открыть/Закрыть select
 	dropDownBtn.addEventListener('click', function (e) {
 		dropDownList.classList.toggle('dropdown__list--visible');
-        this.classList.add('dropdown__button--active');
+		this.classList.add('dropdown__button--active');
 	});
 
 	// Выбор элемента списка. Запомнить выбранное значение. Закрыть дропдаун

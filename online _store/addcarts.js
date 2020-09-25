@@ -1,3 +1,6 @@
+// Div внутри корзины, в который мы добавляем товары
+let cartWrapper = document.querySelector(".cart-wrapper");
+
 // Найти кнопку "Добавить в корзину"
 let cartButtons = document.querySelectorAll("[data-cart]");
 
@@ -5,16 +8,30 @@ let cartButtons = document.querySelectorAll("[data-cart]");
 cartButtons.forEach(function (item) {
   item.addEventListener("click", function () {
     let card = this.closest(".card");
-    // Собираем данные
-    let imgSrc = card.querySelector(".product-img").getAttribute("src");
-    let title = card.querySelector(".item-title").innerText;
-    let itemsInBox = card.querySelector("[data-items-in-box]").innerText;
-    let weight = card.querySelector(".price__weight").innerText;
-    let price = card.querySelector(".price__currency").innerText;
-    let counter = card.querySelector("[data-counter]").innerText;
 
-    // Подставить шаблон
-    let cartItemHTML = `<div class="cart-item">
+    // Проверяем есть ли уже такой товар в корзине
+    // Определяем id добавляемого товара
+    let id = card.dataset.id;
+    let counterElement = card.querySelector("[data-counter]");
+    let counter = card.querySelector("[data-counter]").innerText;
+    let itemInCart = cartWrapper.querySelector(`[data-id="${id}"]`);
+    if (itemInCart) {
+
+      //если есть товар в корзине, то увеличить количество товара
+      let counterElement = itemInCart.querySelector("[data-counter]");
+      counterElement.innerText = parseInt(counterElement.innerText) + parseInt(counter);
+    } else {
+
+      //Если нет товара, то добавляем
+      // Собираем данные с товара
+      let imgSrc = card.querySelector(".product-img").getAttribute("src");
+      let title = card.querySelector(".item-title").innerText;
+      let itemsInBox = card.querySelector("[data-items-in-box]").innerText;
+      let weight = card.querySelector(".price__weight").innerText;
+      let price = card.querySelector(".price__currency").innerText;
+
+      // Подставить шаблон
+      let cartItemHTML = `<div class="cart-item" data-id="${id}">
     <div class="cart-item__top">
       <div class="cart-item__img">
         <img src="${imgSrc}" alt="" />
@@ -36,11 +53,16 @@ cartButtons.forEach(function (item) {
     </div>
   </div>`;
 
-    // Добавляем в раздел в "Ваш заказ"
-    let cartWrapper = document.querySelector(".cart-wrapper")
-    cartWrapper.insertAdjacentHTML("beforeend", cartItemHTML);
-    // Скрываем "Ваша корзина пуста"
-    document.querySelector("[data-cart-empty]").classList.add("none")
+      // Добавляем в раздел в "Ваш заказ"
+      cartWrapper.insertAdjacentHTML("beforeend", cartItemHTML);
+
+      // Скрываем "Ваша корзина пуста"
+      document.querySelector("[data-cart-empty]").classList.add("none")
+
+    }
+
+    // После нажатия "В корзину", счетчик сбрасывается на 1
+    counterElement.innerText = 1;
   });
 })
 

@@ -1,15 +1,14 @@
-// Найдем кнопки (элементы управления) (кнопки - и +)
-let buttons = document.querySelectorAll('[data-action]');
-
-// Для каждой кнопки вешаем событие клик
-buttons.forEach(function (item) {
-	item.addEventListener('click', function () {
+let body = document.querySelector("body");
+body.addEventListener("click", function (event) {
+	// Проверяем клик по кнопкам + или -
+	if (event.target.hasAttribute("data-action")) {
+		//Работа над счетчиком
 		// Находим div c счетчиком
-		let counterWrapper = this.closest('.counter-wrapper');
+		let counterWrapper = event.target.closest('.counter-wrapper');
 		let counter = counterWrapper.querySelector('[data-counter]');
 
 		// Для кнопки + → Увеличиваем
-		if (this.dataset.action === 'plus') {
+		if (event.target.dataset.action === 'plus') {
 			counter.innerText = ++counter.innerText;
 		} else {
 			// Для кнопки - → Проверяем на > 1 и Уменьшаем
@@ -18,5 +17,5 @@ buttons.forEach(function (item) {
 				counter.innerText = --counter.innerText; // Уменьшили счетчик на 1
 			}
 		}
-	});
+	}
 });

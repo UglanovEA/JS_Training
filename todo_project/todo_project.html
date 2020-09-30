@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS_Training</title>
+    <link rel="stylesheet" href="./../libs/bootstrap.css" />
+    <link rel="stylesheet" href="todo_project.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="display-4 mb-2">ToDo приложение</div>
+      <div class="h4 mb-5">список задач на сегодня</div>
+      <div class="card mb-4">
+        <ul id="list-group" class="list-group list-group-flush">
+          <li id="empty-list-item" class="list-group-item text-center">
+            Список дел пуст
+          </li>
+        </ul>
+      </div>
+      <div class="card bg-light">
+        <div class="card-header">Добавить новую задачу</div>
+        <div class="card-body">
+          <form id="newTaskForm">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="addNewTask"
+                placeholder="Текст задачи"
+                autofocus
+                required
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >Что делаем, сколько времени тратим, какой результат
+                получаем.</small
+              >
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg active">
+              Добавить
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="todo_project.js"></script>
+  </body>
+</html>

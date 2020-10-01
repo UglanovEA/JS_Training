@@ -2,13 +2,9 @@
 const form = document.querySelector("#newTaskForm");
 const input = document.querySelector("#addNewTask");
 const taskList = document.querySelector("#list-group");
-<<<<<<< HEAD
 
 // Загрузить данные из LocalStorage
 loadData();
-=======
-const emptyList = document.querySelector("#empty-list-item");
->>>>>>> fb87fb72bd3966da1981e9caf0690532b0aab303
 
 // Отслеживаем отправку формы
 form.addEventListener("submit", function (event) {
@@ -58,10 +54,6 @@ taskList.addEventListener("click", function (event) {
   }
 })
 
-<<<<<<< HEAD
-=======
-
->>>>>>> fb87fb72bd3966da1981e9caf0690532b0aab303
 // Функция удаления поля "Список дел пуст"
 function toggleEmptyListItem() {
   if (taskList.children.length > 1) {

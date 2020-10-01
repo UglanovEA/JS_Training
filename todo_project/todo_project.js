@@ -2,7 +2,10 @@
 const form = document.querySelector("#newTaskForm");
 const input = document.querySelector("#addNewTask");
 const taskList = document.querySelector("#list-group");
-const emptyList = document.querySelector("#empty-list-item");
+
+// Загрузить данные из LocalStorage
+loadData();
+
 // Отслеживаем отправку формы
 form.addEventListener("submit", function (event) {
   event.preventDefault(); // Отменим стандартное поведение страницы (перезагрузка страницы)
@@ -21,6 +24,8 @@ form.addEventListener("submit", function (event) {
   input.value = "";
   // Возвращаем фокус на поле ввода после добавления новой задачи
   input.focus();
+  // Сохранить данные в LocalStorage
+  saveData();
 })
 // Кнопки "Готово" и "Удалить"
 // Прверяем что клик произошел по кнопке "Удалить"
@@ -30,6 +35,8 @@ taskList.addEventListener("click", function (event) {
     event.target.closest(".list-group-item").remove();
     // Скрывать или показывает "Список дел пуст"
     toggleEmptyListItem();
+    // Сохранить данные в LocalStorage
+    saveData();
   } else if (event.target.getAttribute("data-action") == "ready") {
     // Находим родетельский тег <span> и добавляем дополнительный класс
     const parentElement = event.target.closest(".list-group-item");
@@ -40,13 +47,28 @@ taskList.addEventListener("click", function (event) {
     taskList.insertAdjacentElement("beforeend", parentElement);
     // Удалить кнопку "Готово" после выполнения
     parentElement.querySelector('[data-action="ready"]').remove();
+    // Сохранить данные в LocalStorage
+    saveData();
   }
 })
+
 // Функция удаления поля "Список дел пуст"
 function toggleEmptyListItem() {
   if (taskList.children.length > 1) {
-    emptyList.style.display = "none";
+    document.querySelector("#empty-list-item").style.display = "none";
   } else {
-    emptyList.style.display = "block";
+    document.querySelector("#empty-list-item").style.display = "block";
+  }
+}
+
+// Функция сохранения данных в LocalStorage
+function saveData() {
+  localStorage.setItem("todoList", taskList.innerHTML);
+}
+
+// Функция загрузки данных из LocalStorage
+function loadData() {
+  if (localStorage.getItem("todoList")) {
+    taskList.innerHTML = localStorage.getItem("todoList");
   }
 }

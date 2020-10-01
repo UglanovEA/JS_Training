@@ -3,6 +3,7 @@ const form = document.querySelector("#newTaskForm");
 const input = document.querySelector("#addNewTask");
 const taskList = document.querySelector("#list-group");
 const emptyList = document.querySelector("#empty-list-item");
+
 // Отслеживаем отправку формы
 form.addEventListener("submit", function (event) {
   event.preventDefault(); // Отменим стандартное поведение страницы (перезагрузка страницы)
@@ -22,6 +23,8 @@ form.addEventListener("submit", function (event) {
   // Возвращаем фокус на поле ввода после добавления новой задачи
   input.focus();
 })
+
+
 // Кнопки "Готово" и "Удалить"
 // Прверяем что клик произошел по кнопке "Удалить"
 taskList.addEventListener("click", function (event) {
@@ -42,6 +45,8 @@ taskList.addEventListener("click", function (event) {
     parentElement.querySelector('[data-action="ready"]').remove();
   }
 })
+
+
 // Функция удаления поля "Список дел пуст"
 function toggleEmptyListItem() {
   if (taskList.children.length > 1) {

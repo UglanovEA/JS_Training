@@ -1,11 +1,14 @@
 // Div внутри корзины, в который мы добавляем товары
 let cartWrapper = document.querySelector(".cart-wrapper");
+
 // Найти кнопку "Добавить в корзину"
 let cartButtons = document.querySelectorAll("[data-cart]");
+
 // Отследить клик на кнопке "Добавить в корзину"
 cartButtons.forEach(function (item) {
   item.addEventListener("click", function () {
     let card = this.closest(".card");
+    
     // Проверяем есть ли уже такой товар в корзине
     // Определяем id добавляемого товара
     let id = card.dataset.id;
@@ -18,6 +21,7 @@ cartButtons.forEach(function (item) {
       counterElement.innerText = parseInt(counterElement.innerText) + parseInt(counter);
     } else {
       // Если нет товара, то добавляем
+      
       // Собираем данные с товара
       let imgSrc = card.querySelector(".product-img").getAttribute("src");
       let title = card.querySelector(".item-title").innerText;
@@ -73,6 +77,7 @@ function toggleCartStatus() {
     // Скрываем форму заказа
     document.querySelector("#order-form").classList.add("none");
   }
+  
   // Пересчитываем стоимость заказа
   let totalPrice = 0; // Общая цена
   cartWrapper.querySelectorAll(".cart-item").forEach(function (item) {

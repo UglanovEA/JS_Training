@@ -46,3 +46,73 @@
 // undefined === null //false
 // null == "\n0\n" // false (null равен только undefined)
 // null === +"\n0\n" // false (Строгое сравнение разных типов.)
+
+// if ("0") {
+//   alert('Привет');
+// }
+
+// let company = prompt("Какое 'официальное' название JavaScript?")
+// if (company == "ECMAScript") {
+//   alert("Правильно")
+// } else {
+//   alert("Не знаете? “ECMAScript”!")
+// }
+
+// let value = prompt("Введите число")
+// if (value > 0) {
+//   alert(1)
+// } else if (value == 0) {
+//   alert(0)
+// } else if (value < 0) {
+//   alert(-1)
+// }
+
+// let result = (a + b < 4) ? 'Мало' : 'Много';
+
+// let message = (login == 'Сотрудник') ? 'Привет' :
+//      (login == 'Директор') ? 'Здравствуйте' :
+//      (login == '') ? 'Нет логина' : 
+//      "";
+
+// alert(null || 2 || undefined); //2
+// alert(alert(1) || 2 || alert(3)); // 1 and 2
+// alert(1 && null && 2); //null
+// alert(alert(1) && alert(2)); // 1 and undefined
+// alert(null || 2 && 3 || 4); //3 первое истинное значение
+
+// let age = 50;
+// if (age >= 14 && age <= 90) {
+//   alert("Verno")
+// }
+
+// let age = 50;
+// if (age < 14 || age > 90) {
+//   alert("NeVerno")
+// } else {
+//   alert("Verno")
+// }
+
+// let age = 50;
+// if (!(age >= 14 && age <= 90)) {
+//   alert("Verno")
+// }
+
+// if (-1 || 0) alert('first'); // выполнится Результат -1 || 0 = -1, в логическом контексте true
+// if (-1 && 0) alert('second'); //не выполнится -1 && 0 = 0,  в логическом контексте false
+// if (null || -1 && 1) alert('third'); // выполниться вычисления: null || -1 && 1  ->  null || 1  ->  1
+
+// let login = prompt("Введите логин");
+// if (login == "Админ") {
+//   let pass = prompt("Введите пароль")
+//   if (pass == "Я Главный") {
+//     alert("Здравствуйте!")
+//   } else if (pass == "Отмена") {
+//     alert("Отменено")
+//   } else {
+//     alert("я вас не знаю")
+//   }
+// } else if (login == "Отмена") {
+//   alert("Отменено")
+// } else {
+//   alert("Я вас не знаю")
+// }

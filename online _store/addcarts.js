@@ -85,7 +85,7 @@ function toggleCartStatus() {
     let priceOneItem = item.querySelector(".price__currency").innerText;
     let price = parseInt(counter) * parseInt(priceOneItem);
     totalPrice = totalPrice + price;
-  })
+  });
   document.querySelector(".total-price").innerText = totalPrice;
 }
 

@@ -9,3 +9,6 @@ body {
 .tab-content-hidden {
   display: none;
 }
+.list-group-item {
+  cursor: pointer;
+}

@@ -7,6 +7,6 @@
 
 **open-close** - Opening and closing a block in Javascript.
 
-**accordion** - accordion in Javascript.
+**accordion** - Accordion in Javascript.
 
-**tabs** - tabs in Javascript.
+**tabs** - Tabs in Javascript.

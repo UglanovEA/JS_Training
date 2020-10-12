@@ -6,3 +6,5 @@
 **todo_project** - Developed functionality for adding/deleting/executing a to-do list.
 
 **open-close** - Opening and closing a block in Javascript.
+
+**accordion** - accordion in Javascript.

@@ -8,3 +8,5 @@
 **open-close** - Opening and closing a block in Javascript.
 
 **accordion** - accordion in Javascript.
+
+**tabs** - tabs in Javascript.

@@ -9,6 +9,7 @@ loadData();
 // Отслеживаем отправку формы
 form.addEventListener("submit", function (event) {
   event.preventDefault(); // Отменим стандартное поведение страницы (перезагрузка страницы)
+
   const taskText = input.value; // Берем текст введенные ользователем в поле ввода
   const taskHTML = `<li class="list-group-item d-flex justify-content-between">
                         <span contentEditable="true" class="task-title">${taskText}</span>

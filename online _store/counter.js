@@ -1,4 +1,5 @@
 let body = document.querySelector("body");
+
 body.addEventListener("click", function (event) {
 	// Проверяем клик по кнопкам + или -
 	if (event.target.hasAttribute("data-action")) {
@@ -18,6 +19,7 @@ body.addEventListener("click", function (event) {
 				counter.closest(".cart-item").remove(); // Можем удалять товары из корзины
 			}
 		}
+
 		// Пересчитываем корзину
 		toggleCartStatus();
 	}

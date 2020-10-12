@@ -10,3 +10,5 @@
 **accordion** - Accordion in Javascript.
 
 **tabs** - Tabs in Javascript.
+
+**modal** - Modal window in Javascript.

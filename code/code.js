@@ -255,8 +255,8 @@
 // }
 // ask(
 //   "Вы согласны?",
-//   function() { alert("Вы согласились."); },
-//   function() { alert("Вы отменили выполнение."); }
+//   function () { alert("Вы согласились."); },
+//   function () { alert("Вы отменили выполнение."); }
 // );
 
 // let ask = (question, yes, no) => {
@@ -288,3 +288,16 @@
 // } else {
 //   alert(pow(x, n));
 // }
+
+
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+};
+
+let sum = 0;
+for (let key in salaries) {
+  sum += salaries[key];
+}
+console.log(sum)

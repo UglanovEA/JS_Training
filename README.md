@@ -12,3 +12,5 @@
 **tabs** - Tabs in Javascript.
 
 **modal** - Modal window in Javascript.
+
+**repair _cost _calculator** - Сalculator for repair costs in Javascript.

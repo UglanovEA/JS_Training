@@ -14,3 +14,5 @@
 **modal** - Modal window in Javascript.
 
 **repair _cost _calculator** - Сalculator for repair costs in Javascript.
+
+**game_js** - dino game Google

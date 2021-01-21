@@ -16,3 +16,7 @@
 **repair _cost _calculator** - Сalculator for repair costs in Javascript.
 
 **game_js** - dino game Google
+
+**game_js_2** - clickr game
+
+**game_js_3** - flappy_bird game

@@ -7,7 +7,7 @@ const mapHeight = canvas.offsetHeight;
 const world = {
   width: canvas.offsetWidth,
   height: canvas.offsetHeight,
-  speed: 0.6,
+  speed: 1,
   draw() {
     ctx.fillStyle = '#add8e6'
     ctx.fillRect(0, 0, mapWidth, mapHeight)
@@ -17,9 +17,9 @@ const world = {
 function Tube(x) {
   this.x = x
   this.y = 0
-  this.width = 20
-  this.height = 70
-  this.distance = 40
+  this.width = 60
+  this.height = 150
+  this.distance = 150
   this.draw = () => {
     ctx.fillStyle = '#008000'
     ctx.fillRect(this.x, this.y, this.width, this.height)
@@ -28,37 +28,55 @@ function Tube(x) {
 }
 
 const bird = {
-  x: 20,
-  y: 20,
-  width: 14,
-  height: 12,
+  x: 50,
+  y: world.height / 2 - 42,
+  width: 44,
+  height: 42,
   gravity: 0,
   img: new Image(this.width, this.height),
   draw() {
     ctx.drawImage(this.img, this.x, this.y, this.width, this.height)
   },
   fly() {
-    this.gravity = this.gravity = -3
-  }
+    this.gravity = this.gravity = -5
+  },
 }
 
 bird.img.src = './img/bird.png'
-window.onkeydown = () => bird.fly() // Движение по нажатию клавиши
+window.onkeydown = () => bird.fly()
 
-const tubes = [new Tube(world.width), new Tube(world.width + world.width / 2)]
 function reset() {
-  bird.y = 20
+  bird.y = world.height / 2
   bird.gravity = 1
+  tubes.forEach(tube => {
+    tube.x = world.width + world.width / 4
+  })
 }
+
+const tubes = [new Tube(world.width), new Tube(world.width + 230)]
+
 function render() {
   world.draw()
   bird.draw()
 
   tubes.forEach(tube => {
     tube.draw()
-     tube.x = tube.x - world.speed
+    tube.x = tube.x - world.speed
+
+    const isTubeOutOfScreen = tube.x + tube.width < 0
+    if (isTubeOutOfScreen) {
+      tube.x = world.width
+      tube.height = Math.random() * 150 + tube.distance
+    }
+    const isTubeReachBird = (tube.x - tube.width < bird.x) && (tube.x + tube.width > bird.x)
+    if (isTubeReachBird) {
+      const isTubeHitBird = tube.height > bird.y
+      if (isTubeHitBird) {
+        reset()
+      }
+    }
   })
-  
+
   bird.y = bird.y + bird.gravity
   bird.gravity = bird.gravity + 0.3
 
@@ -67,4 +85,5 @@ function render() {
     reset()
   }
 };
+
 setInterval(render, 1000 / 60)

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS_Training</title>
     <link rel="stylesheet" href=".././libs/bootstrap.css" />
-    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="./modal.css" />
   </head>
   <body>
     <h1 class="mb-4">Модальное окно</h1>
@@ -15,7 +15,7 @@
     <button data-modal-button="modal-2" class="btn btn-outline-primary mb-1" type="button">
       Открыть модальное окно №2
     </button>
-    <div id="modal-1" class="fade-block">
+    <div id="modal-1" data-modal class="fade-block">
       <div class="modal-window">
         <div class="card">
           <div class="card-header">Модальное окно №1</div>
@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-    <div id="modal-2" class="fade-block">
+    <div id="modal-2" data-modal class="fade-block">
       <div class="modal-window">
         <div class="card">
           <div class="card-header">Модальное окно №2</div>
@@ -47,6 +47,6 @@
         </div>
       </div>
     </div>
-    <script src="modal.js"></script>
+    <script src="./modal.js"></script>
   </body>
 </html>

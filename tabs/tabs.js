@@ -1,23 +1,26 @@
 // Находим все заголовки по атрибуту
 const tabsHeaders = document.querySelectorAll("[data-tab]");
+// Находим все контент боксы
+const contentBoxes = document.querySelectorAll("[data-tab-content]");
 
-// Для каждого заголовка запустили функцию
-tabsHeaders.forEach(tabsHandler);
 
+tabsHeaders.forEach(function (item) {
 
-function tabsHandler(item) {
   // Для каждого заголовка по клику запускаем функцию 
-  item.addEventListener("click", tabsClick);
-}
+  item.addEventListener("click", function () {
 
-function tabsClick() {
-  // Находим название id связанного блока с контентом
-  const tabId = this.dataset.tab;
+    // Скрываем все content-box
+    contentBoxes.forEach(function (item) {
+      item.classList.add("tab-content-hidden");
+    });
 
-  // Находим блоки и скрываем все блоки с контентом
-  document.querySelectorAll("[data-tab-content]").forEach(function (item) {
-    item.classList.add("tab-content-hidden");
-  });
-  // По  ID включаем нужный блок с контентом
-  document.getElementById(tabId).classList.remove("tab-content-hidden");
-}
+    // Выбираем нужный content-box
+    const contentBox = document.querySelector('#' + this.dataset.tab);
+    contentBox.classList.remove("tab-content-hidden");
+
+  })
+})
+
+
+
+

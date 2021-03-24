@@ -371,5 +371,173 @@
 // console.log(120 * 60)
 // console.log(7200 * 7)
 // console.log(50400 * 30)
-/* ======================================================================================== */
 
+/* =======================================arr============================================= */
+// var arr = ['Hello',' ','world']
+// var str = arr[0] + arr[1] + arr[2]
+// console.log(str)
+
+// var arr = ['Hello',' ','world']
+// arr[0] = 'Buy'
+// var str = arr[0] + arr[1] + arr[2]
+// console.log(str)
+
+// var obj = {
+//   'Коля':'1000', 
+//   'Вася':'500', 
+//   'Петя':'200'
+// };
+// console.log(obj['Коля'])
+
+// var arr = [1, 2, 3, 4, 5];
+
+// var arr = [];
+// arr[0] = 1;
+// arr[1] = 2;
+// arr[2] = 3;
+// arr[3] = 4;
+
+// var arr = {
+// 	'ru':['голубой', 'красный', 'зеленый'],
+// 	'en':['blue', 'red', 'green'],
+// };
+// console.log(arr['ru'][0])
+
+// var arr = ['a', 'b', 'c']
+// console.log(arr[0] + '+' + arr[1])
+
+// var arr = [2, 5, 3, 9]
+// var umn = arr[0] * arr[1]
+// var umn2 = arr[2] * arr[3]
+// result = umn + umn2
+// console.log(result)
+
+// var obj = {
+//   a: 1, 
+//   b: 2, 
+//   c: 3
+// };
+// console.log(obj['c'])
+// console.log(obj.c)
+
+// var obj = {
+//   Коля: '1000', 
+//   Вася: '500', 
+//   Петя: '200'
+// }
+// console.log(obj['Коля'], obj['Петя'])
+
+// var week = {
+//   mo: 1,
+//   tu: 2,
+//   w: 3,
+//   t: 4,
+//   f: 5,
+//   s: 6,
+//   su: 7
+// }
+// var day = week.tu
+// console.log(day)
+
+// var arr = [ [1, 2, 3], [4, 5, 6], [7,8,9] ]
+// console.log(arr[1][0])
+
+// var obj = {
+//   js:['jQuery', 'Angular'], 
+//   php: 'hello', 
+//   css: 'world'
+// }
+// console.log(obj.js[0])
+
+// var arr = {
+//   'ru': ['пон', 'вт', 'ср', 'чет', 'пят', 'суб', 'воск'],
+//   'en': ['mon', 'tu', 'we', 't', 'f', 's', 'su']
+// }
+// var lang = arr['ru']
+// var day = arr['ru'][2]
+// // console.log(arr['ru'][0])
+// // console.log(arr['en'][2])
+// console.log(lang)
+
+/* =======================================if-else============================================= */
+// var a = -3;
+// if (a == 0) {
+//   console.log('True')
+// } else {
+//   console.log('False')
+// }
+
+// var a = 1;
+// if (a === '1') {
+//     console.log('True')
+//   } else {
+//     console.log('False')
+//   }
+
+// var test = true;
+// if (test !== true) {
+//       console.log('True')
+//     } else {
+//       console.log('False')
+//     }
+
+// var a = 5
+// if (a == 0 || a == 7) {
+//   console.log(a + 7)
+// } else {
+//   console.log(a / 10)
+// }
+
+// var a = -2
+// var b = 4
+// if (a <= 1 || b >= 3) {
+//   console.log(a + b)
+// } else {
+//   console.log(a - b)
+// }
+
+// var day = 23;
+// if (day <= 10) {
+//   console.log("decada 1")
+// } else if (day >= 10, day <= 20) {
+//   console.log("decada 2")
+// } else if (day >=20, day <= 30) {
+//   console.log("decada 3")
+// };
+
+// var month = 9;
+// if (month <= 3 && month >= 1) {
+//   console.log("winter")
+// } else if (month <= 6 && month >= 4) {
+//   console.log("spring")
+// } else if (month <= 9 && month >= 7) {
+//   console.log("summer")
+// } else if (month <= 12 && month >= 10) {
+//   console.log("autunm")
+// };
+
+// var str = 'abcde'
+// if (str[0] == 'a') {
+//   console.log('true')
+// } else { 
+//   console.log('false')
+// }
+
+// var str = '12345'
+// if (str[0] == '1') {
+//   console.log('true')
+// } else { 
+//   console.log('false')
+// }
+
+// var str = '123';
+// console.log(Number(str[0]) + Number(str[1]) + Number(str[2]))
+
+// var str = '123456'
+// sum1 = Number(str[0]) + Number(str[1]) + Number(str[2])
+// sum2 = Number(str[3]) + Number(str[4]) + Number(str[5])
+// if (sum1 == sum2) {
+//   console.log('true')
+// } else {
+//   console.log('false')
+// }

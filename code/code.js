@@ -541,3 +541,83 @@
 // } else {
 //   console.log('false')
 // }
+
+/* =======================================for/hile============================================= */
+// var arr = [1, 2, 3, 4, 5];
+// for (var i = 0; i < arr.length; i++) {
+// 	console.log(arr[i]); //выведет 1, 2, 3, 4, 5
+// }
+
+// var i = 1;
+// while (i <= 50) {
+// 	document.write(i + '<br>');
+// 	i++;
+// }
+// for (var i = 1; i <= 50; i++) {
+// 	document.write(i + '<br>');
+// }
+
+// var a = 1;
+// while (a <= 100) {
+//   document.write(a + '<br>');
+//   a++;
+// }
+
+// for (var a = 1; a <= 100; a++) {
+//   console.log(a)
+// }
+
+// var a = 11;
+// while (a <= 33) {
+//   document.write(a + '<br>')
+//   a++
+// }
+// for (var a = 11; a <= 33; a++)
+//   console.log(a)
+
+// for (var i = 0; i <= 100; i++) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
+
+// var result = 0
+// for (var i = 1; i <= 100; i++) {
+//   result += i;
+// }
+// console.log(result)
+
+// var sum = 0;
+// var arr = [1, 2, 3, 4, 5];
+// for (i = 0; i < arr.length; i++) {
+//   sum += arr[i]
+//   console.log(sum)
+// }
+
+// var obj = {
+//   green: 'зеленый',
+//   red: 'красный',
+//   blue: 'голубой'
+// }
+// for (var key in obj) {
+//   console.log(key)
+// }
+
+// var obj = {
+//   Коля: '200',
+//   Вася: '300',
+//   Петя: '400',
+// }
+// for (key in obj) {
+//   console.log(key + ' - зарплата ' + obj[key] + ' долларов')
+// }
+
+// var arr = [2, 5, 9, 15, 0, 4];
+// for (i = 0; i < arr.length; i++) {
+//   if (arr[i] > 3 && arr[i] < 10) {
+//     console.log(arr[i])
+//   }
+// }
+
+var arr = [2, -5, 9, -15, 0, 4]
+for (i = 0; i < arr.length; i++)

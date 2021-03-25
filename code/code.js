@@ -619,5 +619,28 @@
 //   }
 // }
 
-var arr = [2, -5, 9, -15, 0, 4]
-for (i = 0; i < arr.length; i++)
+// var arr = [2, -5, 9, -15, 0, 4];
+// var sum = 0;
+// for (i = 0; i < arr.length; i++) {
+//   if (arr[i] > 0) {
+//     sum = sum + arr[i]
+//     console.log(sum)
+//   }
+// }
+
+// var arr = [1, 2, 5, 9, 4, 13, 4, 10]
+// for (i = 0; i < arr.length; i++) {
+//   if (arr[i] === 3) {
+//     console.log('true')
+//   } else {
+//     console.log('false')
+//   }
+// }
+
+// var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// var str = '';
+// for (i = 1; i <= arr.length; i++) {
+//   str = str + '-' + i
+// }
+// str = str + '-'
+// console.log(str)

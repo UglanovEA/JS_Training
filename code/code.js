@@ -644,3 +644,29 @@
 // }
 // str = str + '-'
 // console.log(str)
+
+/* =======================================function============================================= */
+
+// var str = 'aaa@bbb@ccc';
+// console.log(str.replace('@', '!'));
+// console.log(str.replace(/@/g, '!'));
+
+// var str = 'aaa bbb ccc';
+// console.log(str.substr(4, 3)); //substr(откуда отрезать, сколько отрезать)
+// console.log(str.substring(4, 7)); //substring(откуда отрезать, докуда отрезать)
+// console.log(str.slice(4, 7)); //slice(откуда отрезать, докуда отрезать)
+
+// var str = '2025-12-31';
+// var arr = str.split('-');
+// console.log(arr);//получим массив ['2025', '12', '31']
+// var newStr = arr[2] + '/' + arr[1] + '/' + arr[0];
+// console.log(newStr);
+
+// var str = 'js'
+// console.log(str.toUpperCase())
+// var str2 = "JS"
+// console.log(str2.toLowerCase())
+
+var str = 'я учу javascript!';
+console.log(str.length)
+console.log(str.substr(2, 3))

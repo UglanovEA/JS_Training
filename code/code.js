@@ -667,6 +667,48 @@
 // var str2 = "JS"
 // console.log(str2.toLowerCase())
 
-var str = 'я учу javascript!';
-console.log(str.length)
-console.log(str.substr(2, 3))
+// var str = 'я учу javascript!';
+// console.log(str.length)
+// console.log(str.substr(2, 3))
+
+// var str = 'Я-учу-javascript!';
+// console.log(str.replace(/-/g, '!'))
+
+// var str = 'я учу javascript!';
+// var date = '2025-12-31'
+// console.log(str.split(' '))
+// console.log(str.split(''))
+// console.log(date.split('-'))
+// var arr = date.split('-')
+// var newstr = arr[2] + '.' + arr[1] + '.' + arr[0];
+// console.log(newstr)
+
+// var arr = ['я', 'учу', 'javascript', '!']
+// console.log(arr.join('+'))
+
+// var str = 'hello'
+// console.log(str[0].toUpperCase() + str.substr(1))
+
+// var str = 'hello';
+// str = str.split('');
+// console.log(str)
+// str[0] = str[0].toUpperCase();
+// console.log(str)
+// var result = str.join('');
+// console.log(result);
+
+// var str = '123456';
+// var arr = str.split('')
+// console.log(arr)
+// var newstr = arr[5] + arr[4] + arr[3] + arr[2] + arr[1] + arr[0];
+// console.log(newstr)
+
+// var result = str.split('').reverse().join('')
+// console.log(result)
+
+// var str = 'http://admin'
+// if (str.substr(0, 7) === 'http://') {
+//   console.log('true')
+// } else {
+//   console.log('false')
+// }

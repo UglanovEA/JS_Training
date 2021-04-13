@@ -712,3 +712,12 @@
 // } else {
 //   console.log('false')
 // }
+
+// function makecube(num) {
+//   return num * num * num
+// }
+
+// function makesquare(num) {
+//   return num * num
+// }
+// console.log(makesquare(2))

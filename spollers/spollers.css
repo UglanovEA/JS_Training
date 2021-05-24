@@ -1,9 +1,9 @@
 body {
-  margin: 0 auto;
-  padding: 50px 15px;
+  height: 100%;
 }
 .wrapper {
   min-height: 100%;
+  padding: 50px;
 }
 .block {
   margin: 0px 0px 30px 0px;
@@ -42,7 +42,7 @@ body {
   transform: rotate(0deg);
 }
 .block__text {
-  padding: 10px;
+  padding: 0px 10px 10px;
 }
 .block_1 .block__item,
 .block_2 .block__item,

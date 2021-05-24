@@ -721,3 +721,14 @@
 //   return num * num
 // }
 // console.log(makesquare(2))
+
+// console.log(a)
+// var a = 4;
+// console.log(a)
+
+var a = 14
+function dd() {
+  var a = 10
+}
+dd()
+console.log(a)

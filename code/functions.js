@@ -44,6 +44,26 @@ console.log(a) // 10
 */
 /*=========================================================*/
 /*
+var a = 15; //or let
+function test(a) {
+  a = 10;
+}
+
+test(a)
+
+console.log(a) // 15
+*/
+/*=========================================================*/
+/*
+var a = 15;
+function test(b) {
+  console.log(a) // 15
+}
+
+test()
+*/
+/*=========================================================*/
+/*
 var b = 20;
 function test() {
   a = 10;
@@ -158,3 +178,27 @@ console.log(result) // ƒ () {
                      // }
 */
 /*=========================================================*/
+/*
+function test(b) {
+  return b + 12;
+}
+var a = test(12);
+console.log(a) // 24
+*/
+/*
+var c = 10;
+function test(b) {
+  var c = b + 12;
+}
+var a = test(12);
+console.log(a) // undefined т.к нет ретурна
+*/
+/*
+var c = 10;
+function test(b) {
+  var c = b + 12;
+  return c;
+}
+var a = test(12);
+console.log(a) // 24
+*/

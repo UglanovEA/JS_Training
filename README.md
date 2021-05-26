@@ -22,3 +22,5 @@
 **game_js_3** - flappy_bird game
 
 **coverter** - currency converter USD EUR GBP
+
+**spollers** - hiding / showing spoilers, with different widths JS

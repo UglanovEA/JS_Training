@@ -54,7 +54,7 @@ const windowScrollLeft = window.pageXOffset;
 // Метод scrollBy(x, y) прокручивает страницу относительно ее текущего положения
 
 let ButtonBy = document.querySelector('.scrollBtn');
-ButtonBy.addEventListener('click', setScrollToOption)
+ButtonBy.addEventListener('click', setScrollIntoView)
 
 function setScrollBy() {
   window.scrollBy(0, 50);
@@ -74,7 +74,31 @@ function setScrollToOption() {
   window.scrollTo({
     top: 500,
     left: 0,
-    // smooth, instant, либо auto; по умолчанию auto
+    // "smooth", "instant", либо "auto"; по умолчанию "auto"
+    behavior: 'smooth'
+  });
+}
+// Опции не работают в сафари
+
+
+/* Вызов elem.scrollIntoView(top) прокручивает страницу, чтобы elem оказался вверху. У него есть один аргумент:
+- если top = true(по умолчанию), то страница будет прокручена, чтобы elem появился в верхней части окна.
+Верхний край элемента совмещен с верхней частью окна.
+- если top = false, то страница будет прокручена, чтобы elem появился внизу. Нижний край элемента будет совмещен с нижним краем окна.
+*/
+function setScrollIntoView(top) {
+  const lessonSelected = document.querySelector('.lesson__selected');
+  lessonSelected.scrollIntoView(top);
+}
+
+function setScrollIntoViewOption(top) {
+  const lessonSelected = document.querySelector('.lesson__selected');
+  lessonSelected.scrollIntoView({
+    //"start", "center", "end" или "nearest". По умолчанию "center"
+    block: 'center',
+    //"start", "center", "end" или "nearest". По умолчанию "nearest"
+    inline: 'nearest',
+    // "smooth" или "auto"; по умолчанию "auto"
     behavior: 'smooth'
   });
 }

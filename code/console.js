@@ -42,3 +42,14 @@ console.log('2df' * 4) // NaN
 var a = 12;
 console.log('2' + 4 - 1) // 23 сначало строка потом число 24 - 1
 */
+
+
+
+/*==============LET======================*/
+
+/*
+let a = 10;
+console.log(a);
+let a = 15;
+console.log(a); // Identifier 'a' has already been declared Нельзя обьявлять несколько раз одну и туже переменную
+*/

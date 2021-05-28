@@ -1,4 +1,25 @@
 /*=========================================================*/
+// var a = Boolean(1) //true
+// var a = Boolean(0) //false
+// var a = Boolean(-1) //true
+
+// var a = Boolean(' ') //true
+// var a = Boolean("") //false
+
+// var a = Boolean([]) //true
+// var a = Boolean({}) //true
+
+// var a = Boolean(true) //true
+// var a = Boolean(false) //false
+
+// var a = new Boolean(false) //false
+// if (new Boolean(false)) alert('333') //true
+
+
+  // console.log(a)
+
+
+
 /*
 console.log(true + false + true) // 2 (1+0+1)
 */

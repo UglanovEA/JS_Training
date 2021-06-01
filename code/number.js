@@ -49,3 +49,40 @@
 // console.log(isFinite(Nan)) //Nan is not defined
 // console.log(isFinite(null)) //true
 // console.log(isFinite(-15)) //true
+
+// Проверка содержится ли в строке число isFinite
+// let num = console.log(+"")
+
+
+/*================parseInt и parseFloat============*/
+
+//Функция parseInt возвращает целое число, а parseFloat возвращает число с плавающей точкой
+
+// console.log(parseInt("100px")) //100
+// console.log(parseFloat("12.5px")) //12.5
+// console.log(parseInt("12.5px")) // 12
+// // console.log(parseFloat("12.5.6px")) //12.5
+// console.log(parseFloat("px123")) //Nan на первом символе происходит остановка чтения
+// console.log(parseInt("px123")) //Nan на первом символе происходит остановка чтения
+
+
+//Второй аргумент parseInt(str, radix)
+//Функция parseInt() имеет необязательный второй параметр. Он определяет систему счисления, таким образом parseInt может также читать строки с шестнадцатеричными числами, двоичными числами и т.д.:
+
+// console.log(parseInt('0xff', 16)) //255
+// console.log(parseInt('ff', 16)) //255 без 0x тоже работает
+// console.log(parseInt('2n9c', 36)) //123456
+
+//Возвращает псевдослучайное число в диапазоне от 0 (включительно) до 1 (но не включая 1)
+// console.log(Math.random()) //0.4154561399395724
+//Возвращает наибольшее/наименьшее число из перечисленных аргументов.
+// console.log(Math.max(3, 5, 9, 1, -1)) //9
+// console.log(Math.min(3, 5, 9, 1, -1)) //-1
+//Возвращает число n, возведённое в степень power
+// console.log(Math.pow(2, 10)) //1024
+
+
+// console.log(6.35.toFixed(1)) //6.3
+// console.log(6.35.toFixed(20)) //6.34999999999999964473
+// console.log(1.35.toFixed(1)) //1.4
+// console.log(1.35.toFixed(20)) //1.35000000000000008882

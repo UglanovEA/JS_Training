@@ -267,6 +267,16 @@ test()
 console.log(a) //12
 console.log(b) // b is not defined
 */
+/*
+var a = function () {
+  return
+  {
+    a: 1,
+      b: 2,
+        c: 3
+  }
+} //Uncaught SyntaxError: Unexpected token ':'
+*/
 /*=======================Замыкание=========================*/
 /*
 function sum(a) {
@@ -310,6 +320,17 @@ function sum() {
 var result = sum();
 console.log(result) //ƒ sumTwo() {
                      //}
+*/
+/*
+let a = 20;
+(function () {
+  let b = 20;
+  a = '11';
+  (function () {
+    let c = 2;
+    console.log((a + b) / c); //560
+  })();
+})();
 */
 /*=======================Замыкание this=========================*/
 /*

@@ -42,29 +42,15 @@ console.log('2df' * 4) // NaN
 var a = 12;
 console.log('2' + 4 - 1) // 23 сначало строка потом число 24 - 1
 */
-
-
-
-/*==============LET======================*/
-/*=========================================================*/
 /*
-let a = 10;
-console.log(a);
-let a = 15;
-console.log(a); // Identifier 'a' has already been declared Нельзя обьявлять несколько раз одну и туже переменную
+console.log(false == undefined) // false
+console.log(false == null) // false
+console.log(undefined == null) // true
 */
-/*=========================================================*/
 /*
-let a = 5;
-if (a) {
-  let a = 2;
-  a *= a;
-}
-console.log(a) //5
-var a = 5;
-if (a) {
-  var a = 2;
-  a *= a;
-}
-console.log(a) //4
+console.log("Hello' +"_"+ "World!')
 */
+/*
+console.log(document.body.parentNode === document.documentElement) //true
+*/
+

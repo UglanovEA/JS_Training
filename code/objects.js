@@ -30,3 +30,12 @@ obj.a = 5;
 console.log(obj.a) //5
 */
 /*=========================================================*/
+/*
+let user = {
+  name: 'John',
+  go: function () {
+    console.log(this.name)
+  }
+}
+  (user.go)() //Cannot access 'user' before initialization нет ; после обьекта
+*/

@@ -61,3 +61,17 @@ console.log(`${typeof (b == c)}`, `${(a == d)}`) //boolean false
 // подставим значения в переменные:
 // (a[] == d[]) --> false
 */
+/*
+let a = 5;
+if (a) {
+  let a = 2;
+  a *= a;
+}
+console.log(a) //5
+var a = 5;
+if (a) {
+  var a = 2;
+  a *= a;
+}
+console.log(a) //4
+*/

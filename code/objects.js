@@ -39,3 +39,47 @@ let user = {
 }
   (user.go)() //Cannot access 'user' before initialization нет ; после обьекта
 */
+/*=========================================================*/
+/*
+let obj = {
+  name: 'John',
+  surname: 'Smith'
+}
+obj.surname = 'Anderson'
+delete obj.name
+console.log(obj)
+*/
+/*=========================================================*/
+/*
+let obj = {
+}
+console.log(isEmpty(obj))
+function isEmpty(obj) {
+  for (key in obj) {
+    return false;
+  }
+  return true
+}
+*/
+/*=========================================================*/
+/*
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+let sum = 0;
+for (let key in salaries) {
+  sum += salaries[key];
+}
+console.log(sum)
+*/
+/*=========================================================*/
+/*function multyplyNumeric(obj) {
+  for (let key in obj) {
+    if (typeof obj[key] == 'number') {
+      obj[key] *= 2;
+    }
+  }
+}
+*/

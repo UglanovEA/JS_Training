@@ -16,7 +16,7 @@
 // if (new Boolean(false)) alert('333') //true
 
 
-  // console.log(a)
+// console.log(a)
 
 
 
@@ -75,3 +75,4 @@ if (a) {
 }
 console.log(a) //4
 */
+

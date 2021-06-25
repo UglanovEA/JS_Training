@@ -32,3 +32,5 @@
 **countdown** - "how much time is left until the new year?" JS 
 
 **dropdown** - drop-down list JS
+
+**repair_cost_calculator** - calculator for calculating the cost of repairs JS

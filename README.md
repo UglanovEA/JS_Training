@@ -24,3 +24,13 @@
 **coverter** - currency converter USD EUR GBP
 
 **spollers** - hiding / showing spoilers, with different widths JS
+
+**browser_dimensions** - JS scroll dimensions and coordinates of the elements on the page and the browser window.
+
+**calс_hypothec** - mortgage calculation calculator JS
+
+**countdown** - "how much time is left until the new year?" JS 
+
+**dropdown** - drop-down list JS
+
+**repair_cost_calculator** - calculator for calculating the cost of repairs JS

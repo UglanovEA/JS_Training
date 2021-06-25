@@ -19,8 +19,4 @@ tabsHeaders.forEach(function (item) {
     contentBox.classList.remove("tab-content-hidden");
 
   })
-})
-
-
-
-
+});

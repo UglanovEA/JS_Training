@@ -7,7 +7,7 @@ modalButtons.forEach(modalHandler);
 //  Отлавливаем клик по кнопке и запускаем функцию
 function modalHandler(item) {
   item.addEventListener("click", openModal);
-}
+};
 
 function openModal() {
   // Находим нажатую кнопку по id
@@ -36,4 +36,4 @@ function openModal() {
   modal.querySelector(".modal-window").addEventListener("click", function (e) {
     e.stopPropagation();
   });
-}
+};

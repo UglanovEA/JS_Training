@@ -9,7 +9,7 @@ if (spollersArray.length > 0) {
   //Инициализация обычных спойлеров
   if (spollersRegular.length > 0) {
     initSpollers(spollersRegular);
-  }
+  };
 
   //Получение спойлеров с медиа запросами
   const spollersMedia = Array.from(spollersArray).filter(function (item, index, self) {
@@ -57,7 +57,7 @@ if (spollersArray.length > 0) {
       });
       initSpollers(spollersArray, matchMedia);
     });
-  }
+  };
 
   // Инициализация
   function initSpollers(spollersArray, matchMedia = false) {
@@ -74,7 +74,7 @@ if (spollersArray.length > 0) {
         spollersBlock.removeEventListener("click", setSpollerAction);
       }
     });
-  }
+  };
 
   // Работа с контентом
   function initSpollerBody(spollersBlock, hideSpollerBody = true) {
@@ -94,7 +94,7 @@ if (spollersArray.length > 0) {
         }
       });
     }
-  }
+  };
 
 
   function setSpollerAction(e) {
@@ -114,7 +114,7 @@ if (spollersArray.length > 0) {
       }
       e.preventDefault();
     }
-  }
+  };
   // Скрытия элемента
   function hideSpollersBody(spollersBlock) {
     const spollerActiveTitle = spollersBlock.querySelector("[data-spoller]._active");
@@ -123,7 +123,7 @@ if (spollersArray.length > 0) {
       _slideUp(spollerActiveTitle.nextElementSibling, 500);
     }
   }
-}
+};
 
 //Анимация скрытых обьектов 
 //SlideToggle
@@ -154,7 +154,7 @@ let _slideUp = (target, duration = 500) => {
       target.classList.remove("_slide");
     }, duration);
   }
-}
+};
 //Анимированно показывает обьект
 let _slideDown = (target, duration = 500) => {
   if (!target.classList.contains("_slide")) {
@@ -184,7 +184,7 @@ let _slideDown = (target, duration = 500) => {
       target.classList.remove("_slide");
     }, duration);
   }
-}
+};
 //Комбинация двух функций
 let _slideToggle = (target, duration = 500) => {
   if (target.hidden) {
@@ -192,7 +192,7 @@ let _slideToggle = (target, duration = 500) => {
   } else {
     return _slideUp(target, duration);
   }
-}
+};
 
 //=============================================//
 /*

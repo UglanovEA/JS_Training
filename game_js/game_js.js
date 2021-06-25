@@ -12,7 +12,7 @@ function jump() {
   setTimeout(function () {
     dino.classList.remove("jump")
   }, 300)
-}
+};
 
 let isAlive = setInterval(() => {
   let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));

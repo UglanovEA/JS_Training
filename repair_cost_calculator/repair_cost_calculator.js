@@ -14,17 +14,17 @@ const totalPriceElement = document.querySelector('#total-price');
 // Связка ползунка с числовым полем
 squareRange.addEventListener('input', function () {
   squareInput.value = squareRange.value;
-})
+});
 
 // Связка числового поля с ползунком
 squareInput.addEventListener('input', function () {
   squareRange.value = squareInput.value;
-})
+});
 
 // Обход всех инпутов, по изменению перерасчет
 inputs.forEach(function (item) {
   item.addEventListener('input', calculate);
-})
+});
 
 // Запускаем функцию для вывода дефолтной суммы
 calculate();
@@ -41,7 +41,7 @@ function calculate() {
     if (item.checked) {
       typeReconstructionCost = parseFloat(item.value);
     }
-  })
+  });
 
   // Опция "Тип дома"
   let typeBuildingCost;
@@ -49,7 +49,7 @@ function calculate() {
     if (item.checked) {
       typeBuildingCost = parseFloat(item.value);
     }
-  })
+  });
 
   // Опция "Количество комнат"
   let roomsCost;
@@ -57,7 +57,7 @@ function calculate() {
     if (item.checked) {
       roomsCost = parseFloat(item.value);
     }
-  })
+  });
 
   // Дополнительные опции
   const ceilingCost = ceilings.checked ? parseFloat(ceilings.value) : 1;
@@ -70,8 +70,4 @@ function calculate() {
   // Форматируем внешний вид суммы
   const formatter = new Intl.NumberFormat('ru');
   totalPriceElement.innerText = formatter.format(totalPrice);
-}
-
-
-
-
+};

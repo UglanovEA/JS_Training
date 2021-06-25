@@ -18,7 +18,7 @@ body.addEventListener("click", function (event) {
 			} else if (parseInt(counter.innerText) === 1 && counter.closest(".cart-wrapper")) {
 				counter.closest(".cart-item").remove(); // Можем удалять товары из корзины
 			}
-		}
+		};
 
 		// Пересчитываем корзину
 		toggleCartStatus();

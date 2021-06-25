@@ -3,13 +3,16 @@ body {
   margin: 0 auto;
   padding: 50px 15px;
 }
+
 .list-header {
   font-weight: 700;
   cursor: pointer;
 }
+
 .list-content {
   background-color: rgb(216, 246, 239);
 }
+
 .accordion-body {
   display: none;
 }

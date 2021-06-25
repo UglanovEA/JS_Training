@@ -96,4 +96,3 @@ function toggleCartStatus() {
 
   document.querySelector(".total-price").innerText = totalPrice;
 }
-

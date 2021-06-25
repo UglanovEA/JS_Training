@@ -27,7 +27,7 @@ form.addEventListener("submit", function (event) {
   input.focus();
   // Сохранить данные в LocalStorage
   saveData();
-})
+});
 
 
 // Кнопки "Готово" и "Удалить"
@@ -53,7 +53,7 @@ taskList.addEventListener("click", function (event) {
     // Сохранить данные в LocalStorage
     saveData();
   }
-})
+});
 
 // Функция удаления поля "Список дел пуст"
 function toggleEmptyListItem() {
@@ -62,16 +62,16 @@ function toggleEmptyListItem() {
   } else {
     document.querySelector("#empty-list-item").style.display = "block";
   }
-}
+};
 
 // Функция сохранения данных в LocalStorage
 function saveData() {
   localStorage.setItem("todoList", taskList.innerHTML);
-}
+};
 
 // Функция загрузки данных из LocalStorage
 function loadData() {
   if (localStorage.getItem("todoList")) {
     taskList.innerHTML = localStorage.getItem("todoList");
   }
-}
+};

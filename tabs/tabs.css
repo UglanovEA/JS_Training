@@ -3,12 +3,15 @@ body {
   margin: 0 auto;
   padding: 50px 15px;
 }
+
 .content-hidden {
   display: none;
 }
+
 .tab-content-hidden {
   display: none;
 }
+
 .list-group-item {
   cursor: pointer;
 }

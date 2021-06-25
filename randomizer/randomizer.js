@@ -7,7 +7,7 @@ function getRandomizerByChance(...variants) {
     values.push(variants[i]);
     chances.push(variants[i + 1]);
     total += variants[i + 1];
-  }
+  };
 
   return () => {
     let random = Math.floor(Math.random() * total) + 1;
@@ -20,7 +20,7 @@ function getRandomizerByChance(...variants) {
       }
     }
   };
-}
+};
 
 const variants = {
   a: 0,
@@ -33,6 +33,6 @@ const randomizer = getRandomizerByChance("a", 1, "b", 4, "c", 10);
 for (let i = 0; i < 15 * 10 ** 6; i++) {
   const key = randomizer();
   variants[key]++;
-}
+};
 
 console.log(variants);

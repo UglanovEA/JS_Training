@@ -30,3 +30,5 @@
 **calс_hypothec** - mortgage calculation calculator JS
 
 **countdown** - "how much time is left until the new year?" JS 
+
+**dropdown** - drop-down list JS

@@ -26,3 +26,5 @@
 **spollers** - hiding / showing spoilers, with different widths JS
 
 **browser_dimensions** - JS scroll dimensions and coordinates of the elements on the page and the browser window.
+
+**calс_hypothec** - mortgage calculation calculator JS

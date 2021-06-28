@@ -87,3 +87,20 @@
 // let newStr = str[4] + str[3] + str[2] + str[1] + str[0]
 // test = Number(newStr)
 // console.log(test)
+
+////////////////////////////////////////////////////
+
+// let num = 1;
+// num = num + 1;
+// num = num + 1;
+// alert(num);
+// let num = 1;
+// num = num + 2;
+// num = num + 3;
+// alert(num);
+// let num = 47;
+// num += 7;
+// num -= 18;
+// num *= 10;
+// num /= 15;
+// alert(num);

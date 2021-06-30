@@ -200,3 +200,49 @@
 
 ////////////////////////////////////////////////////
 
+// let obj = {
+//   1: 'a',
+//   2: 'b',
+//   3: 'c'
+// };
+// console.log(obj)
+// let obj = {
+//   1: 'a',
+//   2: 'b',
+//   3: 'c'
+// }
+// alert(obj)
+// console.log(obj)
+// let obj = {
+//   a: 1,
+//   b: 2,
+//   c: 3
+// }
+// console.log(obj['a'] + obj['b'] + obj['c'])
+// let obj = {
+//   '1a': 1,
+//   '2b': 2,
+//   'c-c': 3
+// }
+// console.log(obj['1a'] + obj['2b'] + obj['c-c'])
+// let obj = {
+//   '1a': 1,
+//   'b2': 2,
+//   'с-с': 3,
+//   'd4': 4
+// };
+// let obj = {
+//   key1: 1,
+//   key2: 2,
+//   key3: 3
+// };
+// console.log(obj.key1 + obj.key2 + obj.key3)
+// let user = {
+//   name: 'ivan',
+//   surname: 'ivanov',
+//   patronymic: 'ivanovich'
+// }
+// console.log(user.surname + " " + user.name + " " + user.patronymic)
+
+////////////////////////////////////////////////////
+

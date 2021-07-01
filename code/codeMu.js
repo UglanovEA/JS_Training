@@ -320,20 +320,38 @@
 //   console.log(i)
 //   i++
 // }
-// let i = 0;
+// let i = 0
 // while (i <= 100) {
 //   console.log(i)
-//   i += 2;
+//   i += 2
 // }
-// let i = 1;
+// let i = 1
 // while (i <= 100) {
 //   console.log(i)
-//   i += 2;
+//   i += 2
 // }
-// let i = 30;
+// let i = 30
 // while (i >= 0) {
 //   console.log(i)
-//   i--;
+//   i--
+// }
+
+////////////////////////////////////////////////////
+
+// let i = 10
+// while (i >= 1) {
+//   console.log(i)
+//   i--
+// }
+// let i = 10
+// while (i >= 1) {
+//   console.log(i)
+//   i--
+// }
+// let i = 10
+// while (i >= 1) {
+//   console.log(i)
+//   i--
 // }
 
 ////////////////////////////////////////////////////

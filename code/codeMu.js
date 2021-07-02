@@ -436,7 +436,7 @@
 // let arr = [10, 20, 30, 50, 235, 3000]
 // for (let i = 0; i < arr.length; i++) {
 //   let str = String(arr[i])
-//   let char = str[0];
+//   let char = str[0]
 //   if (char == 1 || char == 2 || char == 5) {
 //     let num = Number(str)
 //     console.log(num)
@@ -445,6 +445,39 @@
 // let arr = [1, 2, 3, 4, 5, 6]
 // for (let i = 0; i < arr.length; i++) {
 //   document.write(arr[i] + '</br>')
+// }
+
+////////////////////////////////////////////////////
+
+// let arr = [1, 2, 3, 4, 5];
+// for (let elem of arr) {
+//   console.log(elem)
+// }
+// let arr = ['a', 'b', 'c', 'd']
+// for (let i of arr) {
+//   console.log(i)
+// }
+// let result = 0
+// let arr = [1, 2, 3, 4, 5];
+// for (let elem of arr) {
+//   result += elem;
+//   console.log(result)
+// }
+// let arr = ['ya', 'fe', 'mr', 'ap', 'ma', 'ju']
+// for (i of arr) {
+//   console.log(i)
+// }
+// for (i = 0; i < arr.length; i++) {
+//   console.log(arr[i])
+// }
+// let arr = ['ya', 'fe', 'mr', 'ap', 'ma', 'ju']
+// let month = 4;
+// for (i = 0; i < arr.length; i++) {
+//   if (i == 4) {
+//     document.write('<i>' + arr[i] + '</i></br>')
+//   } else {
+//     document.write(arr[i] + '</br>')
+//   }
 // }
 
 ////////////////////////////////////////////////////

@@ -392,3 +392,60 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = [1, 2, 3, 4, 5]
+// for (let i = 0; i <= arr.length; i++) {
+//   console.log(arr[i])
+// }
+// let arr = [1, 2, 3, 4, 5]
+// for (let i = 0; i <= arr.length - 1; i++) {
+//   console.log(arr[i])
+// }
+// let arr = [1, 2, 3, 4, 5]
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i])
+// }
+// let arr = ['a', 'b', 'c', 'd', 'e']
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i])
+// }
+// let arr = [1, 2, 3, 4, 5, 6, 7]
+// for (let i = 0; i <= arr.length; i++) {
+//   if (arr[i] % 2 == 1)
+//     console.log(arr[i])
+// }
+// let result = 0
+// let arr = [1, 2, 3, 4, 5]
+// for (let i = 0; i < arr.length; i++) {
+//   result = result + (arr[i] * arr[i])
+//   console.log(result)
+// }
+// let arr = [2, 5, 9, 15, 1, 4]
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > 3 && arr[i] < 10) {
+//     console.log(arr[i])
+//   }
+// }
+// let result = 0
+// let arr = [2, 5, 9, -15, -4]
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > 0) {
+//     result = result + arr[i]
+//     console.log(result)
+//   }
+// }
+// let arr = [10, 20, 30, 50, 235, 3000]
+// for (let i = 0; i < arr.length; i++) {
+//   let str = String(arr[i])
+//   let char = str[0];
+//   if (char == 1 || char == 2 || char == 5) {
+//     let num = Number(str)
+//     console.log(num)
+//   }
+// }
+// let arr = [1, 2, 3, 4, 5, 6]
+// for (let i = 0; i < arr.length; i++) {
+//   document.write(arr[i] + '</br>')
+// }
+
+////////////////////////////////////////////////////
+

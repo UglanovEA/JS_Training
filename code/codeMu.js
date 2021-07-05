@@ -545,3 +545,42 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = [1, 2, 3, 4, 3, 5]
+// let flag = false // считаем, что элемента 3 нету в массиве
+// for (let elem of arr) {
+//   if (elem == 3) {
+//     console.log('есть') // выведет несколько раз
+//     break // завершим цикл
+//   } else {
+//     console.log('нет') // выведет на элементах 1, 2, 4, 5
+//   }
+// }
+// let arr = [1, 2, 3, 4, 3, 5]
+// let flag = false // считаем, что элемента 3 нету в массиве
+// for (let elem of arr) {
+//   if (elem == 3) {
+//     flag = true // элемент есть - переопределим переменную flag
+//     break
+//   };
+// }
+// if (flag === true) {
+//   console.log('есть')
+// } else {
+//   console.log('нет')
+// };
+// let arr = ['a', 'b', 'c', 'd', 'e']
+// let flag = false
+// for (let elem of arr) {
+//   if (elem == 'c') {
+//     flag = true;
+//     break
+//   }
+// }
+// if (flag == true) {
+//   console.log('есть')
+// } else {
+//   console.log('нет')
+// }
+
+////////////////////////////////////////////////////
+

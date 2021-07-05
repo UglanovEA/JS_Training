@@ -584,3 +584,24 @@
 
 ////////////////////////////////////////////////////
 
+// let num = 17
+// let flag = true
+// for (let i = 2; i < num; i++) {
+//   if (num % i == 0) {
+//     flag = false // если хотя бы один раз поделилось
+//     break
+//   }
+// }
+// console.log(flag) // выведем значение счетчика
+// let num = 14;
+// let flag = true;
+// for (let i = 2; i < num; i++) {
+//   if (num % i == 0) {
+//     flag = false
+//     break
+//   }
+// }
+// console.log(flag)
+
+////////////////////////////////////////////////////
+

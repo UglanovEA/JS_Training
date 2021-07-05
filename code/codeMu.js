@@ -497,3 +497,36 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = [1, 2, 3, 4, 5]
+// for (let elem of arr) {
+//   if (elem == 3) {
+//     console.log('true')
+//     break
+//   }
+// }
+// let arr = [1, 2, 3, 4, 5, 0, 1, 2, 3]
+// for (let elem of arr) {
+//   console.log(elem)
+//   if (elem == 0) {
+//     break
+//   }
+// }
+// let arr = [1, 2, 3, 4, 5, 0, -1, 2, 3]
+// let sum = 0
+// for (let elem of arr) {
+//   if (elem >= 0) {
+//     sum = sum + elem
+//     console.log(sum)
+//   } else {
+//     break
+//   }
+// }
+// let arr = [1, 2, 3, 4, 5, 0, -1, 2, 3]
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] == 3) {
+//     console.log(i)
+//   }
+// }
+
+////////////////////////////////////////////////////
+

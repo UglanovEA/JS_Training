@@ -605,3 +605,48 @@
 
 ////////////////////////////////////////////////////
 
+// let num = 500
+// while (num > 10) {
+//   num = num / 2
+// }
+// console.log(num)
+
+// let num = 2;
+// while (num <= 1000) {
+//   num = num * 3
+// }
+// console.log(num)//1458
+
+// for (var num = 2, i = 0; num <= 1000; num = num * 3, i++)
+//   console.log(num, i)
+
+////////////////////////////////////////////////////
+
+// let str = '' // начальное значение - пустые кавычки
+// for (let i = 0; i < 15; i++) {
+//   str += 'x'
+// }
+// console.log(str)
+// let str = '';
+// for (let i = 0; i < 5; i++) {
+//   str += '0';
+// }
+// console.log(str)
+// let str = '';
+// for (let i = 1; i <= 9; i++) {
+//   str += i;
+// }
+// console.log(str)
+// let str = '';
+// for (let i = 9; i > 0; i--) {
+//   str += i;
+// }
+// console.log(str)
+// let str = '-';
+// for (let i = 1; i <= 9; i++) {
+//   str += i + '-';
+// }
+// console.log(str)
+
+////////////////////////////////////////////////////
+

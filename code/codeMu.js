@@ -713,3 +713,40 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = []
+// arr[0] = 1
+// arr[1] = 2
+// arr[2] = 3
+// arr[3] = 4
+// arr[4] = 5
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i <= 4; i++) {
+//   arr[i] = i + 1
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i < 100; i++) {
+//   arr[i] = i + 1
+// }
+// console.log(arr)
+// let arr = []
+// arr[0] = 1
+// arr[4] = 5
+// console.log(arr)
+// alert(arr)
+// let arr = []
+// for (let i = 2; i <= 100; i += 2) {
+//   arr[i] = i
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 2, j = 0; i <= 100; i += 2, j++) {
+//   arr[j] = i
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 1, j = 0; i < 100; i += 2, j++) {
+//   arr[j] = i
+// }
+// console.log(arr)

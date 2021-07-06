@@ -824,3 +824,87 @@
 
 ////////////////////////////////////////////////////
 
+// let obj = {
+//   md: 1,
+//   tu: 2,
+//   we: 3,
+//   th: 4,
+//   fr: 5,
+//   sa: 6,
+//   su: 7,
+// }
+// console.log(obj)
+// let keys = ['a', 'b', 'c', 'd', 'e']
+// let values = [1, 2, 3, 4, 5]
+// let obj = {}
+// for (let i = 0; i <= 4; i++) {
+//   let key = keys[i]
+//   let value = values[i]
+//   obj[key] = value
+// }
+// console.log(obj)
+// let keys = ['a', 'b', 'c', 'd', 'e']
+// let values = [1, 2, 3, 4, 5]
+// let obj = {}
+// for (let i = 0; i <= 4; i++) {
+//   obj[keys[i]] = values[i]
+// }
+// console.log(obj)
+// let arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс']
+// let arr2 = [1, 2, 3, 4, 5, 6, 7]
+// let obj = {}
+// for (let i = 0; i <= 6; i++) {
+//   obj[arr1[i]] = arr2[i]
+// }
+// console.log(obj)
+// let arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс']
+// let arr2 = [1, 2, 3, 4, 5, 6, 7]
+// let obj = {}
+// for (let i = 0; i <= 6; i++) {
+//   obj[arr2[i]] = arr1[i]
+// }
+// console.log(obj)
+// let obj = {
+//   'a': 12,
+//   'b': 21,
+//   'c': 13,
+//   'd': 23,
+//   'e': 17
+// };
+// let newObj = {}
+// for (let key in obj) {
+//   if (obj[key] > 10 && obj[key] < 20) {
+//     newObj[key] = obj[key];
+//   }
+// }
+// console.log(newObj)
+// let obj = {
+//   1: 'пн',
+//   2: 'вт',
+//   3: 'ср',
+//   4: 'чт',
+//   5: 'пт',
+//   6: 'сб',
+//   7: 'вс'
+// };
+// let newObj = {}
+// for (let key in obj) {
+//   if (key % 2 == 0) {
+//     newObj[key] = obj[key]
+//   }
+// }
+// console.log(newObj)
+// let obj = {
+//   'a': 1,
+//   'b': 2,
+//   'c': 3,
+//   'd': 4,
+//   'e': 5
+// };
+// for (let key in obj) {
+//   obj[key] *= obj[key]
+// }
+// console.log(obj)
+
+////////////////////////////////////////////////////
+

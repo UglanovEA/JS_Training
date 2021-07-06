@@ -650,3 +650,29 @@
 
 ////////////////////////////////////////////////////
 
+// for (let i = 1; i <= 100; i++) {
+//   let str = String(i) // преобразуем число в строку
+//   if (str[0] == 1 || str[0] == 2) {
+//     console.log(i)
+//   }
+// }
+// for (let i = 10; i <= 100; i++) {
+//   let str = String(i)
+//   let sum = Number(str[0]) + Number(str[1])
+//   if (sum == 5) {
+//     console.log(i)
+//   }
+// }
+// let result = ''
+// for (let i = 1; i <= 9; i++) {
+//   result += i
+// }
+// console.log(result)
+// let result = ''
+// for (let i = 1; i <= 30; i++) {
+//   result += i
+// }
+// console.log(result)
+
+////////////////////////////////////////////////////
+

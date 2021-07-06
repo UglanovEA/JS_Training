@@ -771,4 +771,56 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = [];
+// arr.push(1)
+// arr.push(2)
+// arr.push(3)
+// arr.push(4)
+// arr.push(5)
+// arr.push(6)
+// arr.push(7)
+// arr.push(8)
+// arr.push(9)
+// arr.push(10)
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i < 10; i++) {
+//   arr.push(i)
+//   arr[i] = 'x'
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i < 10; i++) {
+//   arr.push('x')
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 1; i < 10; i += 2) {
+//   arr.push(i)
+// }
+// console.log(arr)
+// let arr = [1, 2, 3, 4, 5]
+// let result = []
+// for (let elem of arr) {
+//   if (elem % 2 === 0) {
+//     result.push(elem)
+//   }
+// }
+// console.log(result)
+// let arr = [1, 2, 3, 4, 5, -1, -2, -3, -4]
+// let result = []
+// for (let elem of arr) {
+//   if (elem > 0) {
+//     result.push(elem)
+//   }
+// }
+// console.log(result)
+// let arr = ['a', 'b', 'c', 'd', 'e']
+// let result = []
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   result.push(arr[i]);
+// }
+// console.log(result);
+
+////////////////////////////////////////////////////
 

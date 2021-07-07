@@ -908,3 +908,104 @@
 
 ////////////////////////////////////////////////////
 
+// let obj = {
+//   employee1: 100,
+//   employee2: 200,
+//   employee3: 300,
+//   employee4: 400,
+//   employee5: 500,
+//   employee6: 600,
+//   employee7: 700,
+// }
+// for (let key in obj) {
+//   let percent = (obj[key] * 10) / 100
+//   obj[key] = obj[key] + percent
+// }
+// console.log(obj)
+// let obj = {
+//   employee1: 100,
+//   employee2: 200,
+//   employee3: 300,
+//   employee4: 400,
+//   employee5: 500,
+//   employee6: 600,
+//   employee7: 700,
+// }
+// for (let key in obj) {
+//   if (obj[key] <= 400) {
+//     let percent = (obj[key] * 10) / 100
+//     obj[key] = obj[key] + percent
+//   }
+// }
+// console.log(obj)
+// let arr1 = [1, 2, 3, 4, 5]
+// let arr2 = [6, 7, 8, 9, 10]
+// let obj = {}
+// for (let i = 0; i < 5; i++) {
+//   obj[arr1[i]] = arr2[i]
+// }
+// console.log(obj)
+// let obj = {
+//   1: 6,
+//   2: 7,
+//   3: 8,
+//   4: 9,
+//   5: 10
+// }
+// let sum = 0;
+// for (key in obj) {
+//   sum += Number(key)
+//   let result = sum / obj[key];
+//   console.log(result)
+// }
+// let obj = {
+//   'a': 1,
+//   'b': 2,
+//   'c': 3,
+//   'd': 4,
+//   'e': 5
+// }
+// let arr1 = []
+// let arr2 = []
+// for (let key in obj) {
+//   arr1.push(key)
+//   arr2.push(obj[key])
+
+// }
+// console.log(arr1)
+// console.log(arr2)
+// let obj = {
+//   1: 125,
+//   2: 225,
+//   3: 128,
+//   4: 356,
+//   5: 145,
+//   6: 281,
+//   7: 452,
+// };
+// let arr = []
+// for (let key in obj) {
+//   let str = String(obj[key])
+//   if (str[0] == 1 || str[0] == 2) {
+//     arr.push(obj[key])
+//   }
+// }
+// console.log(arr)
+// let arr = ['a', 'b', 'c', 'd', 'e']
+// let obj = {}
+// for (let i = 0; i < arr.length; i++) {
+//   let key = i + 1
+//   obj[key] = arr[i]
+// }
+// console.log(obj)
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let obj = {}
+// for (let i = 0; i < arr.length; i++) {
+//   let key = arr[i]
+//   obj[key] = i + 1
+
+// }
+// console.log(obj)
+
+////////////////////////////////////////////////////
+

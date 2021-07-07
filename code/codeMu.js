@@ -1065,3 +1065,16 @@
 //   let result = elem1 + arr[i] + elem2
 //   console.log(result)
 // }
+
+////////////////////////////////////////////////////
+
+let one = 0
+let two = 1
+let three = 2
+for (let i = 0; i < 10; i++) {
+  let current = one + two + three
+  one = two
+  two = three
+  three = current
+  console.log(current)
+}

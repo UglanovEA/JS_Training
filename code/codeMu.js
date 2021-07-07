@@ -1038,3 +1038,30 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = [1, 2, 3, 4, 5]
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i])
+// }
+// let arr = [1, 2, 3, 4, 5]
+// for (let i = 0; i < arr.length - 1; i++) {
+//   console.log(arr[i] + arr[i + 1])
+// }
+// let arr = [1, 2, 3, 4, 5]
+// for (let i = 2; i < arr.length; i++) {
+//   console.log(arr[i - 1])
+//   console.log(arr[i - 2])
+// }
+// let arr = [1, 2, 3, 4, 5]
+// for (let i = 2; i < arr.length; i++) {
+//   let elem1 = (arr[i - 1])
+//   let elem2 = (arr[i - 2])
+//   let result = elem1 + arr[i] + elem2
+//   console.log(result)
+// }
+// let arr = [1, 2, 3, 4, 5]
+// for (let i = 1; i < arr.length - 1; i++) {
+//   let elem1 = (arr[i - 1])
+//   let elem2 = (arr[i + 1])
+//   let result = elem1 + arr[i] + elem2
+//   console.log(result)
+// }

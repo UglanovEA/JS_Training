@@ -1068,13 +1068,76 @@
 
 ////////////////////////////////////////////////////
 
-let one = 0
-let two = 1
-let three = 2
-for (let i = 0; i < 10; i++) {
-  let current = one + two + three
-  one = two
-  two = three
-  three = current
-  console.log(current)
-}
+// let one = 0
+// let two = 1
+// let three = 2
+// for (let i = 0; i < 10; i++) {
+//   let current = one + two + three
+//   one = two
+//   two = three
+//   three = current
+//   console.log(current)
+// }
+
+////////////////////////////////////////////////////
+
+// let str = ''
+// for (let i = 0; i < 5; i++) {
+//   str += 'x'
+//   document.write(str + '<br>');
+// }
+// let str = ''
+// for (let i = 0; i < 5; i++) {
+//   str = str + 'xx'
+//   document.write(str + '</br>')
+// }
+// for (let i = 1; i <= 9; i++) {
+//   for (let j = 1; j <= 3; j++) {
+//     document.write(i)
+//   }
+//   document.write('<br>')
+// }
+// for (let i = 1; i <= 9; i++) {
+//   for (let j = 1; j <= i; j++) {
+//     document.write(i)
+//   }
+//   document.write('<br>')
+// }
+// for (let i = 1; i <= 9; i++) {
+//   let str = '' // каждый раз зачищаем строку
+//   for (let j = 1; j <= i; j++) {
+//     str += i;
+//   }
+//   document.write(str + '<br>')
+// }
+// for (let i = 1; i <= 9; i += 2) {
+//   let str = ""
+//   for (let j = 1; j <= i; j++) {
+//     str += i
+//   }
+//   document.write(str + '<br>')
+// }
+// for (let i = 5; i >= 1; i--) {
+//   let str = ''
+//   for (let j = 0; j < i; j++) {
+//     str += 'x'
+//   }
+//   document.write(str + '<br>')
+// }
+// for (let i = 10; i > 1; i -= 2) {
+//   let str = ''
+//   for (let j = 0; j < i; j++) {
+//     str += 'x'
+//   }
+//   document.write(str + '<br>')
+// }
+// for (let i = 9; i >= 1; i--) {
+//   let str = ''
+//   for (let j = 0; j < i; j++) {
+//     str += i
+//   }
+//   document.write(str + '<br>')
+// }
+
+////////////////////////////////////////////////////
+

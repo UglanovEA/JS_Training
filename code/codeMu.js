@@ -1141,3 +1141,38 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = []
+// let str = ''
+// for (let i = 0; i < 5; i++) {
+//   str += 'x'
+//   arr.push(str)
+// }
+// console.log(arr)
+// let arr = []
+// let str = ''
+// for (let i = 0; i < 5; i++) {
+//   str += 'xx'
+//   arr.push(str)
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 1; i < 10; i++) {
+//   let str = ''
+//   for (let j = 0; j < i; j++) {
+//     str += i
+//   }
+//   arr.push(str)
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 1; i <= 5; i++) {
+//   let str = ''
+//   for (let j = 0; j <= 5; j++) {
+//     str += i
+//   }
+//   arr.push(str)
+// }
+// console.log(arr)
+
+////////////////////////////////////////////////////
+

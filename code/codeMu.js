@@ -1176,3 +1176,62 @@
 
 ////////////////////////////////////////////////////
 
+// let str = ''
+// for (let i = 1; i <= 100; i++) {
+//   str = i
+//   document.write(str + '<br>')
+// }
+// let str = ''
+// for (let i = 100; i > 0; i--) {
+//   str = i
+//   document.write(str + '<br>')
+// }
+// let str = ''
+// for (let i = 2; i <= 100; i += 2) {
+//   str = i
+//   document.write(str + '<br>')
+// }
+// let str = ''
+// let arr = []
+// for (let i = 1; i <= 10; i++) {
+//   str = 'x'
+//   arr.push(str)
+// }
+// console.log(arr)
+// let str = ''
+// let arr = []
+// for (let i = 1; i <= 10; i++) {
+//   str = i
+//   arr.push(str)
+// }
+// console.log(arr)
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 0, -1, -2, -3]
+// for (let elem of arr) {
+//   if (arr[elem] > 0 && arr[elem] < 10) {
+//     console.log(arr[elem])
+//   }
+// }
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] == 5) {
+//     console.log('true')
+//     break
+//   } else {
+//     console.log('false')
+//   }
+// }
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   sum += i
+// }
+// console.log(sum)
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   sum += arr[i] * 2
+// }
+// console.log(sum)
+
+////////////////////////////////////////////////////
+

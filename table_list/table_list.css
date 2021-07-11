@@ -1,0 +1,29 @@
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+}
+.section {
+  margin: 10px 0 10px 0;
+  padding: 10px 0 30px 0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:hover{
+    background: #d8f6ef;
+    cursor: pointer;
+}

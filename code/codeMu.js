@@ -1280,3 +1280,49 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = [[1, 2, 3], [4, 5], [6]]
+// let sum = 0
+// for (let arr1 of arr) {
+//   for (let arr2 of arr1) {
+//     sum += arr2
+//   }
+// }
+// console.log(sum)
+// let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
+// let sum = 0
+// for (let arr1 of arr) {
+//   for (let arr2 of arr1) {
+//     for (let arr3 of arr2) {
+//       sum += arr3
+//     }
+//   }
+// }
+// console.log(sum)
+// let arr = [[1, 2, 3, 4, 5], [6, 7, 8], [9, 10]]
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr[i].length; j++) {
+//     console.log(arr[i][j])
+//   }
+// }
+// let arr = [[1, 2, 3], [4, 5], [6]]
+// let sum = 0
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr[i].length; j++) {
+//     sum += arr[i][j]
+//   }
+// }
+// console.log(sum)
+// let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
+// let sum = 0
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr[i].length; j++) {
+//     for (let k = 0; k < arr[i].length; k++) {
+//       sum += arr[i][j][k]
+//     }
+//   }
+// }
+// console.log(sum)
+
+////////////////////////////////////////////////////
+
+

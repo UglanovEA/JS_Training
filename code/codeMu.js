@@ -1326,3 +1326,119 @@
 ////////////////////////////////////////////////////
 
 
+// let arr = []
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = []
+//   for (let j = 0; j < 5; j++) {
+//     arr[i].push(j + 1)
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = []
+//   for (let j = 0; j < 4; j++) {
+//     arr[i].push("x")
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = []
+//   for (let j = 0; j < 2; j++) {
+//     arr[i][j] = []
+//     for (let k = 1; k <= 5; k++) {
+//       arr[i][j].push(k)
+//     }
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = []
+//   for (let j = 1; j <= 5; j++) {
+//     arr[i].push(j);
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = []
+//   for (let j = 1; j <= 5; j++) {
+//     arr[i].push(j)
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = []
+//   for (let j = 1; j <= 5; j++) {
+//     arr[i].push(j)
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = []
+//   for (let j = 1; j <= 5; j++) {
+//     arr[i].push(j)
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// let k = 1
+// for (let i = 0; i < 4; i++) {
+//   arr[i] = []
+//   for (let j = 0; j < 2; j++, k++) {
+//     arr[i][j] = k
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// let k = 1
+// for (let i = 0; i < 4; i++) {
+//   arr[i] = []
+//   for (let j = 0; j < 2; j++) {
+//     arr[i][j] = k++
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// let k = 0
+// for (let i = 0; i < 4; i++) {
+//   arr[i] = []
+//   for (let j = 0; j < 3; j++) {
+//     arr[i][j] = k += 2
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// let z = 1
+// for (let i = 0; i < 1; i++) {
+//   arr[i] = []
+//   for (let j = 0; j < 4; j++) {
+//     arr[i][j] = []
+//     for (let k = 0; k < 2; k++) {
+//       arr[i][j][k] = z++
+//     }
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// let k = 1
+// for (let i = 0; i < 3; i++) {
+//   arr[i] = []
+//   for (let j = 0; j < 3; j++) {
+//     arr[i][j] = k
+//     k++
+//   }
+// }
+// console.log(arr)
+// let arr = []
+// for (let i = 0, k = 1; i < 3; i++) {
+//   arr[i] = []
+//   for (let j = 0; j < 3; j++, k++) {
+//     arr[i][j] = k
+//   }
+// }
+// console.log(arr)

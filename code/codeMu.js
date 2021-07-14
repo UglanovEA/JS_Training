@@ -1917,3 +1917,28 @@
 
 ////////////////////////////////////////////////////
 
+// let str = 'js'
+// console.log(str.toUpperCase())
+// let str1 = 'JS'
+// console.log(str1.toLowerCase())
+// let str = 'я учу javascript!'
+// console.log(str.substr(2, 5)) //строка.substr(откуда отрезать, [сколько символов отрезать])
+// console.log(str.substring(2, 5)) //строка.substring(откуда начать отрезать, [докуда отрезать])
+// console.log(str.slice(2, 5)) //строка.slice(откуда отрезать, [докуда отрезать])
+// let str = 'abcde'
+// console.log(str.indexOf('c'))
+// console.log(str.indexOf('a'))
+// console.log(str.indexOf('a', 0))
+// console.log(str.lastIndexOf('c'))
+// let str = '12https://www.youtube.com/index.html'
+// console.log(str.indexOf('https://', 0))
+// let str = '1-2-3-4-5'
+// let arr = []
+// arr = str.split('-')
+// console.log(arr)
+// let str = '12345'
+// let arr = []
+// arr = str.split('')
+// console.log(arr)
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.join('-'))

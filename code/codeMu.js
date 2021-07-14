@@ -1867,3 +1867,53 @@
 
 ////////////////////////////////////////////////////
 
+// console.log(Math.pow(2, 10))
+// console.log(Math.sqrt(245))
+// let arr = [4, 2, 5, 19, 13, 0, 10]
+// let sum = 0
+// for (let elem of arr) {
+//   sum += elem ** 3
+// }
+// let sumSqrt = Math.sqrt(sum)
+// console.log(sumSqrt)
+// let num = Math.sqrt(379)
+// console.log(num)
+// console.log(Math.round(num))
+// console.log(Math.ceil(num))
+// console.log(Math.floor(num))
+// console.log(num.toFixed(2))
+// console.log(num.toPrecision(5))
+// let num = Math.sqrt(578)
+// let floor = Math.floor(num)
+// let ceil = Math.ceil(num)
+// let obj = {
+//   floor,
+//   ceil
+// }
+// console.log(obj)
+// console.log(Math.max(4, -2, 5, 19, -130, 0, 10))
+// console.log(Math.min(4, -2, 5, 19, -130, 0, 10))
+// function getRandomArbitary(min, max) {
+//   let num = Math.random() * (max - min) + min;
+//   console.log(num)
+// }
+// getRandomArbitary(1, 100)
+// function getRandomInt(min, max) {
+//   let num = Math.floor(Math.random() * (max - min + 1)) + min;
+//   console.log(num)
+// }
+// getRandomInt(1, 100)
+// let arr = []
+// for (let i = 0; i < 5; i++) {
+//   function getRandomInt(min, max) {
+//     arr.push(Math.floor(Math.random() * (max - min + 1)) + min)
+//   }
+//   getRandomInt(1, 100)
+// }
+// console.log(arr)
+// let a = 3
+// let b = -3
+// console.log(Math.abs(b))
+
+////////////////////////////////////////////////////
+

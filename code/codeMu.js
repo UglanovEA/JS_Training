@@ -1607,3 +1607,33 @@
 // let key1 = 'key2'
 // let key2 = 'key4'
 // console.log(obj[key1][key2])
+
+////////////////////////////////////////////////////
+
+// let employees = [
+//   {
+//     name: 'name1',
+//     salary: 300,
+//   },
+//   {
+//     name: 'name2',
+//     salary: 400,
+//   },
+//   {
+//     name: 'name3',
+//     salary: 500,
+//   },
+// ]
+// let sum = 0
+// sum += employees[0].salary + employees[1].salary
+// console.log(sum)
+// let students = {
+//   'boys': ['Коля', 'Вася', 'Петя'],
+//   'girls': ['Даша', 'Маша', 'Лена'],
+// };
+// console.log(students['boys'][1])
+// console.log(students['girls'][2])
+
+////////////////////////////////////////////////////
+
+

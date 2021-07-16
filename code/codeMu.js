@@ -1979,3 +1979,6 @@
 
 ////////////////////////////////////////////////////
 
+// let str = 'moscow'
+// let result = str.slice(0, 2).toUpperCase() + str.slice(2, 6)
+// console.log(result)

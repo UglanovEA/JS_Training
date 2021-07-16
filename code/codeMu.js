@@ -1942,3 +1942,40 @@
 // console.log(arr)
 // let arr = [1, 2, 3, 4, 5];
 // console.log(arr.join('-'))
+
+////////////////////////////////////////////////////
+
+// let arr = [1, 2, 3]
+// arr.push(4, 5, 6)
+// console.log(arr)
+// let arr = [1, 2, 3]
+// arr.unshift(4, 5, 6)
+// console.log(arr)
+// let arr = ['js', 'css', 'jq']
+// let first = arr.shift()
+// let last = arr.pop()
+// console.log(first)
+// console.log(last)
+// let arr = [1, 2, 3, 4, 5]
+// let elem = arr.slice(0, 3)
+// console.log(elem)
+// let arr = [1, 2, 3, 4, 5]
+// let elem = arr.slice(3, 5)
+// console.log(elem)
+// let arr = [1, 2, 3, 4, 5]
+// let result = arr.splice(1, 2)
+// console.log(arr)
+// let arr = [1, 2, 3, 4, 5]
+// let result = arr.splice(1, 3)
+// console.log(result)
+// let arr = [1, 2, 3, 4, 5]
+// let result = arr.splice(3, 0, 'a', 'b', 'c')
+// console.log(arr)
+// let arr = [1, 2, 3, 4, 5]
+// let result = arr.splice(2, 4, 'a', 'b', 2, 3, 4, 'c', 5, 'e')
+// console.log(arr)
+// let arr = [1, 2, 3, 4, 5]
+// console.log(arr.indexOf(3))
+
+////////////////////////////////////////////////////
+

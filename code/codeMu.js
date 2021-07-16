@@ -1982,3 +1982,20 @@
 // let str = 'moscow'
 // let result = str.slice(0, 2).toUpperCase() + str.slice(2, 6)
 // console.log(result)
+// let str = 'London'
+// let result = str.slice(0, 1).toLowerCase() + str.slice(1, 6)
+// console.log(result)
+// let str = 'word1 word2 word3'
+// let words = str.split(' ')
+// for (let i = 0; i < words.length; i++) {
+//   words[i] = words[i].slice(0, 1).toUpperCase() + words[i].slice(1)
+// }
+// let result = words.join(' ')
+// console.log(result)
+// let str = 'now now now'
+// let words = str.split(' ')
+// for (let i = 0; i < words.length; i++) {
+//   words[i] = words[i].slice(0, 1).toUpperCase() + words[i].slice(1)
+// }
+// let result = words.join(' ')
+// console.log(result)

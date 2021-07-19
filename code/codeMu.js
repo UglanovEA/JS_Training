@@ -2024,3 +2024,53 @@
 
 ////////////////////////////////////////////////////
 
+// function showMyName() {
+//   alert('Evgen')
+// }
+// showMyName()
+// let sum = 0
+// function showMyName() {
+//   for (let i = 0; i < 100; i++) {
+//     sum += i
+//   }
+// }
+// showMyName()
+// console.log(sum)
+// function func(num) {
+//   console.log(num * 3)
+// }
+// func(3)
+// function func(num) {
+//   if (num > 0) {
+//     console.log('+++')
+//   } else {
+//     console.log('---')
+//   }
+// }
+// func(-3)
+// function func(a, b, c) {
+//   console.log(a + b + c)
+// }
+// func(3, 4, 5)
+// let param1 = 1
+// let param2 = 2
+// let param3 = 3
+// function func(a, b, c) {
+//   console.log(a + b + c)
+// }
+// func(param1, param2, param3)
+// function func(num = 5) {
+//   alert(num * num);
+// }
+// func(2)
+// func(3)
+// func()
+// function func(num1 = 0, num2 = 0) {
+//   alert(num1 + num2)
+// }
+// func(2, 3)
+// func(3)
+// func()
+
+////////////////////////////////////////////////////
+

@@ -1999,3 +1999,28 @@
 // }
 // let result = words.join(' ')
 // console.log(result)
+// let str = 'var_test_text'
+// let words = str.split('_')
+// for (let i = 0; i < words.length; i++) {
+//   words[i] = words[i].slice(0, 1).toUpperCase() + words[i].slice(1)
+// }
+
+// let result = words.join('')
+// console.log(result)
+// let str = 'var_test_text'
+// let words = str.split('_')
+// for (let i = 0; i < words.length; i++) {
+//   words[i] = words[i].slice(0, 1).toUpperCase() + words[i].slice(1)
+// }
+// let result = words.join('')
+// let newResult = result.slice(0, 1).toLowerCase() + result.slice(1)
+// console.log(newResult)
+// let str = '12345'
+// let result = str.split('').reverse().join('')
+// console.log(result)
+// let str = 'var_test_text'
+// let result = str.split('').reverse().join('')
+// console.log(result)
+
+////////////////////////////////////////////////////
+

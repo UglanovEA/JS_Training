@@ -2180,3 +2180,137 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = [1, 2, 3, 4];
+// let sum = 0
+// function func(arr) {
+//   for (let elem of arr) {
+//     sum += elem * 2;
+//   } return sum;
+// }
+// func(arr)
+// console.log(sum)
+// function getDigitsSum(num) {
+//   let sum = 0;
+//   num = String(num);
+//   for (let i = 0; i < num.length; i++) {
+//     sum += Number(num[i]);
+//   }
+//   return sum;
+// }
+// console.log(getDigitsSum(22))
+// let result = getDigitsSum(44)
+// console.log(result)
+// function getDivisors(num) {
+//   let arr = []
+//   for (let i = 1; i < num; i++) {
+//     if (num % i == 0) {
+//       arr.push(i)
+//     }
+//   } return arr
+// }
+// let result = getDivisors(24)
+// console.log(result)
+// function reverseStr(str) {
+//   return str.split('').reverse().join('')
+// }
+// let result = reverseStr('hello')
+// console.log(result)
+// function delElem(arr, elem) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] == elem) {
+//       arr.splice(i, 1)
+//     }
+//     return arr;
+//   }
+// }
+// let result = delElem([3, 4, 5, 7, 1], 4)
+// console.log(result)
+// function getDivisors(num) {
+//   let arr = []
+//   for (let i = 1; i <= num; i++) {
+//     if (num > 0) {
+//       arr.push(i)
+//     }
+//   } return arr
+// }
+// let result = getDivisors(5)
+// console.log(result)
+// function getDivisors(a, b) {
+//   let arr = []
+//   for (let i = a; i <= b; i++) {
+//     if (b > a) {
+//       arr.push(i)
+//     }
+//   } return arr
+// }
+// let result = getDivisors(3, 7)
+// console.log(result)
+
+////////////////////////////////////////////////////
+
+// let num = 31;
+// let flag = true;
+// for (let i = 2; i < num; i++) {
+//   if (num % i == 0) {
+//     flag = false;
+//     break;
+//   }
+// }
+// console.log(flag);
+// function isPrime(num) {
+//   let flag = true;
+//   for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       flag = false;
+//       break;
+//     }
+//   }
+//   return flag;
+// }
+// console.log(isPrime(num));
+// function isPositive(arr) {
+//   for (let elem of arr) {
+//     if (elem < 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// console.log(isPositive([1, -2, 3, 4, -5]))
+// console.log(isPositive([1, 2, 3, 4, 5]));
+// function isPositive(arr) {
+//   for (let elem of arr) {
+//     if (elem % 2 == 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// console.log(isPositive([12, 4, 6, 8, 10]))
+// console.log(isPositive([1, 7, 3]));
+// function isPrime(num) {
+//   num = String(num);
+//   for (let i = 0; i < num.length; i++) {
+//     if (Number(num) % 2 == 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// console.log(isPrime(261));
+// console.log(isPrime(26));
+// function isPositive(arr) {
+//   for (let elem of arr) {
+//     if (elem < arr.length - 1) {
+//       if (arr[elem] == arr[elem + 1]) {
+//         return true;
+//       }
+//     }
+//   }
+//   return false;
+// }
+// console.log(isPositive([2, 1, 12, 12, 10]))
+// console.log(isPositive([1, 7, 3]));
+
+////////////////////////////////////////////////////
+

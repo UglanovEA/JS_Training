@@ -2434,3 +2434,33 @@
 //   }
 //   return result;
 // }
+
+////////////////////////////////////////////////////
+
+// let arr = [12, 29, 42, 32, 85]
+// let result = []
+
+// function getDigits(num) {
+//   let str = String(num)
+//   return str.split('')
+// }
+// function getSum(arr) {
+//   let sum = 0
+//   for (let elem of arr) {
+//     sum += Number(elem)
+//   }
+//   return sum;
+// }
+// function inRange(num) {
+//   let sum = getSum(getDigits(num));
+//   return sum >= 1 && sum <= 9
+// }
+// for (let elem of arr) {
+//   if (inRange(elem)) {
+//     result.push(elem);
+//   }
+// }
+// console.log(result)
+
+////////////////////////////////////////////////////
+

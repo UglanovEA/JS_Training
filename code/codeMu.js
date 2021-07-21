@@ -2314,3 +2314,93 @@
 
 ////////////////////////////////////////////////////
 
+// function func(a, b) {
+//   return a == b
+// }
+// console.log(func(2, 3))
+// let result = []
+// let arr = [1524, 1321, 4563, 7144, 2879]
+// for (let elem of arr) {
+//   if (checkDigitsPairsSum(elem)) { // используем нашу функцию
+//     result.push(elem)
+//   }
+// }
+// function checkDigitsPairsSum(num) {
+//   let str = String(num);
+//   let sum1 = Number(str[0]) + Number(str[1]);
+//   let sum2 = Number(str[2]) + Number(str[3]);
+//   return sum1 == sum2;
+// }
+// console.log(result)
+// function isPrime(num) {
+//   for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// let arr = []
+// for (let i = 1; i < 100; i++) {
+//   if (isPrime(i)) arr.push(i)
+// }
+// console.log(arr)
+// function getDigitsSum(num) {
+//   let sum = 0;
+//   let digits = String(num).split('');
+//   for (let digit of digits) {
+//     sum += Number(digit);
+//   }
+//   return sum;
+// }
+// let arr = []
+// for (let i = 1; i < 2030; i++) {
+//   if (getDigitsSum(i) == 13) arr.push(i)
+// }
+// console.log(arr)
+// let nums = [123, 456, 789];
+// let result = [];
+// function func(arr) {
+//   for (let num of arr) {
+//     result.push(String(num).split('').reverse().join(''));
+//   }
+// }
+// func(nums)
+// console.log(result); // выведет [321, 654, 987]
+// let nums = [123, 456, 789];
+// let result = [];
+// for (let num of nums) {
+// 	result.push(String(num).split('').reverse().join(''));
+// }
+// console.log(result); // выведет [321, 654, 987]
+// let num1 = 235;
+// let num2 = 531;
+// if (dig(num1) == dig(num2)) {
+//   alert('суммы цифр совпадают');
+// } else {
+//   alert('суммы цифр не совпадают');
+// }
+// function dig(num) {
+//   let digits = String(num).split('');
+//   let digitsSum = 0;
+//   for (let digit of digits) {
+//     digitsSum += Number(digit);
+//   }
+//   return digitsSum
+// }
+// let nums = [12, 24, 35, 14];
+// for (let num of nums) {
+//   console.log(num + ': ' + getDivisors(num).join(', '));
+// }
+// function getDivisors(num) {
+//   let result = [];
+//   for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       result.push(i);
+//     }
+//   }
+//   return result;
+// }
+
+////////////////////////////////////////////////////
+

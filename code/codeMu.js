@@ -2547,4 +2547,184 @@
 //   return [].concat(diff1, diff2)
 // }
 // console.log(getDiff(arr1, arr2))
+// let arr = []
+// for (let i = 0; i < 100; i++) {
+//   if (isPrime(i) === true) {
+//     arr.push(i)
+//   }
+// }
+// console.log(arr)
+// function isPrime(num) {
+//   for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// let arr = []
+// for (let i = 1; i < 2030; i++) {
+//   if (getDigitsSum(i) == 13) {
+//     arr.push(i)
+//   }
+// }
+// console.log(arr)
+// function getDigitsSum(num) {
+//   let sum = 0;
+//   let digits = String(num).split('');
+//   for (let digit of digits) {
+//     sum += Number(digit);
+//   }
+//   return sum;
+// }
+// let nums = [123, 456, 789];
+// function getDigitsReverse(arr) {
+//   let result = [];
+//   for (let num of nums) {
+//     result.push(String(num).split('').reverse().join(''));
+//   }
+//   return result
+// }
+// console.log(getDigitsReverse(nums)); // выведет [321, 654, 987]
+// let num1 = 235;
+// let num2 = 531;
+// if (getDigits(num1) == getDigits(num2)) {
+//   alert('суммы цифр совпадают');
+// } else {
+//   alert('суммы цифр не совпадают');
+// }
+// function getDigits(num) {
+//   let digits = String(num).split('');
+//   let digitsSum = 0;
+//   for (let digit of digits) {
+//     digitsSum += Number(digit);
+//   }
+//   return digitsSum;
+// }
+// let nums = [12, 24, 35, 14];
+// for (let num of nums) {
+//   console.log(num + ': ' + getDivisors(num).join(', '));
+// }
+// function getDivisors(num) {
+//   let result = [];
+//   for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       result.push(i);
+//     }
+//   }
+//   return result;
+// }
+// function getSum(arr) {
+//   let sum = 0;
 
+//   for (let elem of arr) {
+//     sum += Number(elem);
+//   }
+
+//   return sum;
+// }
+// function getDigits(num) {
+//   return String(num).split('');
+// }
+// console.log(getSum(getDigits(12345)))
+// console.log(getAvg(getDivisors(24)));
+// // Нахождение среднего арифметического:
+// function getAvg(arr) {
+//   let sum = 0;
+//   for (let elem of arr) {
+//     sum += elem;
+//   }
+//   return sum / arr.length;
+// }
+// // Нахождение массива делителей числа:
+// function getDivisors(num) {
+//   let result = [];
+//   for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       result.push(i);
+//     }
+//   } return result;
+// }
+// let arr = [12, 19, 28, 13, 14, 345];
+// let result = [];
+// function inRange(num) {
+//   let sum = getSum(getDigits(num));
+//   return sum >= 1 && sum <= 9
+// }
+// function getSum(arr) {
+//   let sum = 0
+//   for (let elem of arr) {
+//     sum += Number(elem)
+//   } return sum;
+// }
+// function getDigits(num) {
+//   return String(num).split('')
+// }
+// for (let elem of arr) {
+//   if (inRange(elem)) {
+//     result.push(elem)
+//   }
+// }
+// console.log(result)
+// function isFreindly(num1, num2) {
+//   let sum1 = getSum(getOwnDivisors(num1));
+//   let sum2 = getSum(getOwnDivisors(num2));
+//   if (sum1 == num2 && sum2 == num1) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// function getOwnDivisors(num) {
+//   let arr = [];
+//   for (let i = 1; i < num; i++) {
+//     if (num % i == 0) {
+//       arr.push(i)
+//     }
+//   } return arr;
+// }
+// function getSum(arr) {
+//   let sum = 0;
+//   for (let elem of arr) {
+//     sum += elem
+//   } return sum;
+// }
+
+// function getFriendly(num1, num2) {
+
+
+// }
+
+
+// console.log(getFriendly(1, 9000))
+
+
+
+
+// function getOwnDivisors(num) {
+//   let arr = [];
+//   for (let i = 1; i < num; i++) {
+//     if (num % i == 0) {
+//       arr.push(i)
+//     }
+//   } return arr;
+// }
+// function getSum(arr) {
+//   let sum = 0;
+//   for (let elem of arr) {
+//     sum += elem
+//   } return sum;
+// }
+// function getPerfect(num) {
+//   let sum = getSum(getOwnDivisors(num))
+//   if (sum == num) {
+//     return true
+//   } else {
+//     return false
+//   }
+// }
+// let arr = []
+// for (let i = 1; i < 1000; i++) {
+//   if (getPerfect(i)) arr.push(i)
+// }
+// console.log(arr)

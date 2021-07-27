@@ -2616,11 +2616,9 @@
 // }
 // function getSum(arr) {
 //   let sum = 0;
-
 //   for (let elem of arr) {
 //     sum += Number(elem);
 //   }
-
 //   return sum;
 // }
 // function getDigits(num) {
@@ -2628,7 +2626,8 @@
 // }
 // console.log(getSum(getDigits(12345)))
 // console.log(getAvg(getDivisors(24)));
-// // Нахождение среднего арифметического:
+
+// Нахождение среднего арифметического:
 // function getAvg(arr) {
 //   let sum = 0;
 //   for (let elem of arr) {
@@ -2636,6 +2635,7 @@
 //   }
 //   return sum / arr.length;
 // }
+
 // // Нахождение массива делителей числа:
 // function getDivisors(num) {
 //   let result = [];
@@ -2645,6 +2645,7 @@
 //     }
 //   } return result;
 // }
+
 // let arr = [12, 19, 28, 13, 14, 345];
 // let result = [];
 // function inRange(num) {
@@ -2689,18 +2690,9 @@
 //     sum += elem
 //   } return sum;
 // }
-
 // function getFriendly(num1, num2) {
-
-
 // }
-
-
 // console.log(getFriendly(1, 9000))
-
-
-
-
 // function getOwnDivisors(num) {
 //   let arr = [];
 //   for (let i = 1; i < num; i++) {
@@ -2728,3 +2720,48 @@
 //   if (getPerfect(i)) arr.push(i)
 // }
 // console.log(arr)
+
+////////////////////////////////////////////////////
+
+// function getGreatestCommonDivisor(num1, num2) {
+//   let arr = [];
+//   let arr1 = getOwnDivisors(num1)
+//   let arr2 = getOwnDivisors(num2)
+//   arr = getInt(arr1, arr2)
+//   let max = Math.max.apply(null, arr);
+//   return max;
+// }
+
+// function ifThereIsJustOneCommonDivisor(num1, num2) {
+//   let arr = [];
+//   let arr1 = getOwnDivisors(num1)
+//   let arr2 = getOwnDivisors(num2)
+//   arr = getInt(arr1, arr2)
+//   let max = Math.max.apply(null, arr);
+//   return max == 1;
+// }
+
+// function getOwnDivisors(num) {
+//   let arr = [];
+//   for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       arr.push(i)
+//     }
+//   } return arr;
+// }
+
+// function inArray(elem, arr) {
+//   return arr.indexOf(elem, 0) != -1
+// }
+
+// function getInt(arr1, arr2) {
+//   let arr = [];
+//   for (let elem of arr1) {
+//     if (inArray(elem, arr2)) {
+//       arr.push(elem);
+//     }
+//   } return arr;
+// }
+
+// console.log(ifThereIsJustOneCommonDivisor(12, 18))
+

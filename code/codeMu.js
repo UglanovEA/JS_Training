@@ -2765,3 +2765,20 @@
 
 // console.log(ifThereIsJustOneCommonDivisor(12, 18))
 
+////////////////////////////////////////////////////
+
+// function getRandomInt(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// function random(arr) {
+//   let sum = 0
+//   let key = getRandomInt(0, arr.length - 1);
+//   return sum = (arr[key] + arr[key] + arr[key]);
+
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(random(arr));
+
+////////////////////////////////////////////////////
+

@@ -2782,3 +2782,56 @@
 
 ////////////////////////////////////////////////////
 
+// function getRandomInt(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// // let random = getRandomInt(0, arr.length - 1);
+// // let elems = arr.splice(random, 1);
+// // let elem = elems[0];
+
+// // let elem = arr.splice(random, 1)[0];
+
+// let result = []
+// while (arr.length > 0) {
+//   let random = getRandomInt(0, arr.length - 1);
+//   let elem = arr.splice(random, 1)[0];
+//   console.log(elem);
+//   result.push(elem)
+// }
+
+// // console.log(random)
+// // console.log(elem);
+// console.log(result)
+// console.log(arr)
+
+// function shuffle(arr) {
+//   let result = [];
+
+//   while (arr.length > 0) {
+//     let random = getRandomInt(0, arr.length - 1);
+//     let elem = arr.splice(random, 1)[0];
+//     result.push(elem);
+//   }
+
+//   return result;
+// }
+
+// function getRandomInt(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+// function range(num1, num2) {
+//   let arr = []
+//   for (let i = num1; i <= num2; i++) {
+//     arr.push(i)
+//   } return arr;
+// }
+
+// function rangeRand(num1, num2) {
+//   let arr = range(num1, num2)
+//   return shuffle(arr)
+// }
+
+// console.log(rangeRand(1, 15));

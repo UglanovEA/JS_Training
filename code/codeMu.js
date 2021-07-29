@@ -2890,3 +2890,26 @@
 // }
 
 ////////////////////////////////////////////////////
+
+// function isLucky(str) {
+
+//   let sum1 = 0;
+//   let sum2 = 0;
+
+// }
+// let normalizeN = function normalizeNum(num) {
+//   let str = String(num);
+
+//   if (str.length == 5) {
+//     str = '0' + str;
+//   }
+//   if (str.length == 4) {
+//     str = '00' + str;
+//   }
+
+//   return str;
+// }
+
+// console.log(isLucky('1203'))
+
+////////////////////////////////////////////////////

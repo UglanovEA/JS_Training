@@ -3007,3 +3007,63 @@
 
 ////////////////////////////////////////////////////
 
+// function func(localNum) {
+//   alert(localNum);
+// }
+// func(1);
+// function func(localNum) {
+//   alert(localNum);
+// }
+// let num = 1;
+// func(num);
+// function func(localNum) {
+//   alert(localNum);
+// }
+// let num = 1;
+// func(num);
+// num = 2;
+// let num = 1;
+// function func(localNum) {
+//   alert(localNum);
+// }
+// num = 2;
+// func(num);
+// function func(localNum) {
+//   localNum = 2;
+// }
+// let num = 1;
+// func(num);
+// alert(num);
+// function func(localNum) {
+//   num = 2;
+// }
+// let num = 1;
+// func(num);
+// alert(num);
+// function func(localNum) {
+//   let num = 2;
+// }
+// let num = 1;
+// func(num);
+// alert(num);
+// function func(num) {
+//   num = 2;
+// }
+// let num = 1;
+// func(num);
+// alert(num);
+// function func() {
+//   num = 2;
+// }
+// let num = 1;
+// func();
+// alert(num);
+// function func() {
+//   let num = 2;
+// }
+// let num = 1;
+// func();
+// alert(num);
+
+////////////////////////////////////////////////////
+

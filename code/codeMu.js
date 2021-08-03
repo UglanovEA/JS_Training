@@ -3074,3 +3074,28 @@
 
 ////////////////////////////////////////////////////
 
+// function func() {
+//   return 'str'
+// }
+// // console.log(func());
+// // alert(func());
+// // alert(func)
+// func = 123;
+// console.log(func);
+
+// function func1() {
+//   return 3
+// }
+// let func2 = func1;
+// let sum = func1() + func2();
+// console.log(sum)
+
+// let func1 = function () {
+//   return 1
+// }
+// let func2 = function () {
+//   return 2
+// }
+// alert(func1() + func2());
+
+////////////////////////////////////////////////////

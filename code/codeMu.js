@@ -3111,3 +3111,54 @@
 // }
 
 ////////////////////////////////////////////////////
+
+// let str = 'str' + function () { return 2; };
+// alert(str); // выведет 'strfunction() {return 2;}'
+// alert(function () { return 2; });
+// +function () {
+//   alert('!');
+// }
+
+// test();
+// let test = function func() {
+//   alert('!');
+// }
+
+// alert(
+//   function func() {
+//     alert('!');
+//   }
+// );
+
+// func()
+//   + function func() {
+//     alert('!');
+//   }
+
+// func()
+// function func() {
+//   alert('!');
+// }
+
+// func()
+//   + function func() {
+//     alert('!');
+//   }
+
+// func()
+// 1
+// function func() {
+//   alert('!');
+// }
+
+// alert(function func() { // это Function Expression
+//   alert('!');
+// } + 1);
+// func()
+// function func() {
+//   alert('!');
+// }
+// +1;
+// function func() {
+//   alert('!');
+// } + 1;

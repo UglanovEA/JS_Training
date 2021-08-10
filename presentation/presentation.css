@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.slide div {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    user-select:none;
+    padding : 40px;
+}

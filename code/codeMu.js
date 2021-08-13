@@ -3162,3 +3162,30 @@
 // function func() {
 //   alert('!');
 // } + 1;
+
+////////////////////////////////////////////////////
+
+// let arr = [
+//   function () { alert('1') },
+//   function () { alert('2') },
+//   function () { alert('3') },
+// ];
+
+// // arr[0]();
+// for (let func of arr) {
+//   func(); // вызываем наши функции в цикле
+// }
+
+// let arr = [
+//   function () { return 1 },
+//   function () { return 2 },
+//   function () { return 3 },
+// ]
+
+// alert(arr[2]())
+// alert(arr[0]() + arr[1]() + arr[2]())
+// for (let func of arr) {
+//   alert(func());
+// }
+
+////////////////////////////////////////////////////

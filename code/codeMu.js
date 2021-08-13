@@ -3226,3 +3226,78 @@
 
 ////////////////////////////////////////////////////
 
+// test(
+//   function () { return 1; },
+//   function () { return 2; },
+//   function () { return 3; }
+// );
+// function test(func1, func2, func3) {
+//   alert(func1() + func2() + func3())
+// }
+
+// function get1() {
+//   return 1;
+// }
+// function get2() {
+//   return 2;
+// }
+// function get3() {
+//   return 3;
+// }
+
+// test(get1, get2, get3); // выведет 3
+
+// function test(func1, func2, func3) {
+//   alert(func1() + func2() + func3());
+// }
+
+// let get1 = function () {
+//   return 1;
+// }
+// let get2 = function () {
+//   return 2;
+// }
+// let get3 = function () {
+//   return 3;
+// }
+
+// test(get1, get2, get3); // выведет 3
+
+// function test(func1, func2, func3) {
+//   alert(func1() + func2() + func3());
+// }
+
+// test(function func(num1, num2) {
+//   let sum = 0;
+//   return sum = num1 + num2;
+// });
+
+// function test(func) {
+//   alert(func(2, 3));
+// }
+
+// function test(num, func1, func2) {
+//   return func1(num) + func2(num);
+// }
+
+// console.log(test(3,
+//   function (num) {
+//     return num * num;
+//   },
+//   function (num) {
+//     return num * num * num;
+//   }));
+
+// function test(arr, func) {
+//   for (var i = 0; i < arr.length; i++) {
+//     arr[i] = func(arr[i])
+//   } return arr;
+// }
+
+// let result = test([1, 2, 3], function (num) {
+//   return num * num * num
+// })
+// console.log(result)
+
+////////////////////////////////////////////////////
+

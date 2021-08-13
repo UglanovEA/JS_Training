@@ -3189,3 +3189,40 @@
 // }
 
 ////////////////////////////////////////////////////
+
+// let obj = {
+//   func1: function () { return 1 },
+//   func2: function () { return 2 },
+//   func3: function () { return 3 },
+// };
+
+// alert(obj.func1() + obj.func2() + obj.func3());
+// for (let func in obj) {
+//   alert(obj[func]());
+// }
+
+// let obj = {
+//   one: function (arr) {
+//     let sum = 0;
+//     for (let item of arr) {
+//       sum += item
+//     } return sum
+//   },
+//   two: function (arr) {
+//     let sum = 0;
+//     for (let item of arr) {
+//       sum += item * item
+//     } return sum
+//   },
+//   three: function (arr) {
+//     let sum = 0;
+//     for (let item of arr) {
+//       sum += item * item * item
+//     } return sum
+//   },
+// };
+
+// console.log(obj.three([1, 2, 3]))
+
+////////////////////////////////////////////////////
+

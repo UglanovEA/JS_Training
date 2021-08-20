@@ -3310,3 +3310,32 @@
 
 ////////////////////////////////////////////////////
 
+// function func(num1, num2) {
+// 	return num1 * num1 + num2 * num2;
+// }
+
+// alert(func(2, 3)); // выведет 13 (результат 2 * 2 + 3 * 3)
+
+// function square(num) {
+// 	return num * num;
+// }
+
+// function func(num1, num2) {
+// 	return square(num1) + square(num2);
+// }
+
+// alert(func(2, 3)); // выведет 13
+
+// function func(num1, num2) {
+//   function square(num) {
+//     return num * num;
+//   }
+//   function cube(num) {
+//     return num * num * num;
+//   }
+//   return square(num1) + cube(num2)
+
+// }
+// console.log(func(2, 3));
+
+////////////////////////////////////////////////////

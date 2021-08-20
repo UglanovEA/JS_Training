@@ -3339,3 +3339,227 @@
 // console.log(func(2, 3));
 
 ////////////////////////////////////////////////////
+
+// function test() {
+//   let num = 1;
+//   function func() {
+//     alert(num);
+//   }
+//   func();
+// }
+
+// test(); //1
+
+// function test() {
+//   let num = 1;
+//   function func() {
+//     alert(num);
+//   }
+// }
+
+// console.log(test()); //undefined
+
+// function test() {
+//   let num = 1;
+
+//   function func() {
+//     alert(num);
+//   }
+
+//   func();
+// }
+
+// function test() {
+//   let num;
+
+//   function func() {
+//     alert(num);
+//   }
+
+//   num = 1
+//   func();
+
+//   num = 2
+//   func();
+// }
+
+// test();
+
+// function test(num1, num2) {
+//   function func() {
+//     alert(num1 + num2);
+//   }
+
+//   func();
+// }
+
+// test(1, 2);
+
+// function test(num1, num2) {
+//   function func() {
+//     alert(num1 + num2);
+//   }
+
+//   num1 = 2;
+//   func();
+// }
+
+// test(1, 2);//4
+
+// function test(num) {
+//   function func(localNum) {
+//     alert(localNum);
+//   }
+
+//   func(num);
+// }
+
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     alert(localNum);
+//   }
+
+//   func(num + 1);
+// }
+
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     alert(num);
+//   }
+
+//   func(num + 1);
+// }
+
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     localNum = 2;
+//   }
+
+//   func(num);
+//   alert(num);
+// }
+
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     localNum = 2;
+
+//   }
+
+//   func(num);
+
+// }
+
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     num = 2;
+//   }
+
+//   func(num);
+//   alert(num);
+// }
+
+// test(1);
+
+// function test(num) {
+//   function func(num) {
+//     alert(num);
+//   }
+
+//   func(num);
+// }
+
+// test(1);
+
+// function test(num) {
+//   function func(num) {
+//     num = 2;
+//   }
+
+//   func(num);
+//   alert(num);
+// }
+
+// test(1);
+
+// function test(num) {
+//   function func(num) {
+//     alert(num);
+//   }
+
+//   num = 2;
+//   func(num);
+// }
+
+// test(1);
+
+// function test(num) {
+//   function func(num) {
+//     alert(num);
+//   }
+
+//   func(num);
+//   num = 2;
+// }
+
+// test(1);
+
+////////////////////////////////////////////////////
+
+// function func1() {
+//   return function () {
+//     return 1
+//   }
+// };
+// console.log(func1()())
+
+// function func2() {
+//   return function () {
+//     return 2
+//   }
+// };
+// console.log(func2()())
+
+// console.log(func1()() + func2()())
+
+// function func() {
+//   return function () {
+//     return function () {
+//       return '!'
+//     };
+//   };
+// }
+// console.log(func()()())
+
+// function func(num) {
+//   return function (num2) {
+//     return num + num2;
+//   }
+// }
+// console.log(func(2)(3))
+
+// function func(num) {
+//   return function (num2) {
+//     return function (num3) {
+//       return function (num4) {
+//         return function () {
+//           let arr = []
+//           arr.push(num, num2, num3, num4)
+//           return arr
+//         }
+//       }
+//     }
+//   }
+// }
+// console.log(func(2)(3)(4)(5)())
+
+////////////////////////////////////////////////////

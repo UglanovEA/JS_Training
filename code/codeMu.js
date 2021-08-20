@@ -3628,3 +3628,157 @@
 // alert(func());
 
 ////////////////////////////////////////////////////
+
+// function test() {
+//   let num = 1;
+
+//   return function () {
+//     alert(num);
+//     num++; // прибавляем единицу
+//   }
+// }
+
+// let func = test();
+
+// function test() {
+//   let num = 1;
+//   return function () {
+//     alert(num);
+//     num++
+//   }
+// }
+// let func = test();
+// console.log(func())
+// console.log(func())
+
+// function test() {
+//   let num = 10;
+//   return function () {
+//     alert(num);
+//     num--
+//   }
+// }
+// let func = test();
+// console.log(func())
+// console.log(func())
+
+// function test() {
+//   let num = 10;
+//   return function () {
+//     alert(num);
+//     num--
+//     if (num === 0) {
+//       alert('отсчет окончен')
+//     }
+//   }
+// }
+// let func = test();
+// console.log(func())
+// console.log(func())
+// console.log(func())
+// console.log(func())
+// console.log(func())
+// console.log(func())
+// console.log(func())
+// console.log(func())
+// console.log(func())
+// console.log(func())
+
+// function test() {
+//   let num = 1;
+
+//   return function () {
+//     alert(num);
+//     num++;
+//   };
+// };
+
+// test()(); //выведет 1
+// test()(); //выведет 1
+// test()(); //выведет 1
+
+// function func() {
+//   let num = 0;
+
+//   return function () {
+//     alert(num);
+//     num++;
+//   };
+// };
+
+// func()();
+// func()();
+// func()();
+
+// function func() {
+//   let num = 0;
+
+//   return function () {
+//     alert(num);
+//     num++;
+//   };
+// };
+
+// let test = func;
+
+// test()();
+// test()();
+// test()();
+
+// let counter = 0;
+
+// function test() {
+//   return function () {
+//     alert(counter);
+//     counter++;
+//   };
+// };
+
+// let func = test;
+
+// let func1 = func();
+// let func2 = func();
+// func1();
+// func2();
+// func1();
+// func2(); //0,1,2,3
+
+// function test() {
+//   let counter = 0;
+
+//   return function () {
+//     return function () {
+//       alert(counter);
+//       counter++;
+//     };
+//   };
+// };
+
+// let func = test()();
+
+// let func1 = func;
+// let func2 = func;
+// func1();
+// func2();
+// func1();
+// func2(); //0,1,2,3
+
+// function test() {
+//   let counter = 0;
+
+//   return function () {
+//     return function () {
+//       alert(counter);
+//       counter++;
+//     };
+//   };
+// };
+
+// let func = test();
+
+// let func1 = func();
+// let func2 = func();
+// func1();
+// func2();
+// func1();
+// func2(); //0,1,2,3

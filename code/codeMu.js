@@ -3869,3 +3869,37 @@
 
 ////////////////////////////////////////////////////
 
+// let result = (function () {
+//   let num = 1;
+//   return function () {
+//     console.log(num)
+//     num++;
+//   }
+// })()
+// result()
+// result()
+// result()
+// result()
+// result()
+
+
+// let result = (function () {
+//   let num = 1;
+//   return function () {
+//     console.log(num)
+//     num++;
+//     if (num > 5) {
+//       return num = 1;
+//     }
+//   }
+// })()
+// result()
+// result()
+// result()
+// result()
+// result()
+// result()
+// result()
+
+////////////////////////////////////////////////////
+

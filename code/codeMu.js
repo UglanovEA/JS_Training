@@ -3903,3 +3903,165 @@
 
 ////////////////////////////////////////////////////
 
+// let result = each(['123', '456', '789'], function (str) {
+//   return str.split('').reverse().join('')
+// })
+
+// function each(arr, callback) {
+//   let result = []
+//   for (let elem of arr) {
+//     result.push(callback(elem))
+//   }
+//   return result
+// }
+// console.log(result)
+
+// let result = each(['abc', 'deg', 'thn'], function (str) {
+//   return str[0].toUpperCase() + str.slice(1)
+// })
+
+// function each(arr, callback) {
+//   let result = []
+//   for (let elem of arr) {
+//     result.push(callback(elem))
+//   }
+//   return result
+// }
+// console.log(result)
+
+// let result = each([1, 2, 3, 4, 5], function (num, index) {
+//   return num * index
+// })
+
+// function each(arr, callback) {
+//   let result = [];
+//   let i = 0;
+//   for (let elem of arr) {
+//     result.push(callback(elem, i++))
+//   }
+//   return result;
+// }
+// console.log(result)
+
+// let result = filter([1, 2, 3, 4, 5], function (elem) {
+//   if (elem % 2 == 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+
+// function filter(arr, callback) {
+//   let result = [];
+//   for (let elem of arr) {
+//     if (callback(elem)) {
+//       result.push(elem)
+//     }
+//   }
+//   return result;
+// }
+// console.log(result);
+
+// let result = filter([-1, -2, -3, 0, 1, 2, 3, 4, 5], function (elem) {
+//   if (elem > 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+
+// function filter(arr, callback) {
+//   let result = [];
+//   for (let elem of arr) {
+//     if (callback(elem)) {
+//       result.push(elem)
+//     }
+//   }
+//   return result;
+// }
+// console.log(result);
+
+// let result = filter(['123', '4563', '78944', '321'], function (elem) {
+
+//   if (elem.length <= 3) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+
+// function filter(arr, callback) {
+//   let result = [];
+//   for (let elem of arr) {
+//     if (callback(elem)) {
+//       result.push(elem)
+//     }
+//   }
+//   return result;
+// }
+// console.log(result);
+
+// let result = every([1, 2, 3, 4, 5], function (elem) {
+//   if (elem > 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+
+// function every(arr, callback) {
+//   let result = [];
+//   for (let elem of arr) {
+//     if (callback(elem)) {
+//       return true
+//     }
+//   }
+//   return result;
+// }
+// console.log(result);
+
+// let result = every([1, 2, 3, 4, 5], function (elem) {
+//   if (elem < 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+
+// function every(arr, callback) {
+//   let result = [];
+//   for (let elem of arr) {
+//     if (callback(elem)) {
+//       return true
+//     } else {
+//       return false;
+//     }
+//   }
+//   return result;
+// }
+// console.log(result);
+
+// let result = alternate(
+//   ['a', 'b', 'c', 'd', 'e'],
+//   function (elem) {
+//     return elem + '!';
+//   },
+//   function (elem) {
+//     return elem + '?';
+//   },
+// );
+
+// function alternate(arr, callback1, callback2) {
+//   let result = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (i % 2 == 0) {
+//       result.push(callback1(arr[i]))
+//     }
+//     else (result.push(callback2(arr[i])))
+//   }
+//   return result;
+// }
+// console.log(result);
+
+////////////////////////////////////////////////////
+

@@ -3782,3 +3782,90 @@
 // func2();
 // func1();
 // func2(); //0,1,2,3
+
+////////////////////////////////////////////////////
+
+// !function () {
+//   alert('!');
+// }();
+// function() {
+//   alert('!');
+// } ();
+
+// let result = function () {
+//   return '!';
+// }();
+
+// alert(result);
+// let result = function () {
+//   return '!';
+// };
+
+// alert(result);
+// let result = function () {
+//   return '!';
+// };
+
+// alert(result());
+// let result = function () {
+//   return 1;
+// }() + function () {
+//   return 2;
+// }();
+// alert(result);
+// let result = (function () {
+//   return '!';
+// }());
+
+// alert(result);
+// let result = (function () {
+//   return '!';
+// })();
+
+// alert(result);
+// let result = (function () {
+//   return '!';
+// });
+
+// alert(result);
+// let result = (function () {
+//   return '!';
+// });
+
+// alert(result());
+// (function (num1, num2) {
+//   alert(num1 + num2);
+// })(1, 2);
+// (function () {
+//   return function () {
+//     return function () {
+//       console.log('!')
+//     }
+//   }
+// })()()();
+// (function (num1) {
+//   return function (num2) {
+//     console.log(num1 + num2);
+//   }
+// })(1)(2);
+// (function (num1) {
+//   return function (num2) {
+//     return function (num3) {
+//       console.log(num1 + num2 + num3);
+//     }
+//   }
+// })(1)(2)(3);
+
+// let str = 'str';
+
+// (function () {
+//   alert(1);
+// })();
+// let str = 'str'
+
+//   (function () {
+//     alert(1);
+//   })();
+
+////////////////////////////////////////////////////
+

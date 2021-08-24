@@ -4103,3 +4103,77 @@
 
 ////////////////////////////////////////////////////
 
+// let i = 1;
+
+// function func() {
+//   console.log(i);
+//   i++;
+
+//   if (i <= 10) {
+//     func(); // здесь функция вызывает сама себя
+//   }
+// }
+// func();
+
+// let i = 0
+// function func(prevPrevNum, prevNum) {
+//   let result = prevPrevNum + prevNum;
+//   prevPrevNum = prevNum;
+//   prevNum = result;
+//   console.log(result);
+//   i++;
+//   if (i < 11) {
+//     func(prevPrevNum, prevNum)
+//   }
+// }
+// func(1, 2);
+
+// let arr = []
+// let i = 0
+// function func(prevPrevNum, prevNum) {
+//   let result = prevPrevNum + prevNum;
+//   prevPrevNum = prevNum;
+//   prevNum = result;
+//   arr.push(result)
+
+//   i++;
+//   if (i < 11) {
+//     func(prevPrevNum, prevNum)
+//     return arr
+//   }
+// }
+// func(1, 2);
+// console.log(arr);
+
+
+// function getDigitsSum(num) {
+//   return getSum(getDigits(num));
+// }
+
+// // находит сумму элементов в массиве
+// function getSum(arr) {
+//   let sum = 0;
+//   for (let elem of arr) {
+//     sum += Number(elem);
+//   }
+//   return sum;
+// }
+
+// // получаем массив из чисел
+// function getDigits(num) {
+//   return String(num).split('');
+// }
+
+// function reduceNum(num) {
+//   let sum = getDigitsSum(num);
+
+//   if (sum <= 9) {
+//     return sum;
+//   } else {
+//     return reduceNum(sum);
+//   }
+// }
+
+// console.log(reduceNum(2187)); // выведет 9
+
+////////////////////////////////////////////////////

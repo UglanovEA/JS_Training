@@ -4177,3 +4177,137 @@
 // console.log(reduceNum(2187)); // выведет 9
 
 ////////////////////////////////////////////////////
+
+
+// function func(arr) {
+//   for (let elem of arr) {
+//     if (typeof elem == 'object') {
+//       func(elem);
+//     } else {
+//       // элемент - примитив
+//       console.log(elem);
+//     }
+//   }
+// }
+
+// func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]);
+
+// function func(obj) {
+//   for (let elem in obj) {
+//     if (typeof obj[elem] == 'object') {
+//       func(obj[elem]);
+//     } else {
+//       console.log(elem);
+//     }
+//   }
+// }
+
+// func({
+//   a: 1,
+//   b: { c: 2, d: 3, e: 4 },
+//   f: {
+//     g: 5, j: 6,
+//     k: {
+//       l: 7,
+//       m: {
+//         n: 8, o: 9
+//       }
+//     }
+//   }
+// });
+
+// function func(arr) {
+//   let sum = 0;
+
+//   for (let elem of arr) {
+//     if (typeof elem == 'object') {
+//       sum += func(elem);
+//     } else {
+//       sum += elem;
+//     }
+//   }
+
+//   return sum;
+// }
+
+// console.log(func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]));
+
+// function func(obj) {
+//   let sum = 0
+//   for (let elem in obj) {
+//     if (typeof obj[elem] == 'object') {
+//       sum += func(obj[elem]);
+//     } else {
+//       sum += obj[elem];
+//     }
+//   } return sum
+// }
+
+// console.log(func({
+//   a: 1,
+//   b: { c: 2, d: 3, e: 4 },
+//   f: {
+//     g: 5, j: 6,
+//     k: {
+//       l: 7,
+//       m: {
+//         n: 8, o: 9
+//       }
+//     }
+//   }
+// }))
+
+// function func(arr) {
+//   let sum = ''
+//   for (let elem of arr) {
+//     if (typeof elem == 'object') {
+//       sum += func(elem);
+//     } else {
+//       sum += elem;
+//     }
+//   } return sum
+// }
+
+
+// console.log(func(['a', ['b', 'c', 'd'], ['e', 'f', ['g', ['j', 'k']]]]));
+
+// function func(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] == 'object') {
+//       arr[i] = func(arr[i]);
+//     } else {
+//       arr[i] = arr[i] + '!';
+//     }
+//   }
+
+//   return arr;
+// }
+
+// console.log(func([1, [2, 7, 8], [3, 4, [5, 6]]]));
+
+// function func(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] == 'object') {
+//       arr[i] = func(arr[i]);
+//     } else {
+//       arr[i] = arr[i] ** 2;
+//     }
+//   }
+
+//   return arr;
+// }
+
+// console.log(func([1, [2, 7, 8], [3, 4], [5, [6, 7]]]));
+
+// let newarr = [];
+// function func(arr) {
+//   for (let elem of arr) {
+//     if (typeof elem == 'object') {
+//       func(elem);
+//     } else {
+//       newarr.push(elem);
+//     }
+//   } return newarr;
+// }
+// func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]])
+// console.log(newarr);

@@ -4311,3 +4311,35 @@
 // }
 // func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]])
 // console.log(newarr);
+
+// function func(arr) {
+//   for (let elem of arr) {
+//     if (typeof elem == 'object') {
+//       func(elem);
+//     } else {
+//       // элемент - примитив
+//       console.log(elem);
+//     }
+//   }
+// }
+
+// func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]);
+
+// let num = 0
+// function func(arr) {
+//   for (let elem of arr) {
+//     if (typeof elem == 'object') {
+//       func(elem);
+//       num++;
+//     } else {
+//       // элемент - примитив
+
+//     }
+//   } return num;
+// }
+
+// func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]); 
+// console.log(num);
+
+////////////////////////////////////////////////////
+

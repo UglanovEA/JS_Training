@@ -4405,3 +4405,82 @@
 // console.log(result)
 
 ////////////////////////////////////////////////////
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+
+// let result = arr.forEach(function (elem, index) {
+//   document.write(index + ' ' + elem + '<br>');
+
+// })
+
+// let arr = ['a', 'b', 'c', 'd', 'e']
+// let result = ''
+// arr.forEach(function (elem, index) {
+//   result += elem
+// })
+// console.log(result)
+
+// let arr = [1, 2, 3, 4, 5]
+// let sum = 0
+
+// arr.forEach(function (elem) {
+//   sum += elem * elem
+// })
+
+// console.log(sum)
+
+////////////////////////////////////////////////////
+
+// let arr = [1, 2, 3, 4, 5, -1, -2, -3, -4, -5, -6, -7]
+
+// let result = arr.filter((elem) => elem > 0)
+// console.log(result)
+
+// let arr = [1, 2, 3, 4, -1, -2, -3, -4]
+
+// let result = arr.filter((elem) => elem < 0)
+// console.log(result)
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 0, -1, -2, -3, 12, 15]
+
+// let result = arr.filter(function (elem) {
+//   return elem > 0 && elem < 10
+// })
+
+// console.log(result)
+
+// let arr = ['wqeq', 'wqeqwew', 'wee', 'qweqwe']
+// let result = arr.filter(function (elem) {
+//   return elem.length > 5
+// })
+// console.log(result)
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// let result = arr.filter(function (elem, index) {
+//   return (elem * index) < 30
+// })
+
+// console.log(result)
+
+// let arr = [1, 2, [3, 4], 5, [6, 7]]
+
+// let result = arr.filter(function (elem) {
+//   return (typeof elem != 'object')
+// })
+// console.log(result)
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let filtered = arr.filter(elem => elem % 2 == 0);
+// console.log(filtered.length); // выведет 2
+
+// let arr = [1, 2, 3, 4, 5];
+
+// console.log(arr.filter(elem => elem % 2 == 0).length);
+
+// let arr = [1, 2, 3, 4, 5, -1, -2, -3]
+
+// console.log(arr.filter(elem => elem < 0).length)
+
+////////////////////////////////////////////////////
+

@@ -4343,3 +4343,65 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = [1, 2, 3, 4, 5];
+
+// let result = arr.map(function (elem) {
+//   console.log(elem); // последовательно выведет 1, 2, 3, 4, 5
+// });
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let result = arr.map(function (elem) {
+//   return Math.sqrt(elem);
+// });
+
+// console.log(result);
+
+// let arr = ['1', '2', '3', '4', ' 5'];
+// let result = arr.map(function (elem) {
+//   return elem + '!'
+// });
+
+// console.log(result);
+
+// let arr = ['abc', 'def', 'ghi', 'jkl']
+
+// let result = arr.map(function (elem) {
+
+//   return elem.split('').reverse().join('');
+// })
+// console.log(result)
+
+// let arr = ['123', '456', '789'];
+
+// let result = arr.map(function (elem) {
+//   return elem.split('')
+// })
+
+// console.log(result)
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+
+// let result = arr.map(function (elem, index) {
+//   return elem + index;
+// })
+// console.log(result)
+
+// let arr = [1, 2, 3, 4, 5]
+// let result = arr.map(function (elem, index) {
+//   return elem * index
+// })
+
+// console.log(result)
+
+// let arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+// let result = arr.map(function (elem) {
+//   return elem.map(function (elem) {
+//     return elem * elem
+//   })
+// });
+
+// console.log(result)
+
+////////////////////////////////////////////////////

@@ -4500,3 +4500,14 @@
 
 ////////////////////////////////////////////////////
 
+// let arr = [-1, -2];
+// let result = arr.some(elem => elem > 0)
+// console.log(result);
+
+// let arr = [1, 2, 3, 4, 5]
+
+// let result = arr.some((elem, index) => (elem * index) < 30)
+// console.log(result)
+
+////////////////////////////////////////////////////
+

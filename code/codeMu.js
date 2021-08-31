@@ -4587,3 +4587,46 @@
 // console.log(arr)
 
 ////////////////////////////////////////////////////
+
+// function func(...nums) {
+//   console.log(nums);
+// }
+
+// func(1, 2, 3); // выведет [1, 2, 3]
+
+
+// function func(...nums) {
+//   let sum = 0;
+//   for (let num of nums) {
+//     sum += num;
+//   } return sum / nums.length;
+// }
+
+// console.log(func(1, 2, 3, 4, 5, 6, 7))
+
+// let result = unite([1, 2, 3], [4, 5, 6], [7, 8, 9]);
+// console.log(result);
+// function unite(...arrs) {
+//   return arrs;
+// }
+
+// let result = unite([1, 2, 3], [4, 5, 6], [7, 8, 9]);
+
+// function unite(arr1, arr2, arr3) {
+//   let arr = []
+//   arr.push(arr1)
+//   arr.push(arr2)
+//   arr.push(arr3)
+//   return arr;
+// }
+// console.log(result);
+
+// function merge(arr1, arr2, arr3) {
+//   return [].concat(arr1, arr2, arr3)
+// }
+
+// let result = merge([1, 2, 3], [4, 5, 6], [7, 8, 9]);
+// console.log(result); // выведет [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+////////////////////////////////////////////////////
+

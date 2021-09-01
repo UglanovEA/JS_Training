@@ -4734,3 +4734,65 @@
 
 ////////////////////////////////////////////////////
 
+// let options = {
+//   color: 'red',
+//   width: 400,
+//   height: 500,
+// };
+
+// let { color, width, height } = options;
+
+// console.log(width)
+
+// let options = {
+//   color: 'red',
+//   width: 400,
+//   height: 500,
+// };
+
+// let { color: c, width: w, height: h } = options;
+// console.log(c)
+
+// let obj = {
+//   month: 12,
+//   day: 31,
+// };
+
+// let { year = 2025, month, day } = obj;
+
+// console.log(year);  // выведет 2025
+// console.log(month); // выведет 12
+// console.log(day);   // выведет 31
+
+// let options = {
+//   width: 400,
+//   height: 500,
+// };
+
+// let color;
+// if (options.color !== undefined) {
+//   color = options.color;
+// } else {
+//   color = 'black';
+// }
+
+// let { width, height } = options;
+// console.log(color, width, height)
+
+// let options = {
+//   width: 400,
+//   height: 500,
+// };
+
+// let с;
+// if (options.с !== undefined) {
+//   с = options.color;
+// } else {
+//   с = 'black';
+// }
+
+// let { color: c = 'black', width: w, height: h } = options;
+
+// console.log(c, w, h)
+
+////////////////////////////////////////////////////

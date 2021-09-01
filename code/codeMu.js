@@ -4796,3 +4796,66 @@
 // console.log(c, w, h)
 
 ////////////////////////////////////////////////////
+
+// function func([name, surname, department, position, salary]) {
+//   console.log(name, surname, department, position, salary)
+// }
+
+// func(['Иван', 'Иванов', 'отдел разработки',
+//   'программист',
+//   2000]);
+
+// function func([name, surmane, info]) {
+//   console.log(name, surmane, info)
+// }
+
+// func(['Иван', 'Иванов', 'отдел разработки',
+//   'программист',
+//   2000]);
+
+
+// function func(employee) {
+//   let name = employee[0];
+//   let surname = employee[1];
+//   let department = employee[2];
+//   console.log(name, surname, department)
+//   let position;
+//   if (arr[3] !== undefined) {
+//     position = arr[3];
+//   } else {
+//     position = 'джуниор';
+//   }
+// }
+
+// func(['Иван', 'Иванов', 'отдел разработки']);
+
+// function func(department, [name, surname], hired) {
+//   let [year, month, day] = hired.split('-');
+//   console.log(year)
+// }
+
+// func('отдел разработки', ['Иван', 'Иванов'], '2018-12-31');
+
+// function func({ color, width, height }) {
+
+//   console.log(color, width, height);
+// }
+
+// func({ color: 'red', width: 400, height: 500 });
+
+// function func({ width, height }) {
+
+
+//   let color;
+//   if (options.color !== undefined) {
+//     color = options.color;
+//   } else {
+//     color = 'black';
+//   }
+//   console.log(color, width, height)
+// }
+
+// func({ color: 'red', width: 400, height: 500 });
+
+////////////////////////////////////////////////////
+

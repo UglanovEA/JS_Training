@@ -1,0 +1,43 @@
+body{
+  box-sizing: border-box;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+.root-nav {
+  width: 150px;
+}
+
+.root-nav li {
+  position: relative;
+  background: #d8f6ef;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.root-nav a,
+.root-nav span {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.root-nav ul {
+  position: absolute;
+  display: none;
+  width: 150px;
+  right: -150px;
+  top: 0;
+}
+
+ul.sub-menu-active {
+  display: block;
+}
+
+span.sub-menu-active-span{
+  background: #a9f0df;
+}

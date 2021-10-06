@@ -1,3 +1,67 @@
+// let a = 5 + 5 * 3;
+// alert(a);
+
+// let a = 5 + 5 * 3 + 3;
+// alert(a);
+
+// let a = 8 / 2 + 2;
+// alert(a);
+
+// let a = 8 + 2 / 2;
+// alert(a);
+
+// let a = (8 / 2) * 2;
+// alert(a);
+
+// let a = 8 * 4 / 2 / 2;
+// alert(a);
+
+// let a = (2 + 3) * (2 + 3);
+// alert(a);
+
+// let a = (2 + 3) * 2 + 3;
+// alert(a);
+
+// let a = 2 * (2 + 4 * (3 + 1));
+// alert(a);
+
+// let a = (2 * 8) / 4;
+// alert(a);
+
+// let a = 2 * (8 / 4);
+// alert(a);
+
+// let a = 1.5;
+// let b = 0.75;
+// alert(a + b);
+
+// let a = -100;
+// console.log(a);
+
+// let a = -100;
+// console.log(-a);
+
+// let a = 10;
+// let b = 3;
+// console.log(a % b);
+
+// let a = 2;
+// console.log(a ** 10);
+
+// let a = 3 * 2 ** 3;
+// alert(a);
+
+// let a = (3 * 2) ** 3;
+// alert(a);
+
+// let a = 3 * 2 ** (3 + 1);
+// alert(a);
+
+// let a = 2 ** 3 * 3;
+// alert(a);
+
+////////////////////////////////////////////////////
+
 // alert(true + 3)
 // alert(true + true)
 // alert(true - true)
@@ -1324,7 +1388,6 @@
 // console.log(sum)
 
 ////////////////////////////////////////////////////
-
 
 // let arr = []
 // for (let i = 0; i < 3; i++) {
@@ -3882,7 +3945,6 @@
 // result()
 // result()
 
-
 // let result = (function () {
 //   let num = 1;
 //   return function () {
@@ -4073,7 +4135,6 @@
 //   }
 // });
 
-
 // let result = every([1, 2, 3, 4, 5],
 //   (elem) => elem > 0)
 
@@ -4145,7 +4206,6 @@
 // func(1, 2);
 // console.log(arr);
 
-
 // function getDigitsSum(num) {
 //   return getSum(getDigits(num));
 // }
@@ -4177,7 +4237,6 @@
 // console.log(reduceNum(2187)); // выведет 9
 
 ////////////////////////////////////////////////////
-
 
 // function func(arr) {
 //   for (let elem of arr) {
@@ -4268,7 +4327,6 @@
 //   } return sum
 // }
 
-
 // console.log(func(['a', ['b', 'c', 'd'], ['e', 'f', ['g', ['j', 'k']]]]));
 
 // function func(arr) {
@@ -4338,7 +4396,7 @@
 //   } return num;
 // }
 
-// func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]); 
+// func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]);
 // console.log(num);
 
 ////////////////////////////////////////////////////
@@ -4594,7 +4652,6 @@
 
 // func(1, 2, 3); // выведет [1, 2, 3]
 
-
 // function func(...nums) {
 //   let sum = 0;
 //   for (let num of nums) {
@@ -4699,7 +4756,7 @@
 
 // let [name, surname, ...args] = arr
 
-// let info = arr.slice(2); // все элементы 	со второго до конца массива 
+// let info = arr.slice(2); // все элементы 	со второго до конца массива
 
 // console.log(name)
 // console.log(surname)
@@ -4813,7 +4870,6 @@
 //   'программист',
 //   2000]);
 
-
 // function func(employee) {
 //   let name = employee[0];
 //   let surname = employee[1];
@@ -4845,7 +4901,6 @@
 
 // function func({ width, height }) {
 
-
 //   let color;
 //   if (options.color !== undefined) {
 //     color = options.color;
@@ -4858,4 +4913,3 @@
 // func({ color: 'red', width: 400, height: 500 });
 
 ////////////////////////////////////////////////////
-

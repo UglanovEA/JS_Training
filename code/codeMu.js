@@ -162,6 +162,35 @@
 
 ////////////////////////////////////////////////////
 
+// let a = '10';
+// let b = '20';
+// console.log(Number(a) + Number(b));
+
+// alert(Number('2') + Number('3'));
+
+// alert(2 + Number('3'));
+
+// alert('2' + Number('3'));
+
+// let a = '2';
+// let b = '3';
+// alert(+a + +b);
+
+// let a = '5px';
+// let b = '6px';
+// console.log(parseFloat(a) + parseFloat(b) + 'px');
+
+// let a = 1;
+// let b = 2;
+// console.log(String(a) + String(b));
+
+// let a = 123345;
+// console.log(String(a).length);
+
+// let a = 123345;
+// let b = 123345;
+// console.log(String(a).length + String(b).length);
+
 ////////////////////////////////////////////////////
 
 // alert(true + 3)

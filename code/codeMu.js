@@ -62,6 +62,26 @@
 
 ////////////////////////////////////////////////////
 
+// let str = '!!!';
+// console.log(str);
+
+// let str = 'java';
+// let str1 = 'script';
+// console.log(str + str1);
+
+// let str = 'hello';
+// let str1 = 'world';
+// console.log(str + ' ' + str1);
+
+// let str = 'hello';
+// console.log(str.length);
+
+// let str = `'a',
+// 'b',
+// 'c'`;
+// console.log(str);
+
+////////////////////////////////////////////////////
 // alert(true + 3)
 // alert(true + true)
 // alert(true - true)

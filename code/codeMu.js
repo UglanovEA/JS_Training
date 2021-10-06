@@ -327,14 +327,16 @@
 
 ////////////////////////////////////////////////////
 
-// let num = 1
-// num = num + 1
-// num = num + 1
-// alert(num)
-// let num = 1
-// num = num + 2
-// num = num + 3
-// alert(num)
+// let num = 1;
+// num = num + 1;
+// num = num + 1;
+// alert(num);
+
+// let num = 1;
+// num = num + 2;
+// num = num + 3;
+// alert(num);
+
 // let num = 47
 // num += 7
 // num -= 18
@@ -344,47 +346,58 @@
 
 ////////////////////////////////////////////////////
 
-// let num = 10
-// num++
-// num++
-// num--
-// alert(num)
-// let num = 3
-// alert(++num)
+// let num = 10;
+// num++;
+// num++;
+// num--;
+// alert(num);
+
+// let num = 3;
+// alert(++num);
+
 // let num = 3
 // alert(num++)
+
 // let num = 3
 // alert(--num)
+
 // let num = 3
 // alert(num--)
-// let num1 = 3
-// let num2 = ++num1
-// alert(num1)
-// alert(num2)
-// let num1 = 3
-// let num2 = num1++
-// alert(num1)
-// alert(num2)
-// let num1 = 3
-// let num2 = --num1
-// alert(num1)
-// alert(num2)
-// let num1 = 3
-// let num2 = num1--
-// alert(num1)
-// alert(num2)
-// let num1 = 3
-// num1++
-// let num2 = num1--
-// alert(num1++)
-// alert(--num2)
+
+// let num1 = 3;
+// let num2 = ++num1;
+// alert(num1);
+// alert(num2);
+
+// let num1 = 3;
+// let num2 = num1++;
+// alert(num1);
+// alert(num2);
+
+// let num1 = 3;
+// let num2 = --num1;
+// alert(num1);
+// alert(num2);
+
+// let num1 = 3;
+// let num2 = num1--;
+// alert(num1);
+// alert(num2);
+
+// let num1 = 3;
+// num1++;
+// let num2 = num1--;
+// alert(num1++);
+// alert(--num2);
 
 ////////////////////////////////////////////////////
 
 // alert('Ваш возраст: 22' + prompt('Ваш возраст?'))
+
 // let num1 = prompt('Введите первое число')
 // let num2 = prompt('Введите второе число')
 // alert(num1 + num2)
+
 // let num1 = prompt('Введите первое число')
 // let num2 = prompt('Введите второе число')
 // alert(Number(num1) + Number1(num2))

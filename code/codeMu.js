@@ -82,6 +82,40 @@
 // console.log(str);
 
 ////////////////////////////////////////////////////
+
+// let a;
+// console.log(a);
+
+// let a = null;
+// console.log(a);
+
+// let a = true;
+// console.log(a);
+
+// let b = false;
+// console.log(b);
+
+// let a = 'abc';
+// let b = 'abc';
+// console.log(a * b);
+
+// console.log(10 / 0);
+// console.log(-10 / 0);
+
+////////////////////////////////////////////////////
+
+// console.log(60 * 60 * (24 * 30));
+// console.log(60 * 60 * (24 * 326));
+// console.log(60 * (24 * 326));
+// console.log(60 * 24);
+
+// console.log(1024 * 1024);
+// console.log(1024 * 1024 * 1024);
+// console.log(1024 * 1024 * (1024 * 10));
+// console.log(1024 * 1024 * 1024 * 1024);
+
+////////////////////////////////////////////////////
+
 // alert(true + 3)
 // alert(true + true)
 // alert(true - true)

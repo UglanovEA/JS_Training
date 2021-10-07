@@ -619,6 +619,40 @@
 // console.log('e' in obj);
 // console.log('f' in obj);
 
+// let arr1 = [1, 2, 3];
+// console.log(0 in arr1);
+
+////////////////////////////////////////////////////
+
+// let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+// delete obj.e;
+// console.log('e' in obj);
+
+// let arr = ['a', 'b', 'c'];
+// delete arr[1];
+// arr[6] = 'h';
+// console.log(arr);
+// console.log(arr[5]);
+
+////////////////////////////////////////////////////
+
+// const arr = ['a', 'b', 'c'];
+// arr[1] = '!';
+// console.log(arr);
+
+// const arr = ['a', 'b', 'c'];
+// arr = [1, 2, 3];
+// console.log(arr);
+
+// const arr = ['a', 'b', 'c'];
+// arr = ['a', 'b', 'c'];
+// console.log(arr);
+
+// const arr = [1, 2, 3, 4, 5];
+// const res = arr[1] + arr[2];
+
+// console.log(res);
+
 ////////////////////////////////////////////////////
 
 // let i = 0

@@ -471,46 +471,66 @@
 // let obj = {
 //   1: 'a',
 //   2: 'b',
-//   3: 'c'
+//   3: 'c',
 // };
-// console.log(obj)
+// console.log(obj);
+
 // let obj = {
 //   1: 'a',
 //   2: 'b',
 //   3: 'c'
 // }
-// alert(obj)
 // console.log(obj)
+
 // let obj = {
 //   a: 1,
 //   b: 2,
-//   c: 3
-// }
-// console.log(obj['a'] + obj['b'] + obj['c'])
+//   c: 3,
+// };
+// console.log(obj['a'] + obj['b'] + obj['c']);
+
+// let obj = { '1key': 'a', 'key-2': 'b', key3: 'c' };
+// console.log(obj['1key']); // выведет 'a'
+// console.log(obj['key-2']); // выведет 'b'
+// console.log(obj['key3']); // выведет 'c'
+
 // let obj = {
 //   '1a': 1,
 //   '2b': 2,
 //   'c-c': 3
 // }
 // console.log(obj['1a'] + obj['2b'] + obj['c-c'])
+
 // let obj = {
 //   '1a': 1,
 //   'b2': 2,
 //   'с-с': 3,
 //   'd4': 4
 // };
+
 // let obj = {
 //   key1: 1,
 //   key2: 2,
-//   key3: 3
+//   key3: 3,
 // };
-// console.log(obj.key1 + obj.key2 + obj.key3)
+// console.log(obj.key1 + obj.key2 + obj.key3);
+
+// let obj = { '1a': 1, b2: 2, 'eee-': 3, d4: 4 };
+// console.log(obj['1a'], obj.b2, obj['eee-'], obj.d4);
+
 // let user = {
 //   name: 'ivan',
 //   surname: 'ivanov',
 //   patronymic: 'ivanovich'
 // }
 // console.log(user.surname + " " + user.name + " " + user.patronymic)
+
+// let date = {
+//   year: '1999',
+//   month: '01',
+//   day: '01',
+// };
+// console.log(date.year + '-' + date.month + '-' + date.day);
 
 ////////////////////////////////////////////////////
 

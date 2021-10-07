@@ -404,49 +404,67 @@
 
 ////////////////////////////////////////////////////
 
-// let arr = ['a', 'b', 'c']
-// alert(arr)
+// let arr = ['a', 'b', 'c'];
+// alert(arr);
+
 // console.log(arr)
 // console.log(arr[0])
 // console.log(arr[1])
 // console.log(arr[2])
 // console.log(arr[0] + '+' + arr[1] + '+' + arr[2])
+
 // let arr = [1, 2, 3]
 // console.log(arr[0] + arr[1] + arr[2])
-// let arr = [2, 5, 3, 9]
-// let arr1 = arr[0] * arr[1]
-// let arr2 = arr[2] * arr[3]
-// let result = arr1 + arr2
-// console.log(result)
+
+// let arr = [2, 5, 3, 9];
+// let arr1 = arr[0] * arr[1];
+// let arr2 = arr[2] * arr[3];
+// let result = arr1 + arr2;
+// console.log(result);
+
 // let arr = ['a', 'b', 'c']
 // console.log(arr.length)
+
 // let arr = [1, 2, 3]
 // console.log(arr[arr.length - 1])
-// let arr = ['a', 'b', 'c']
-// arr[0] = 1
-// arr[1] = 2
-// arr[2] = 3
-// console.log(arr)
-// let arr = [1, 2, 3]
-// // arr[0] = arr[0] + 3
-// arr[1] = arr[1] + 3
-// arr[2] = arr[2] + 3
+
+// let arr = ['a', 'b', 'c'];
+// arr[0] = 1;
+// arr[1] = 2;
+// arr[2] = 3;
+// console.log(arr);
+
+// let arr = [1, 2, 3];
+// arr[0] = arr[0] + 3;
+// arr[1] = arr[1] + 3;
+// arr[2] = arr[2] + 3;
+// console.log(arr);
+
+// let arr = [1, 2, 3];
 // arr[0]++
 // arr[1]++
 // arr[2]++
 // console.log(arr)
+
 // let arr = []
 // arr[0] = 1
 // arr[1] = 2
 // arr[2] = 3
 // console.log(arr)
-// let arr = [1, 2, 3]
-// arr[3] = 4
-// arr[4] = 5
-// console.log(arr)
+
+// let arr = [1, 2, 3];
+// arr[3] = 4;
+// arr[4] = 5;
+// console.log(arr);
+
 // let arr = [1, 2, 3]
 // arr[10] = '!'
 // console.log(arr)
+
+// let arr = [];
+// arr[3] = 'a';
+// arr[8] = 'b';
+// console.log(arr.length);
 
 ////////////////////////////////////////////////////
 

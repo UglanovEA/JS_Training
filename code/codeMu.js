@@ -771,6 +771,270 @@
 
 ////////////////////////////////////////////////////
 
+// let num1 = 2;
+// if (num1 > 0 && num1 < 5) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num1 = -10;
+// let num2 = -10;
+// if (num1 >= 0 || num2 >= 0) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num1 = 0;
+// let num2 = 0;
+// if (num1 >= 0 || num2 >= 0) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num1 = 0;
+// let num2 = 5;
+// if (num1 >= 0 || num2 >= 0) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num1 = 5;
+// let num2 = 5;
+// if (num1 >= 0 || num2 >= 0) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num1 = -5;
+// let num2 = 15;
+// if (num1 >= 0 || num2 >= 0) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num = 1;
+// if (num == 0 || num == 1) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num = 2;
+// if (num == 0 || num == 1) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num = 2;
+// if (num == 0 || num == 1 || num == 2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num = 3;
+// if ((num > 5 && num < 10) || num == 20) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num = 3;
+// if (num > 5 || (num > 0 && num < 3)) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let num = 3;
+// if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+////////////////////////////////////////////////////
+
+// let num1 = 1;
+// let num2 = 2;
+// if (num1 >= 0 || num2 <= 10) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// if (!(num1 >= 0 || num2 <= 10)) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+////////////////////////////////////////////////////
+
+// let test = 1;
+// if (test == true) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 0;
+// if (test == true) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 1;
+// if (test == false) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 1;
+// if (test != true) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = NaN;
+// if (test == true) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = NaN;
+// if (test == false) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = '';
+// if (test == false) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test;
+// if (test == true) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 3 * 'a';
+// if (test == true) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = true;
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = true;
+// if (!test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 3;
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 'abc';
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = '';
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 3 * 'abc';
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = null;
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = false;
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test;
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 0;
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = '0';
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = -1;
+// if (test) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+////////////////////////////////////////////////////
+
+// let test = 0;
+// if (test == 0) alert('верно');
+// else alert('неверно!');
+
+// if (test == 0) alert('верно');
+
+////////////////////////////////////////////////////
+
 // let i = 0
 // while (i <= 100) {
 //   console.log(i)

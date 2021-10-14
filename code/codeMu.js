@@ -534,70 +534,117 @@
 
 ////////////////////////////////////////////////////
 
-// let arr = ['a', 'b', 'c']
-// let key = 2
-// console.log(arr[key])
-// let arr = [1, 2, 3, 4, 5]
-// let key1 = 1
-// let key2 = 2
-// console.log(arr[key1] + arr[key2])
+// let arr = ['a', 'b', 'c'];
+// let key = 2;
+// console.log(arr[key]);
+
+// let arr = [1, 2, 3, 4, 5];
+// let key1 = 1;
+// let key2 = 2;
+// console.log(arr[key1] + arr[key2]);
+
 // let obj = {
-//   'a': 1,
-//   'b': 2,
-//   'c': 3
-// }
-// let key = 'a'
-// console.log(obj[key])
-// let text = 'string'
+//   a: 1,
+//   b: 2,
+//   c: 3,
+// };
+// let key = 'a';
+// console.log(obj[key]);
+
+// let text = 'string';
 // let obj = {
 //   text: '!!!',
-//   string: '???'
+//   string: '???',
 // };
-// console.log(obj[text])
+// console.log(obj[text]);
 
 ////////////////////////////////////////////////////
 
-// console.log(typeof { a: 1, b: 2, c: 3 })
-// console.log(typeof [1, 2, 3])
-// let arr = [1, 2, 3]
-// console.log(typeof arr)
-// let arr = [1, 2, 3]
-// console.log(typeof arr[0])
-// let arr = ['1', '2', '3']
-// console.log(typeof arr[0])
-// console.log(Array.isArray([])) // выведет true
-// console.log(Array.isArray({})) // выведет false
-// console.log(Array.isArray([1, 2, 3]))
-// console.log(Array.isArray({ a: 1, b: 2, c: 3 }))
+// console.log(typeof { a: 1, b: 2, c: 3 });
+
+// console.log(typeof [1, 2, 3]);
+
+// let arr = [1, 2, 3];
+// console.log(typeof arr);
+
+// let arr = [1, 2, 3];
+// console.log(typeof arr[0]);
+
+// let arr = ['1', '2', '3'];
+// console.log(typeof arr[0]);
+
+// console.log(Array.isArray([])); // выведет true
+// console.log(Array.isArray({})); // выведет false
+// console.log(Array.isArray([1, 2, 3]));
+// console.log(Array.isArray({ a: 1, b: 2, c: 3 }));
 
 ////////////////////////////////////////////////////
 
-// let a = [1, 2, 3]
-// let b = a
-// b[0] = '!' // меняем массив из переменной b
-// console.log(a[0]) // выведет '!' - переменная a тоже поменялась
-// let a = [1, 2, 3]
-// let b = a // на объект ссылается и a, и b
-// a = 'primitive' // запишем в a какой-то примитив
-// console.log(b) // выведет [1, 2, 3]
-// console.log(a)
-// let arr1 = [1, 2, 3]
-// let arr2 = arr1
-// arr1[0] = 'a'
-// console.log(arr2)
-// let arr1 = [1, 2, 3]
-// let arr2 = arr1
-// arr1[0] = 'a'
-// arr2[1] = 'b'
-// console.log(arr1)
-// let arr1 = [1, 2, 3]
-// let arr2 = arr1
-// arr1[0] = 'a'
-// arr2[0] = 'b'
-// console.log(arr2)
+// let a = [1, 2, 3];
+// let b = a;
+// b[0] = '!'; // меняем массив из переменной b
+// console.log(a[0]); // выведет '!' - переменная a тоже поменялась
+
+// let a = [1, 2, 3];
+// let b = a; // на объект ссылается и a, и b
+// a = 'primitive'; // запишем в a какой-то примитив
+// console.log(b); // выведет [1, 2, 3]
+// console.log(a);
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// console.log(arr2);
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[1] = 'b';
+// console.log(arr1);
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[0] = 'b';
+// console.log(arr2);
 
 ////////////////////////////////////////////////////
 
+// let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+// console.log('e' in obj);
+// console.log('f' in obj);
+
+////////////////////////////////////////////////////
+
+// let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+// delete obj.e;
+// console.log('e' in obj);
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// delete arr[3];
+// delete arr[4];
+// console.log(arr.length);
+// console.log(arr);
+
+////////////////////////////////////////////////////
+
+// const arr = ['a', 'b', 'c'];
+// arr[1] = '!';
+// console.log(arr);
+
+// const arr = ['a', 'b', 'c'];
+// arr = [1, 2, 3];
+// console.log(arr);
+
+// const arr = ['a', 'b', 'c'];
+// arr = ['a', 'b', 'c'];
+// console.log(arr);
+
+// const arr = [1, 2, 3, 4, 5];
+// const res = arr[1] + arr[2];
+// console.log(res);
+
+////////////////////////////////////////////////////
 // let i = 0
 // while (i <= 100) {
 //   console.log(i)

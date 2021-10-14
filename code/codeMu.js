@@ -645,6 +645,132 @@
 // console.log(res);
 
 ////////////////////////////////////////////////////
+
+// let test = 11;
+// if (test > 10) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 11;
+// if (test == 10) {
+//   alert('верно');
+// } else {
+//   alert('Не верно');
+// }
+
+// let test = 11;
+// if (test != 10) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test = 11;
+// let test2 = 11;
+// if (test != test2) {
+//   alert('Верно');
+// } else {
+//   alert('неверно');
+// }
+
+////////////////////////////////////////////////////
+
+// let test1 = '3';
+// let test2 = '3';
+// if (test1 == test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test1 = '3';
+// let test2 = '3';
+// if (test1 === test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test1 = 3;
+// let test2 = '3';
+// if (test1 == test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test1 = 3;
+// let test2 = '3';
+// if (test1 === test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test1 = 3;
+// let test2 = 3;
+// if (test1 === test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test1 = '3';
+// let test2 = '3';
+// if (test1 != test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test1 = '3';
+// let test2 = '3';
+// if (test1 !== test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test1 = 3;
+// let test2 = '3';
+// if (test1 != test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test1 = 3;
+// let test2 = '3';
+// if (test1 !== test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// let test1 = 3;
+// let test2 = 2;
+// if (test1 !== test2) {
+//   alert('верно');
+// } else {
+//   alert('неверно');
+// }
+
+// if (0 == '') {
+//   alert('верно'); // выведет 'верно'
+// } else {
+//   alert('неверно');
+// }
+
+// if (0 == '0') {
+//   alert('верно'); // выведет 'верно'
+// } else {
+//   alert('неверно');
+// }
+
+////////////////////////////////////////////////////
+
 // let i = 0
 // while (i <= 100) {
 //   console.log(i)

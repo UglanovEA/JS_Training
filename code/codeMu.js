@@ -1035,6 +1035,40 @@
 
 ////////////////////////////////////////////////////
 
+// let num = 16;
+// if (num < 10 || num > 99) {
+//   alert('Error');
+// } else if (!(num < 10 || num > 99)) {
+//   let sum = 0;
+//   num = String(num);
+//   sum += Number(num[0]) + Number(num[1]);
+//   if (sum <= 9) {
+//     alert('сумма цифр однозначна');
+//   } else alert('сумма цифр двухзначна');
+// }
+
+////////////////////////////////////////////////////
+
+// let age = 17;
+// let adult;
+// if (age >= 18) {
+//   adult = true;
+// } else {
+//   adult = false;
+// }
+// console.log(adult);
+
+// let age = 17;
+// let adult;
+// if (age >= 18) {
+//   adult = true;
+// } else {
+//   adult = false;
+// }
+// console.log(adult);
+
+////////////////////////////////////////////////////
+
 // let i = 0
 // while (i <= 100) {
 //   console.log(i)

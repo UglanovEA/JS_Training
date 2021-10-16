@@ -1069,6 +1069,55 @@
 
 ////////////////////////////////////////////////////
 
+// let min = 10;
+// if (min >= 0 && min <= 14) {
+//   console.log('1 четверть');
+// }
+// if (min >= 15 && min <= 29) {
+//   console.log('2 четверть');
+// }
+// if (min >= 30 && min <= 44) {
+//   console.log('3 четверть');
+// }
+// if (min >= 45 && min <= 59) {
+//   console.log('4 четверть');
+// }
+
+// let arr = [5, 6, 7, 8, 9, 10, 11];
+// let sum = 0;
+// for (let elem of arr) {
+//   sum += elem;
+// }
+// console.log(sum);
+
+// let num = 12340;
+// let str = String(num);
+// if (str[str.length - 1] == 0) {
+//   console.log('true');
+// } else {
+//   console.log('false');
+// }
+
+// let num = 12;
+// let str = String(num);
+// if (str % 2 == 0) {
+//   console.log('true');
+// } else if (!(str % 2 == 0)) {
+//   console.log('false');
+// }
+
+// let num = 13;
+// if (num % 2 == 0) {
+//   console.log('true');
+// } else console.log('false');
+
+// let num = 12;
+// if (num % 3 == 0) {
+//   console.log('true');
+// } else console.log('false');
+
+////////////////////////////////////////////////////
+
 // let i = 0
 // while (i <= 100) {
 //   console.log(i)

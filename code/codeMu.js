@@ -1440,20 +1440,46 @@
 
 ////////////////////////////////////////////////////
 
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // for (let elem of arr) {
-//   let result
+//   let result;
 //   if (elem % 2 == 0) {
-//     result = elem * elem
+//     result = elem * elem;
 //   } else if (elem % 3 == 0) {
-//     result = elem * elem * elem
+//     result = elem * elem * elem;
 //   } else {
-//     continue; // перейдем на новую итерацию цикла
+//     continue;
 //   }
-//   console.log(result); // вынесли вывод за условие
+//   console.log(result);
 // }
 
 ////////////////////////////////////////////////////
+
+// let arr = [1, 2, 3, 4, 3, 5];
+// for (let elem of arr) {
+//   if (elem == 3) {
+//     console.log('есть');
+//   }
+// }
+
+// let arr = [1, 2, 3, 4, 3, 5];
+// for (let elem of arr) {
+//   if (elem == 3) {
+//     console.log('есть');
+//     break;
+//   }
+// }
+
+// let arr = [1, 2, 3, 4, 3, 5];
+// for (let elem of arr) {
+//   if (elem == 3) {
+//     console.log('есть');
+//     break;
+//   } else {
+//     console.log('нет');
+//     break;
+//   }
+// }
 
 // let arr = [1, 2, 3, 4, 3, 5]
 // let flag = false // считаем, что элемента 3 нету в массиве
@@ -1465,19 +1491,21 @@
 //     console.log('нет') // выведет на элементах 1, 2, 4, 5
 //   }
 // }
-// let arr = [1, 2, 3, 4, 3, 5]
-// let flag = false // считаем, что элемента 3 нету в массиве
+
+// let arr = [1, 2, 5, 4, 2, 5];
+// let flag = false; // считаем, что элемента 3 нету в массиве
 // for (let elem of arr) {
 //   if (elem == 3) {
-//     flag = true // элемент есть - переопределим переменную flag
-//     break
-//   };
+//     flag = true; // элемент есть - переопределим переменную flag
+//     break;
+//   }
 // }
 // if (flag === true) {
-//   console.log('есть')
+//   console.log('есть');
 // } else {
-//   console.log('нет')
-// };
+//   console.log('нет');
+// }
+
 // let arr = ['a', 'b', 'c', 'd', 'e']
 // let flag = false
 // for (let elem of arr) {
@@ -1494,6 +1522,16 @@
 
 ////////////////////////////////////////////////////
 
+// let num = 31;
+// let flug = true;
+// for (let i = 2; i < num; i++) {
+//   if (num % i == 0) {
+//     flug = false;
+//     break;
+//   }
+// }
+// console.log(flug);
+
 // let num = 17
 // let flag = true
 // for (let i = 2; i < num; i++) {
@@ -1503,6 +1541,7 @@
 //   }
 // }
 // console.log(flag) // выведем значение счетчика
+
 // let num = 14;
 // let flag = true;
 // for (let i = 2; i < num; i++) {

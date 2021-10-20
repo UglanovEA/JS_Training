@@ -1345,32 +1345,37 @@
 
 // let arr = [1, 2, 3, 4, 5];
 // for (let elem of arr) {
-//   console.log(elem)
+//   console.log(elem);
 // }
+
 // let arr = ['a', 'b', 'c', 'd']
 // for (let i of arr) {
 //   console.log(i)
 // }
-// let result = 0
+
+// let result = 0;
 // let arr = [1, 2, 3, 4, 5];
 // for (let elem of arr) {
 //   result += elem;
-//   console.log(result)
 // }
-// let arr = ['ya', 'fe', 'mr', 'ap', 'ma', 'ju']
+// console.log(result);
+
+// let arr = ['ya', 'fe', 'mr', 'ap', 'ma', 'ju'];
 // for (i of arr) {
-//   console.log(i)
+//   console.log(i);
 // }
+
 // for (i = 0; i < arr.length; i++) {
 //   console.log(arr[i])
 // }
-// let arr = ['ya', 'fe', 'mr', 'ap', 'ma', 'ju']
+
+// let arr = ['ya', 'fe', 'mr', 'ap', 'ma', 'ju'];
 // let month = 4;
 // for (i = 0; i < arr.length; i++) {
-//   if (i == 4) {
-//     document.write('<i>' + arr[i] + '</i></br>')
+//   if (i == month) {
+//     document.write('<i>' + arr[i] + '</i></br>');
 //   } else {
-//     document.write(arr[i] + '</br>')
+//     document.write(arr[i] + '</br>');
 //   }
 // }
 

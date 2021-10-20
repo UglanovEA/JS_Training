@@ -1386,44 +1386,55 @@
 //   b: 2,
 //   c: 3,
 //   d: 4,
-//   e: 5
+//   e: 5,
 // };
 // let result = 0;
 // for (let key in obj) {
-//   result += obj[key]
-//   console.log(result)
+//   result += obj[key];
 // }
+// console.log(result);
 
 ////////////////////////////////////////////////////
 
-// let arr = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5];
 // for (let elem of arr) {
 //   if (elem == 3) {
-//     console.log('true')
-//     break
+//     console.log('true');
+//     break;
 //   }
 // }
-// let arr = [1, 2, 3, 4, 5, 0, 1, 2, 3]
+
+// let arr = [1, 2, 3, 4, 5, 0, 1, 2, 3];
 // for (let elem of arr) {
-//   console.log(elem)
+//   console.log(elem);
 //   if (elem == 0) {
-//     break
+//     break;
 //   }
 // }
-// let arr = [1, 2, 3, 4, 5, 0, -1, 2, 3]
-// let sum = 0
+
+// let arr = [1, 2, 3, 4, 5, 0, -1, 2, 3];
+// let sum = 0;
 // for (let elem of arr) {
-//   if (elem >= 0) {
-//     sum = sum + elem
-//     console.log(sum)
+//   if (elem > 0) {
+//     sum = sum + elem;
+//     console.log(sum);
 //   } else {
-//     break
+//     break;
 //   }
 // }
-// let arr = [1, 2, 3, 4, 5, 0, -1, 2, 3]
+
+// let arr = [1, 2, 3, 4, 5, 0, -1, 2, 3];
 // for (let i = 0; i < arr.length; i++) {
 //   if (arr[i] == 3) {
-//     console.log(i)
+//     console.log(i);
+//   }
+// }
+
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//   if (sum <= 100) {
+//     sum += i;
+//     console.log(sum);
 //   }
 // }
 

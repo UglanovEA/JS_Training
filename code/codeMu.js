@@ -1430,13 +1430,14 @@
 //   }
 // }
 
-// let sum = 0;
-// for (let i = 1; i <= 100; i++) {
-//   if (sum <= 100) {
-//     sum += i;
-//     console.log(sum);
-//   }
+// let sum = 1;
+// while (sum <= 100) {
+//   sum = sum + 1;
+//   console.log(sum);
 // }
+// console.log(sum);
+
+// for (var num = 1, i = 0; num <= 100; num += 1, i++) console.log(num, i);
 
 ////////////////////////////////////////////////////
 
@@ -1554,74 +1555,80 @@
 
 ////////////////////////////////////////////////////
 
-// let num = 500
+// let num = 500;
 // while (num > 10) {
-//   num = num / 2
+//   num = num / 2;
 // }
-// console.log(num)
+// console.log(num);
 
 // let num = 2;
 // while (num <= 1000) {
-//   num = num * 3
+//   num = num * 3;
+//   console.log(num);
 // }
-// console.log(num)//1458
 
-// for (var num = 2, i = 0; num <= 1000; num = num * 3, i++)
-//   console.log(num, i)
+// for (var num = 2, i = 0; num <= 1000; num = num * 3, i++) console.log(num, i);
 
 ////////////////////////////////////////////////////
 
-// let str = '' // начальное значение - пустые кавычки
+// let str = '';
 // for (let i = 0; i < 15; i++) {
-//   str += 'x'
+//   str += 'x';
 // }
-// console.log(str)
+// console.log(str);
+
 // let str = '';
 // for (let i = 0; i < 5; i++) {
 //   str += '0';
 // }
-// console.log(str)
+// console.log(str);
+
 // let str = '';
 // for (let i = 1; i <= 9; i++) {
 //   str += i;
 // }
-// console.log(str)
+// console.log(str);
+
 // let str = '';
 // for (let i = 9; i > 0; i--) {
 //   str += i;
 // }
-// console.log(str)
+// console.log(str);
+
 // let str = '-';
 // for (let i = 1; i <= 9; i++) {
 //   str += i + '-';
 // }
-// console.log(str)
+// console.log(str);
 
 ////////////////////////////////////////////////////
 
 // for (let i = 1; i <= 100; i++) {
-//   let str = String(i) // преобразуем число в строку
+//   let str = String(i); // преобразуем число в строку
 //   if (str[0] == 1 || str[0] == 2) {
-//     console.log(i)
+//     console.log(i);
 //   }
 // }
+
 // for (let i = 10; i <= 100; i++) {
-//   let str = String(i)
-//   let sum = Number(str[0]) + Number(str[1])
+//   let str = String(i);
+//   let sum = Number(str[0]) + Number(str[1]);
 //   if (sum == 5) {
-//     console.log(i)
+//     console.log(i);
 //   }
 // }
-// let result = ''
+
+// let result = '';
 // for (let i = 1; i <= 9; i++) {
-//   result += i
+//   result += String(i);
 // }
-// console.log(result)
-// let result = ''
+// console.log(result);
+
+// let result = '';
 // for (let i = 1; i <= 30; i++) {
-//   result += i
+//   result += i + ' ';
 // }
-// console.log(result)
+// console.log(result);
 
 ////////////////////////////////////////////////////
 
@@ -1630,13 +1637,14 @@
 //     document.write(i);
 //   }
 // }
-// let str = ''
+
+// let str = '';
 // for (let i = 1; i <= 3; i++) {
 //   for (let j = 1; j <= 3; j++) {
-//     str += String(i) + String(j) + ' '
+//     str += String(i) + String(j) + ' ';
 //   }
 // }
-// document.write(str)
+// document.write(str);
 
 ////////////////////////////////////////////////////
 

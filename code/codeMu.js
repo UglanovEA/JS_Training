@@ -1654,15 +1654,17 @@
 //     console.log(num) // выведет 3
 //   }
 // }
+
 // for (let i = 0; i <= 9; i++) {
 //   let num = 3
 //   for (let j = 0; j <= 9; j++) {
 //   }
 // }
 // console.log(num) // выдаст ошибку
+
 // for (let i = 0; i <= 9; i++) {
 //   for (let j = 0; j <= 9; j++) {
-//     let num = 3
+//     let num = 3;
 //   }
 //   console.log(num); // выдаст ошибку
 // }
@@ -1670,112 +1672,141 @@
 
 ////////////////////////////////////////////////////
 
-// let arr = []
-// arr[0] = 1
-// arr[1] = 2
-// arr[2] = 3
-// arr[3] = 4
-// arr[4] = 5
-// console.log(arr)
-// let arr = []
+// let arr = [];
+// arr[0] = 1;
+// arr[1] = 2;
+// arr[2] = 3;
+// arr[3] = 4;
+// arr[4] = 5;
+// console.log(arr);
+
+// let arr = [];
 // for (let i = 0; i <= 4; i++) {
-//   arr[i] = i + 1
+//   arr[i] = i + 1;
 // }
-// console.log(arr)
-// let arr = []
+// console.log(arr);
+
+// let arr = [];
 // for (let i = 0; i < 100; i++) {
-//   arr[i] = i + 1
+//   arr[i] = i + 1;
 // }
-// console.log(arr)
-// let arr = []
-// arr[0] = 1
-// arr[4] = 5
-// console.log(arr)
-// alert(arr)
-// let arr = []
+// console.log(arr);
+
+// let arr = [];
+// arr[0] = 1;
+// arr[4] = 5;
+// console.log(arr);
+// alert(arr);
+
+// let arr = [];
 // for (let i = 2; i <= 100; i += 2) {
-//   arr[i] = i
+//   arr[i] = i;
 // }
-// console.log(arr)
-// let arr = []
+// console.log(arr);
+
+// let arr = [];
 // for (let i = 2, j = 0; i <= 100; i += 2, j++) {
-//   arr[j] = i
+//   arr[j] = i;
 // }
-// console.log(arr)
-// let arr = []
+// console.log(arr);
+
+// let arr = [];
 // for (let i = 1, j = 0; i < 100; i += 2, j++) {
-//   arr[j] = i
+//   arr[j] = i;
 // }
-// console.log(arr)
+// console.log(arr);
 
 ////////////////////////////////////////////////////
 
-// let arr = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5];
 // for (let i = 0; i < arr.length; i++) {
-//   arr[i] = arr[i] * arr[i]
+//   arr[i] = arr[i] * arr[i];
 // }
-// console.log(arr)
-// let arr = [1, 2, 3, 4, 5]
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5];
 // for (let i = 0; i < arr.length; i++) {
-//   arr[i] -= 1
+//   arr[i] -= 1;
 // }
-// console.log(arr)
-// let arr = [1, 2, 3, 4, 5]
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5];
 // for (let i = 0; i < arr.length; i++) {
-//   arr[i] += 10
+//   arr[i] += 10;
 // }
-// console.log(arr)
+// console.log(arr);
 
 ////////////////////////////////////////////////////
 
 // let arr = [];
-// arr.push(1)
-// arr.push(2)
-// arr.push(3)
-// arr.push(4)
-// arr.push(5)
-// arr.push(6)
-// arr.push(7)
-// arr.push(8)
-// arr.push(9)
-// arr.push(10)
-// console.log(arr)
-// let arr = []
-// for (let i = 0; i < 10; i++) {
-//   arr.push(i)
-//   arr[i] = 'x'
+// arr.push(1);
+// arr.push(2);
+// arr.push(3);
+// arr.push(4);
+// arr.push(5);
+// arr.push(6);
+// arr.push(7);
+// arr.push(8);
+// arr.push(9);
+// arr.push(10);
+// console.log(arr);
+
+// let arr = [];
+// for (let i = 1; i <= 10; i++) {
+//   arr.push(i);
 // }
-// console.log(arr)
-// let arr = []
+// console.log(arr);
+
+// let arr = [];
 // for (let i = 0; i < 10; i++) {
-//   arr.push('x')
+//   arr.push(i);
+//   arr[i] = 'x';
 // }
-// console.log(arr)
-// let arr = []
+// console.log(arr);
+
+// let arr = [];
+// for (let i = 0; i < 10; i++) {
+//   arr.push('x');
+// }
+// console.log(arr);
+
+// let arr = [];
 // for (let i = 1; i < 10; i += 2) {
-//   arr.push(i)
+//   arr.push(i);
 // }
-// console.log(arr)
-// let arr = [1, 2, 3, 4, 5]
-// let result = []
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5];
+// let result = [];
 // for (let elem of arr) {
 //   if (elem % 2 === 0) {
-//     result.push(elem)
+//     result.push(elem);
 //   }
 // }
-// console.log(result)
-// let arr = [1, 2, 3, 4, 5, -1, -2, -3, -4]
-// let result = []
+// console.log(result);
+
+// let arr = [1, 2, 3, 4, 5, -1, -2, -3, -4];
+// let result = [];
 // for (let elem of arr) {
 //   if (elem > 0) {
-//     result.push(elem)
+//     result.push(elem);
 //   }
 // }
-// console.log(result)
-// let arr = ['a', 'b', 'c', 'd', 'e']
-// let result = []
+// console.log(result);
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let result = [];
 // for (let i = arr.length - 1; i >= 0; i--) {
 //   result.push(arr[i]);
+// }
+// console.log(result);
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let result = [];
+// for (let elem of arr) {
+//   if (elem % 2 != 0) {
+//     result.push(elem);
+//   }
 // }
 // console.log(result);
 

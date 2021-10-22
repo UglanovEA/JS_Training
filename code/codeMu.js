@@ -1820,52 +1820,58 @@
 //   fr: 5,
 //   sa: 6,
 //   su: 7,
-// }
-// console.log(obj)
-// let keys = ['a', 'b', 'c', 'd', 'e']
-// let values = [1, 2, 3, 4, 5]
-// let obj = {}
-// for (let i = 0; i <= 4; i++) {
-//   let key = keys[i]
-//   let value = values[i]
-//   obj[key] = value
-// }
-// console.log(obj)
-// let keys = ['a', 'b', 'c', 'd', 'e']
-// let values = [1, 2, 3, 4, 5]
-// let obj = {}
-// for (let i = 0; i <= 4; i++) {
-//   obj[keys[i]] = values[i]
-// }
-// console.log(obj)
-// let arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс']
-// let arr2 = [1, 2, 3, 4, 5, 6, 7]
-// let obj = {}
-// for (let i = 0; i <= 6; i++) {
-//   obj[arr1[i]] = arr2[i]
-// }
-// console.log(obj)
-// let arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс']
-// let arr2 = [1, 2, 3, 4, 5, 6, 7]
-// let obj = {}
-// for (let i = 0; i <= 6; i++) {
-//   obj[arr2[i]] = arr1[i]
-// }
-// console.log(obj)
-// let obj = {
-//   'a': 12,
-//   'b': 21,
-//   'c': 13,
-//   'd': 23,
-//   'e': 17
 // };
-// let newObj = {}
+// console.log(obj);
+
+// let keys = ['a', 'b', 'c', 'd', 'e'];
+// let values = [1, 2, 3, 4, 5];
+// let obj = {};
+// for (let i = 0; i <= 4; i++) {
+//   let key = keys[i];
+//   let value = values[i];
+//   obj[key] = value;
+// }
+// console.log(obj);
+
+// let keys = ['a', 'b', 'c', 'd', 'e'];
+// let values = [1, 2, 3, 4, 5];
+// let obj = {};
+// for (let i = 0; i <= 4; i++) {
+//   obj[keys[i]] = values[i];
+// }
+// console.log(obj);
+
+// let arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+// let arr2 = [1, 2, 3, 4, 5, 6, 7];
+// let obj = {};
+// for (let i = 0; i <= 6; i++) {
+//   obj[arr1[i]] = arr2[i];
+// }
+// console.log(obj);
+
+// let arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+// let arr2 = [1, 2, 3, 4, 5, 6, 7];
+// let obj = {};
+// for (let i = 0; i <= 6; i++) {
+//   obj[arr2[i]] = arr1[i];
+// }
+// console.log(obj);
+
+// let obj = {
+//   a: 12,
+//   b: 21,
+//   c: 13,
+//   d: 23,
+//   e: 17,
+// };
+// let newObj = {};
 // for (let key in obj) {
 //   if (obj[key] > 10 && obj[key] < 20) {
 //     newObj[key] = obj[key];
 //   }
 // }
-// console.log(newObj)
+// console.log(newObj);
+
 // let obj = {
 //   1: 'пн',
 //   2: 'вт',
@@ -1873,26 +1879,34 @@
 //   4: 'чт',
 //   5: 'пт',
 //   6: 'сб',
-//   7: 'вс'
+//   7: 'вс',
 // };
-// let newObj = {}
+// let newObj = {};
 // for (let key in obj) {
 //   if (key % 2 == 0) {
-//     newObj[key] = obj[key]
+//     newObj[key] = obj[key];
 //   }
 // }
-// console.log(newObj)
+// console.log(newObj);
+
 // let obj = {
-//   'a': 1,
-//   'b': 2,
-//   'c': 3,
-//   'd': 4,
-//   'e': 5
+//   a: 1,
+//   b: 2,
+//   c: 3,
+//   d: 4,
+//   e: 5,
 // };
 // for (let key in obj) {
-//   obj[key] *= obj[key]
+//   obj[key] *= obj[key];
 // }
-// console.log(obj)
+// console.log(obj);
+
+// let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+// let result = {};
+// for (let key in obj) {
+//   result[obj[key]] = key;
+// }
+// console.log(result);
 
 ////////////////////////////////////////////////////
 
@@ -1904,12 +1918,13 @@
 //   employee5: 500,
 //   employee6: 600,
 //   employee7: 700,
-// }
+// };
 // for (let key in obj) {
-//   let percent = (obj[key] * 10) / 100
-//   obj[key] = obj[key] + percent
+//   let percent = (obj[key] * 10) / 100;
+//   obj[key] = obj[key] + percent;
 // }
-// console.log(obj)
+// console.log(obj);
+
 // let obj = {
 //   employee1: 100,
 //   employee2: 200,
@@ -1926,42 +1941,48 @@
 //   }
 // }
 // console.log(obj)
-// let arr1 = [1, 2, 3, 4, 5]
-// let arr2 = [6, 7, 8, 9, 10]
-// let obj = {}
-// for (let i = 0; i < 5; i++) {
-//   obj[arr1[i]] = arr2[i]
+
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [6, 7, 8, 9, 10];
+// let obj = {};
+// for (let item in arr1) {
+//   obj[arr1[item]] = arr2[item];
 // }
-// console.log(obj)
+// console.log(obj);
+
 // let obj = {
 //   1: 6,
 //   2: 7,
 //   3: 8,
 //   4: 9,
-//   5: 10
-// }
+//   5: 10,
+// };
 // let sum = 0;
+// let sum2 = 0;
+// let result;
 // for (key in obj) {
-//   sum += Number(key)
-//   let result = sum / obj[key];
-//   console.log(result)
+//   sum += Number(key);
+//   sum2 += Number(obj[key]);
+//   result = sum / sum2;
 // }
-// let obj = {
-//   'a': 1,
-//   'b': 2,
-//   'c': 3,
-//   'd': 4,
-//   'e': 5
-// }
-// let arr1 = []
-// let arr2 = []
-// for (let key in obj) {
-//   arr1.push(key)
-//   arr2.push(obj[key])
+// console.log(result);
 
+// let obj = {
+//   a: 1,
+//   b: 2,
+//   c: 3,
+//   d: 4,
+//   e: 5,
+// };
+// let arr1 = [];
+// let arr2 = [];
+// for (let key in obj) {
+//   arr1.push(obj[key]);
+//   arr2.push(key);
 // }
-// console.log(arr1)
-// console.log(arr2)
+// console.log(arr1);
+// console.log(arr2);
+
 // let obj = {
 //   1: 125,
 //   2: 225,
@@ -1971,40 +1992,42 @@
 //   6: 281,
 //   7: 452,
 // };
-// let arr = []
+// let arr = [];
 // for (let key in obj) {
-//   let str = String(obj[key])
+//   let str = String(obj[key]);
 //   if (str[0] == 1 || str[0] == 2) {
-//     arr.push(obj[key])
+//     arr.push(obj[key]);
 //   }
 // }
-// console.log(arr)
-// let arr = ['a', 'b', 'c', 'd', 'e']
-// let obj = {}
-// for (let i = 0; i < arr.length; i++) {
-//   let key = i + 1
-//   obj[key] = arr[i]
-// }
-// console.log(obj)
-// let arr = ['a', 'b', 'c', 'd', 'e'];
-// let obj = {}
-// for (let i = 0; i < arr.length; i++) {
-//   let key = arr[i]
-//   obj[key] = i + 1
+// console.log(arr);
 
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let obj = {};
+// for (let i = 0; i < arr.length; i++) {
+//   let key = i + 1;
+//   obj[key] = arr[i];
 // }
-// console.log(obj)
+// console.log(obj);
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let obj = {};
+// for (let i = 0; i < arr.length; i++) {
+//   let key = arr[i];
+//   obj[key] = i + 1;
+// }
+// console.log(obj);
 
 ////////////////////////////////////////////////////
 
-// let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3]
-// let counter = 0
+// let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
+// let counter = 0;
 // for (let elem of arr) {
 //   if (elem == 3) {
-//     counter++
+//     counter++;
 //   }
 // }
-// console.log(counter)
+// console.log(counter);
+
 // let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3]
 // let counter = 0
 // for (let elem of arr) {
@@ -2013,6 +2036,7 @@
 //   }
 // }
 // console.log(counter)
+
 // let arr = ['a', 'b', 'c', 'a', 'a', 'b']
 // let count = {}
 // for (let elem of arr) {

@@ -14,3 +14,15 @@
 //   return arr;
 // }
 // console.log(stringToArray('Robin Singh Robin'));
+
+// function paperwork(n, m) {
+//   let sum = n * m;
+//   if (sum > 0) {
+//     return sum;
+//   } else if (n < 0) {
+//     return 0;
+//   } else if (m < 0) {
+//     return 0;
+//   }
+// }
+// console.log(paperwork(-5, -5));

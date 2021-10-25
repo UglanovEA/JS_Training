@@ -2054,19 +2054,27 @@
 
 ////////////////////////////////////////////////////
 
-// let arr = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5];
 // for (let i = 0; i < arr.length; i++) {
-//   console.log(arr[i])
+//   console.log(arr[i]);
 // }
-// let arr = [1, 2, 3, 4, 5]
+
+// let arr = [1, 2, 3, 4, 5];
+// for (let i = 1; i < arr.length; i++) {
+//   console.log(arr[i - 1] + arr[i]);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
 // for (let i = 0; i < arr.length - 1; i++) {
-//   console.log(arr[i] + arr[i + 1])
+//   console.log(arr[i] + arr[i + 1]);
 // }
+
 // let arr = [1, 2, 3, 4, 5]
 // for (let i = 2; i < arr.length; i++) {
 //   console.log(arr[i - 1])
 //   console.log(arr[i - 2])
 // }
+
 // let arr = [1, 2, 3, 4, 5]
 // for (let i = 2; i < arr.length; i++) {
 //   let elem1 = (arr[i - 1])
@@ -2074,6 +2082,7 @@
 //   let result = elem1 + arr[i] + elem2
 //   console.log(result)
 // }
+
 // let arr = [1, 2, 3, 4, 5]
 // for (let i = 1; i < arr.length - 1; i++) {
 //   let elem1 = (arr[i - 1])
@@ -2083,6 +2092,15 @@
 // }
 
 ////////////////////////////////////////////////////
+
+// let one = 0;
+// let two = 1;
+// for (let i = 0; i < 10; i++) {
+//   let current = one + two;
+//   one = two;
+//   two = current;
+//   console.log(current);
+// }
 
 // let one = 0
 // let two = 1
@@ -2102,23 +2120,27 @@
 //   str += 'x'
 //   document.write(str + '<br>');
 // }
+
 // let str = ''
 // for (let i = 0; i < 5; i++) {
 //   str = str + 'xx'
 //   document.write(str + '</br>')
 // }
+
 // for (let i = 1; i <= 9; i++) {
 //   for (let j = 1; j <= 3; j++) {
 //     document.write(i)
 //   }
 //   document.write('<br>')
 // }
+
 // for (let i = 1; i <= 9; i++) {
 //   for (let j = 1; j <= i; j++) {
 //     document.write(i)
 //   }
 //   document.write('<br>')
 // }
+
 // for (let i = 1; i <= 9; i++) {
 //   let str = '' // каждый раз зачищаем строку
 //   for (let j = 1; j <= i; j++) {
@@ -2126,6 +2148,7 @@
 //   }
 //   document.write(str + '<br>')
 // }
+
 // for (let i = 1; i <= 9; i += 2) {
 //   let str = ""
 //   for (let j = 1; j <= i; j++) {
@@ -2133,6 +2156,7 @@
 //   }
 //   document.write(str + '<br>')
 // }
+
 // for (let i = 5; i >= 1; i--) {
 //   let str = ''
 //   for (let j = 0; j < i; j++) {
@@ -2140,6 +2164,7 @@
 //   }
 //   document.write(str + '<br>')
 // }
+
 // for (let i = 10; i > 1; i -= 2) {
 //   let str = ''
 //   for (let j = 0; j < i; j++) {
@@ -2147,6 +2172,7 @@
 //   }
 //   document.write(str + '<br>')
 // }
+
 // for (let i = 9; i >= 1; i--) {
 //   let str = ''
 //   for (let j = 0; j < i; j++) {
@@ -2164,6 +2190,7 @@
 //   arr.push(str)
 // }
 // console.log(arr)
+
 // let arr = []
 // let str = ''
 // for (let i = 0; i < 5; i++) {
@@ -2171,6 +2198,7 @@
 //   arr.push(str)
 // }
 // console.log(arr)
+
 // let arr = []
 // for (let i = 1; i < 10; i++) {
 //   let str = ''
@@ -2180,6 +2208,7 @@
 //   arr.push(str)
 // }
 // console.log(arr)
+
 // let arr = []
 // for (let i = 1; i <= 5; i++) {
 //   let str = ''
@@ -2191,22 +2220,33 @@
 // console.log(arr)
 
 ////////////////////////////////////////////////////
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] == 5) {
+//     console.log(true);
+//     break;
+//   } else console.log(false);
+// }
 
 // let str = ''
 // for (let i = 1; i <= 100; i++) {
 //   str = i
 //   document.write(str + '<br>')
 // }
+
 // let str = ''
 // for (let i = 100; i > 0; i--) {
 //   str = i
 //   document.write(str + '<br>')
 // }
+
 // let str = ''
 // for (let i = 2; i <= 100; i += 2) {
 //   str = i
 //   document.write(str + '<br>')
 // }
+
 // let str = ''
 // let arr = []
 // for (let i = 1; i <= 10; i++) {
@@ -2214,6 +2254,7 @@
 //   arr.push(str)
 // }
 // console.log(arr)
+
 // let str = ''
 // let arr = []
 // for (let i = 1; i <= 10; i++) {
@@ -2221,26 +2262,28 @@
 //   arr.push(str)
 // }
 // console.log(arr)
+
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 0, -1, -2, -3]
 // for (let elem of arr) {
 //   if (arr[elem] > 0 && arr[elem] < 10) {
 //     console.log(arr[elem])
 //   }
 // }
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // for (let i = 0; i < arr.length; i++) {
 //   if (arr[i] == 5) {
-//     console.log('true')
-//     break
-//   } else {
-//     console.log('false')
+//     console.log('true');
+//     break;
 //   }
 // }
+
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // let sum = 0;
 // for (let i = 0; i < arr.length; i++) {
 //   sum += i
 // }
+
 // console.log(sum)
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // let sum = 0;

@@ -558,6 +558,10 @@
 // };
 // console.log(obj[text]);
 
+// let text = 'string';
+// let obj = { text: '!!!', string: '???' };
+// console.log(obj[text]);
+
 ////////////////////////////////////////////////////
 
 // console.log(typeof { a: 1, b: 2, c: 3 });
@@ -2046,7 +2050,7 @@
 //     count[elem]++
 //   }
 // }
-// console.log(count)
+// console.log(count);
 
 ////////////////////////////////////////////////////
 

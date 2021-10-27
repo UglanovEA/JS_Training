@@ -2293,7 +2293,6 @@
 // console.log(sum)
 
 ////////////////////////////////////////////////////
-
 // let arr = [
 //   ['a', 'b', 'c'],
 //   ['d', 'e', 'f'],
@@ -2304,6 +2303,7 @@
 // console.log(arr[1][1])
 // console.log(arr[2][0])
 // console.log(arr[0][0])
+
 // let arr = [[1, 2], [3, 4], [5, 6]]
 // let sum = 0
 // for (let elem of arr) {
@@ -2312,6 +2312,7 @@
 //   }
 // }
 // console.log(sum)
+
 // let arr = [
 //   [
 //     [1, 2],
@@ -2328,25 +2329,48 @@
 //     for (let arr3 of arr2) {
 //       sum += arr3
 //     }
-
 //   }
 // }
 // console.log(sum)
-// let arr = [[1, 2, 3, [4, 5, [6, 7]]], [8, [9, 10]]];
+
+// let arr = [
+//   [1, 2, 3, [4, 5, [6, 7]]],
+//   [8, [9, 10]],
+// ];
 // let sum = 0;
-// sum = arr[0][0] + arr[0][1] + arr[0][2] + arr[0][3][0] + arr[0][3][1] + arr[0][3][2][0] + arr[0][3][2][1] + arr[1][0] + arr[1][1][0] + + arr[1][1][1];
-// console.log(sum)
+// sum =
+//   arr[0][0] +
+//   arr[0][1] +
+//   arr[0][2] +
+//   arr[0][3][0] +
+//   arr[0][3][1] +
+//   arr[0][3][2][0] +
+//   arr[0][3][2][1] +
+//   arr[1][0] +
+//   arr[1][1][0] +
+//   arr[1][1][1];
+// console.log(sum);
 
 ////////////////////////////////////////////////////
 
-// let arr = [[1, 2, 3], [4, 5], [6]]
-// let sum = 0
+// let arr = [[1, 2, 3], [4, 5], [6]];
+// let sum = 0;
 // for (let arr1 of arr) {
 //   for (let arr2 of arr1) {
-//     sum += arr2
+//     sum += arr2;
 //   }
 // }
-// console.log(sum)
+// console.log(sum);
+
+// let arr = [[1, 2, 3], [4, 5], [6]];
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr[i].length; j++) {
+//     sum += arr[i][j];
+//   }
+// }
+// console.log(sum);
+
 // let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
 // let sum = 0
 // for (let arr1 of arr) {
@@ -2357,12 +2381,34 @@
 //   }
 // }
 // console.log(sum)
+
+// let arr = [
+//   [
+//     [1, 2],
+//     [3, 4],
+//   ],
+//   [
+//     [5, 6],
+//     [7, 8],
+//   ],
+// ];
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr[i].length; j++) {
+//     for (let k = 0; k < arr[i][j].length; k++) {
+//       sum += arr[i][j][k];
+//     }
+//   }
+// }
+// console.log(sum);
+
 // let arr = [[1, 2, 3, 4, 5], [6, 7, 8], [9, 10]]
 // for (let i = 0; i < arr.length; i++) {
 //   for (let j = 0; j < arr[i].length; j++) {
 //     console.log(arr[i][j])
 //   }
 // }
+
 // let arr = [[1, 2, 3], [4, 5], [6]]
 // let sum = 0
 // for (let i = 0; i < arr.length; i++) {
@@ -2371,6 +2417,7 @@
 //   }
 // }
 // console.log(sum)
+
 // let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
 // let sum = 0
 // for (let i = 0; i < arr.length; i++) {
@@ -2392,6 +2439,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // for (let i = 0; i < 3; i++) {
 //   arr[i] = []
@@ -2400,6 +2448,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // for (let i = 0; i < 3; i++) {
 //   arr[i] = []
@@ -2411,6 +2460,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // for (let i = 0; i < 3; i++) {
 //   arr[i] = []
@@ -2419,6 +2469,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // for (let i = 0; i < 3; i++) {
 //   arr[i] = []
@@ -2427,6 +2478,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // for (let i = 0; i < 3; i++) {
 //   arr[i] = []
@@ -2435,6 +2487,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // for (let i = 0; i < 3; i++) {
 //   arr[i] = []
@@ -2443,15 +2496,17 @@
 //   }
 // }
 // console.log(arr)
-// let arr = []
-// let k = 1
+
+// let arr = [];
+// let k = 1;
 // for (let i = 0; i < 4; i++) {
-//   arr[i] = []
+//   arr[i] = [];
 //   for (let j = 0; j < 2; j++, k++) {
-//     arr[i][j] = k
+//     arr[i][j] = k;
 //   }
 // }
-// console.log(arr)
+// console.log(arr);
+
 // let arr = []
 // let k = 1
 // for (let i = 0; i < 4; i++) {
@@ -2461,6 +2516,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // let k = 0
 // for (let i = 0; i < 4; i++) {
@@ -2470,6 +2526,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // let z = 1
 // for (let i = 0; i < 1; i++) {
@@ -2482,6 +2539,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // let k = 1
 // for (let i = 0; i < 3; i++) {
@@ -2492,6 +2550,7 @@
 //   }
 // }
 // console.log(arr)
+
 // let arr = []
 // for (let i = 0, k = 1; i < 3; i++) {
 //   arr[i] = []

@@ -2562,6 +2562,7 @@
 
 ////////////////////////////////////////////////////
 
+// let sum = 0;
 // let obj = {
 //   key1: {
 //     key1: 1,
@@ -2578,7 +2579,7 @@
 //     key2: 8,
 //     key3: 9,
 //   },
-// }
+// };
 // let sum = 0
 // for (let elem in obj) {
 //   for (let elem2 in obj[elem]) {
@@ -2586,6 +2587,7 @@
 //   }
 // }
 // console.log(sum)
+
 // let obj = {
 //   1: {
 //     1: 'a1',
@@ -2642,6 +2644,7 @@
 //   'en': ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'],
 // }
 // console.log(obj['ru'][3])
+
 // let months = {
 //   'ru': [
 //     'январь',
@@ -2675,6 +2678,7 @@
 // let lang = 'ru'
 // let month = 5
 // console.log(months[lang][month])
+
 // let affairs = {
 //   '2018': {
 //     11: {
@@ -2698,6 +2702,7 @@
 // let month = 12
 // let day = 29
 // console.log(affairs[year][month][day])
+
 // let obj = {
 //   key1: {
 //     key2: '12',
@@ -2711,6 +2716,7 @@
 // let key1 = 'key2'
 // let key2 = 'key4'
 // console.log(obj[key1][key2])
+
 // let obj = {
 //   key1: {
 //     key2: '12',
@@ -2744,6 +2750,7 @@
 // let sum = 0
 // sum += employees[0].salary + employees[1].salary
 // console.log(sum)
+
 // let students = {
 //   'boys': ['Коля', 'Вася', 'Петя'],
 //   'girls': ['Даша', 'Маша', 'Лена'],
@@ -2770,6 +2777,7 @@
 // for (let user of users) {
 //   document.write(user.name + ' ' + user.age + '<br>')
 // }
+
 // let employees = [
 //   {
 //     name: 'name1',
@@ -2783,10 +2791,11 @@
 //     name: 'name3',
 //     salary: 500,
 //   },
-// ]
+// ];
 // for (let user of employees) {
 //   document.write(user.name + '-' + user.salary + '<br>')
 // }
+
 // let employees = [
 //   {
 //     name: 'name1',
@@ -2806,6 +2815,7 @@
 //   sum += user.salary
 // }
 // console.log(sum)
+
 // let employees = [
 //   {
 //     name: 'name1',
@@ -2840,6 +2850,7 @@
 //   }
 // }
 // console.log(sum)
+
 // let employees = [
 //   {
 //     name: 'name1',
@@ -2872,6 +2883,7 @@
 //     document.write(user.name + '-' + user.salary + '<br>')
 //   }
 // }
+
 // let students = {
 //   'group1': ['student11', 'student12', 'student13'],
 //   'group2': ['student21', 'student22', 'student23'],
@@ -2882,6 +2894,7 @@
 //     console.log(name)
 //   }
 // }
+
 // let data = {
 //   1: [
 //     'data11',
@@ -2910,6 +2923,7 @@
 //     console.log(data[num][key])
 //   }
 // }
+
 // let data = [
 //   {
 //     1: 'data11',
@@ -2932,6 +2946,7 @@
 //     console.log(key + ': ' + data[num][key])
 //   }
 // }
+
 // let data = [
 //   {
 //     1: [
@@ -2984,8 +2999,10 @@
 
 ////////////////////////////////////////////////////
 
-// console.log(Math.pow(2, 10))
+// console.log(Math.pow(2, 10));
+
 // console.log(Math.sqrt(245))
+
 // let arr = [4, 2, 5, 19, 13, 0, 10]
 // let sum = 0
 // for (let elem of arr) {
@@ -2993,6 +3010,7 @@
 // }
 // let sumSqrt = Math.sqrt(sum)
 // console.log(sumSqrt)
+
 // let num = Math.sqrt(379)
 // console.log(num)
 // console.log(Math.round(num))

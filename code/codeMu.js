@@ -2999,6 +2999,8 @@
 
 ////////////////////////////////////////////////////
 
+// console.log(10 + [100, 400] + []);
+
 // console.log(Math.pow(2, 10));
 
 // console.log(Math.sqrt(245))
@@ -3011,13 +3013,21 @@
 // let sumSqrt = Math.sqrt(sum)
 // console.log(sumSqrt)
 
-// let num = Math.sqrt(379)
-// console.log(num)
-// console.log(Math.round(num))
-// console.log(Math.ceil(num))
-// console.log(Math.floor(num))
-// console.log(num.toFixed(2))
-// console.log(num.toPrecision(5))
+// let num = Math.sqrt(379);
+// console.log(num);
+// console.log(Math.round(num));
+// console.log(Math.ceil(num));
+// console.log(Math.floor(num));
+// console.log(num.toFixed(2));
+// console.log(num.toPrecision(5));
+
+// let num = 587;
+// let num2 = Math.sqrt(num);
+// let obj = {};
+// obj.floor = Math.floor(num2);
+// obj.ceil = Math.ceil(num2);
+// console.log(obj);
+
 // let num = Math.sqrt(578)
 // let floor = Math.floor(num)
 // let ceil = Math.ceil(num)
@@ -3026,55 +3036,64 @@
 //   ceil
 // }
 // console.log(obj)
+
 // console.log(Math.max(4, -2, 5, 19, -130, 0, 10))
 // console.log(Math.min(4, -2, 5, 19, -130, 0, 10))
+
 // function getRandomArbitary(min, max) {
 //   let num = Math.random() * (max - min) + min;
-//   console.log(num)
+//   console.log(num);
 // }
-// getRandomArbitary(1, 100)
-// function getRandomInt(min, max) {
-//   let num = Math.floor(Math.random() * (max - min + 1)) + min;
-//   console.log(num)
-// }
-// getRandomInt(1, 100)
-// let arr = []
+// getRandomArbitary(1, 100);
+
+// let arr = [];
 // for (let i = 0; i < 5; i++) {
 //   function getRandomInt(min, max) {
-//     arr.push(Math.floor(Math.random() * (max - min + 1)) + min)
+//     arr.push(Math.floor(Math.random() * (max - min + 1)) + min);
 //   }
-//   getRandomInt(1, 100)
+//   getRandomInt(1, 100);
 // }
-// console.log(arr)
-// let a = 3
-// let b = -3
-// console.log(Math.abs(b))
+// console.log(arr);
+
+// let a = 3;
+// let b = -3;
+// console.log(Math.abs(b));
 
 ////////////////////////////////////////////////////
 
 // let str = 'js'
 // console.log(str.toUpperCase())
+
 // let str1 = 'JS'
 // console.log(str1.toLowerCase())
+
 // let str = 'я учу javascript!'
 // console.log(str.substr(2, 5)) //строка.substr(откуда отрезать, [сколько символов отрезать])
 // console.log(str.substring(2, 5)) //строка.substring(откуда начать отрезать, [докуда отрезать])
 // console.log(str.slice(2, 5)) //строка.slice(откуда отрезать, [докуда отрезать])
+
 // let str = 'abcde'
 // console.log(str.indexOf('c'))
 // console.log(str.indexOf('a'))
 // console.log(str.indexOf('a', 0))
 // console.log(str.lastIndexOf('c'))
-// let str = '12https://www.youtube.com/index.html'
-// console.log(str.indexOf('https://', 0))
+
+// let str = '12https://www.youtube.com/index.html';
+// console.log(str.indexOf('https://', 0));
+// let arr = str.split('.');
+// console.log(arr[arr.length - 1]);
+// console.log(str.startsWith('12'));
+
 // let str = '1-2-3-4-5'
 // let arr = []
 // arr = str.split('-')
 // console.log(arr)
+
 // let str = '12345'
 // let arr = []
 // arr = str.split('')
 // console.log(arr)
+
 // let arr = [1, 2, 3, 4, 5];
 // console.log(arr.join('-'))
 
@@ -3083,32 +3102,41 @@
 // let arr = [1, 2, 3]
 // arr.push(4, 5, 6)
 // console.log(arr)
+
 // let arr = [1, 2, 3]
 // arr.unshift(4, 5, 6)
 // console.log(arr)
+
 // let arr = ['js', 'css', 'jq']
 // let first = arr.shift()
 // let last = arr.pop()
 // console.log(first)
 // console.log(last)
+
 // let arr = [1, 2, 3, 4, 5]
 // let elem = arr.slice(0, 3)
 // console.log(elem)
+
 // let arr = [1, 2, 3, 4, 5]
 // let elem = arr.slice(3, 5)
 // console.log(elem)
+
 // let arr = [1, 2, 3, 4, 5]
 // let result = arr.splice(1, 2)
 // console.log(arr)
+
 // let arr = [1, 2, 3, 4, 5]
 // let result = arr.splice(1, 3)
 // console.log(result)
+
 // let arr = [1, 2, 3, 4, 5]
 // let result = arr.splice(3, 0, 'a', 'b', 'c')
 // console.log(arr)
+
 // let arr = [1, 2, 3, 4, 5]
 // let result = arr.splice(2, 4, 'a', 'b', 2, 3, 4, 'c', 5, 'e')
 // console.log(arr)
+
 // let arr = [1, 2, 3, 4, 5]
 // console.log(arr.indexOf(3))
 
@@ -3117,16 +3145,35 @@
 // let str = 'moscow'
 // let result = str.slice(0, 2).toUpperCase() + str.slice(2, 6)
 // console.log(result)
-// let str = 'London'
-// let result = str.slice(0, 1).toLowerCase() + str.slice(1, 6)
-// console.log(result)
-// let str = 'word1 word2 word3'
-// let words = str.split(' ')
+
+// let str = 'London';
+// let result = str.slice(0, 1).toLowerCase() + str.slice(1, 6);
+// console.log(result);
+
+// let str = 'word1 word2 word3';
+// let words = str.split(' ');
 // for (let i = 0; i < words.length; i++) {
-//   words[i] = words[i].slice(0, 1).toUpperCase() + words[i].slice(1)
+//   words[i] = words[i].slice(0, 1).toUpperCase() + words[i].slice(1);
 // }
-// let result = words.join(' ')
-// console.log(result)
+// let result = words.join(' ');
+// console.log(result);
+
+// let str = 'var_test_text';
+// let arr = str.split('_');
+// for (let i = 0; i < arr.length; i++) {
+//   arr[i] = arr[i].slice(0, 1).toUpperCase() + arr[i].slice(1);
+// }
+// let result = arr.join('');
+// console.log(result);
+
+// let str = 'var_test_text';
+// let arr = str.split('_');
+// for (let i = 0; i < arr.length; i++) {
+//   arr[i] = arr[i].slice(0, 1).toLowerCase() + arr[i].slice(1);
+// }
+// let result = arr.join('');
+// console.log(result);
+
 // let str = 'now now now'
 // let words = str.split(' ')
 // for (let i = 0; i < words.length; i++) {
@@ -3134,14 +3181,15 @@
 // }
 // let result = words.join(' ')
 // console.log(result)
+
 // let str = 'var_test_text'
 // let words = str.split('_')
 // for (let i = 0; i < words.length; i++) {
 //   words[i] = words[i].slice(0, 1).toUpperCase() + words[i].slice(1)
 // }
-
 // let result = words.join('')
 // console.log(result)
+
 // let str = 'var_test_text'
 // let words = str.split('_')
 // for (let i = 0; i < words.length; i++) {
@@ -3150,9 +3198,11 @@
 // let result = words.join('')
 // let newResult = result.slice(0, 1).toLowerCase() + result.slice(1)
 // console.log(newResult)
+
 // let str = '12345'
 // let result = str.split('').reverse().join('')
 // console.log(result)
+
 // let str = 'var_test_text'
 // let result = str.split('').reverse().join('')
 // console.log(result)

@@ -343,3 +343,12 @@ var a = function () {
 }
 a();
 */
+// function pushArr(arr, n) {
+//   return arr.push(n); // [100, 400]
+// }
+// function popArr(arr) {
+//   return arr.pop();
+// }
+
+// const w = [100];
+// console.log(10 + pushArr(w, 400) + popArr(w));

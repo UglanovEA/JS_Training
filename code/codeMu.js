@@ -3213,6 +3213,7 @@
 //   alert('Evgen')
 // }
 // showMyName()
+
 // let sum = 0
 // function showMyName() {
 //   for (let i = 0; i < 100; i++) {
@@ -3221,10 +3222,12 @@
 // }
 // showMyName()
 // console.log(sum)
+
 // function func(num) {
 //   console.log(num * 3)
 // }
 // func(3)
+
 // function func(num) {
 //   if (num > 0) {
 //     console.log('+++')
@@ -3233,16 +3236,19 @@
 //   }
 // }
 // func(-3)
+
 // function func(a, b, c) {
 //   console.log(a + b + c)
 // }
 // func(3, 4, 5)
+
 // let param1 = 1
 // let param2 = 2
 // let param3 = 3
 // function func(a, b, c) {
 //   console.log(a + b + c)
 // }
+
 // func(param1, param2, param3)
 // function func(num = 5) {
 //   alert(num * num);
@@ -3250,6 +3256,7 @@
 // func(2)
 // func(3)
 // func()
+
 // function func(num1 = 0, num2 = 0) {
 //   alert(num1 + num2)
 // }
@@ -3264,11 +3271,13 @@
 // }
 // let result = func(3)
 // console.log(result)
+
 // function func(num) {
 //   return Math.sqrt(num)
 // }
 // let result = func(3) + func(4)
 // console.log(result)
+
 // function sqrt(num) {
 //   return Math.sqrt(num)
 // }
@@ -3277,6 +3286,7 @@
 // }
 // let result = round(sqrt(2))
 // console.log(result)
+
 // function sqrt(num) {
 //   return Math.sqrt(num);
 // }
@@ -3285,17 +3295,20 @@
 // }
 // let result = sum(sqrt(2), sqrt(3), sqrt(4))
 // console.log(result)
+
 // function round(num) {
 //   return num.toFixed(3);
 // }
 // let result = round(1.55555555)
 // console.log(result)
+
 // function func(num) {
 //   return num
 //   let result = num * num;
 //   return result
 // }
 // alert(func(3))
+
 // function func(num) {
 //   if (num <= 0) {
 //     return Math.abs(num)
@@ -3305,6 +3318,7 @@
 // }
 // alert(func(10))
 // alert(func(-5))
+
 // function func(num) {
 //   if (num <= 0) {
 //     return Math.abs(num)
@@ -3313,6 +3327,7 @@
 // }
 // alert(func(10))
 // alert(func(-5))
+
 // function func(num) {
 //   let sum = 0
 //   for (let i = 1; i <= num; i++) {
@@ -3321,6 +3336,7 @@
 //   }
 // }
 // alert(func(5))
+
 // function func(arr) {
 //   let sum = 0
 //   for (let i = 0; i < arr.length; i++) {
@@ -3333,6 +3349,7 @@
 // }
 // let result = func([1, 2, 3, 4, 5])
 // alert(result)
+
 // function func() {
 //   let sum = 0
 //   let i = 1
@@ -3345,6 +3362,7 @@
 //   }
 // }
 // alert(func())
+
 // let i = 0
 // function func(num) {
 //   for (i = 0; 10 < num; i++) {
@@ -3354,6 +3372,7 @@
 // }
 // let result = func(100)
 // console.log(result)
+
 // function func(num1, num2) {
 //   if (num1 > 0 && num2 > 0) {
 //     return num1 * num2

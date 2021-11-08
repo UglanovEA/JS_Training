@@ -3385,14 +3385,15 @@
 ////////////////////////////////////////////////////
 
 // let arr = [1, 2, 3, 4];
-// let sum = 0
 // function func(arr) {
+//   let sum = 0;
 //   for (let elem of arr) {
-//     sum += elem * 2;
-//   } return sum;
+//     sum += elem ** 2;
+//   }
+//   return sum;
 // }
-// func(arr)
-// console.log(sum)
+// console.log(func(arr));
+
 // function getDigitsSum(num) {
 //   let sum = 0;
 //   num = String(num);
@@ -3404,6 +3405,7 @@
 // console.log(getDigitsSum(22))
 // let result = getDigitsSum(44)
 // console.log(result)
+
 // function getDivisors(num) {
 //   let arr = []
 //   for (let i = 1; i < num; i++) {
@@ -3414,11 +3416,13 @@
 // }
 // let result = getDivisors(24)
 // console.log(result)
+
 // function reverseStr(str) {
-//   return str.split('').reverse().join('')
+//   return str.split('').reverse().join('');
 // }
-// let result = reverseStr('hello')
-// console.log(result)
+// let result = reverseStr('hello');
+// console.log(result);
+
 // function delElem(arr, elem) {
 //   for (let i = 0; i < arr.length; i++) {
 //     if (arr[i] == elem) {
@@ -3429,6 +3433,7 @@
 // }
 // let result = delElem([3, 4, 5, 7, 1], 4)
 // console.log(result)
+
 // function getDivisors(num) {
 //   let arr = []
 //   for (let i = 1; i <= num; i++) {
@@ -3439,6 +3444,7 @@
 // }
 // let result = getDivisors(5)
 // console.log(result)
+
 // function getDivisors(a, b) {
 //   let arr = []
 //   for (let i = a; i <= b; i++) {
@@ -3461,6 +3467,7 @@
 //   }
 // }
 // console.log(flag);
+
 // function isPrime(num) {
 //   let flag = true;
 //   for (let i = 2; i < num; i++) {
@@ -3472,6 +3479,7 @@
 //   return flag;
 // }
 // console.log(isPrime(num));
+
 // function isPositive(arr) {
 //   for (let elem of arr) {
 //     if (elem < 0) {
@@ -3482,6 +3490,7 @@
 // }
 // console.log(isPositive([1, -2, 3, 4, -5]))
 // console.log(isPositive([1, 2, 3, 4, 5]));
+
 // function isPositive(arr) {
 //   for (let elem of arr) {
 //     if (elem % 2 == 0) {
@@ -3492,6 +3501,7 @@
 // }
 // console.log(isPositive([12, 4, 6, 8, 10]))
 // console.log(isPositive([1, 7, 3]));
+
 // function isPrime(num) {
 //   num = String(num);
 //   for (let i = 0; i < num.length; i++) {
@@ -3503,18 +3513,18 @@
 // }
 // console.log(isPrime(261));
 // console.log(isPrime(26));
-// function isPositive(arr) {
-//   for (let elem of arr) {
-//     if (elem < arr.length - 1) {
-//       if (arr[elem] == arr[elem + 1]) {
-//         return true;
-//       }
+
+// function SameNumbersInArr(arr) {
+//   let flag = false;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] == arr[i + 1]) {
+//       flag = true;
 //     }
 //   }
-//   return false;
+//   return flag;
 // }
-// console.log(isPositive([2, 1, 12, 12, 10]))
-// console.log(isPositive([1, 7, 3]));
+// let arr = [5, 3, 2, 5, 7, 8, 8, 2, 3];
+// console.log(SameNumbersInArr(arr));
 
 ////////////////////////////////////////////////////
 
@@ -3522,6 +3532,9 @@
 //   return a == b
 // }
 // console.log(func(2, 3))
+
+////////////////////////////////////////////////////
+
 // let result = []
 // let arr = [1524, 1321, 4563, 7144, 2879]
 // for (let elem of arr) {
@@ -3536,6 +3549,7 @@
 //   return sum1 == sum2;
 // }
 // console.log(result)
+
 // function isPrime(num) {
 //   for (let i = 2; i < num; i++) {
 //     if (num % i == 0) {
@@ -3549,6 +3563,7 @@
 //   if (isPrime(i)) arr.push(i)
 // }
 // console.log(arr)
+
 // function getDigitsSum(num) {
 //   let sum = 0;
 //   let digits = String(num).split('');
@@ -3562,6 +3577,7 @@
 //   if (getDigitsSum(i) == 13) arr.push(i)
 // }
 // console.log(arr)
+
 // let nums = [123, 456, 789];
 // let result = [];
 // function func(arr) {
@@ -3571,12 +3587,14 @@
 // }
 // func(nums)
 // console.log(result); // выведет [321, 654, 987]
+
 // let nums = [123, 456, 789];
 // let result = [];
 // for (let num of nums) {
 // 	result.push(String(num).split('').reverse().join(''));
 // }
 // console.log(result); // выведет [321, 654, 987]
+
 // let num1 = 235;
 // let num2 = 531;
 // if (dig(num1) == dig(num2)) {
@@ -3592,6 +3610,7 @@
 //   }
 //   return digitsSum
 // }
+
 // let nums = [12, 24, 35, 14];
 // for (let num of nums) {
 //   console.log(num + ': ' + getDivisors(num).join(', '));
@@ -3692,6 +3711,7 @@
 //     sum += elem
 //   } return sum
 // }
+
 // function getFriendly(num1, num2) {
 //   let arr = [];
 //   for (let i = num1; i <= num2; i++) {
@@ -3702,6 +3722,7 @@
 //   return arr;
 // }
 // console.log(getFriendly(1, 9000));
+
 // function getSimpleDivisor(num) {
 //   let arr = [];
 //   for (let i = 1; i < num; i++) {

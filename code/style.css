@@ -6,3 +6,7 @@
 	height: 100px;
 	background-color: #000;
 }
+
+#parent input {
+	color: red;
+}

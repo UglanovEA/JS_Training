@@ -3772,6 +3772,7 @@
 //   return [].concat(diff1, diff2)
 // }
 // console.log(getDiff(arr1, arr2))
+
 // let arr = []
 // for (let i = 0; i < 100; i++) {
 //   if (isPrime(i) === true) {
@@ -3779,6 +3780,7 @@
 //   }
 // }
 // console.log(arr)
+
 // function isPrime(num) {
 //   for (let i = 2; i < num; i++) {
 //     if (num % i == 0) {
@@ -3787,6 +3789,7 @@
 //   }
 //   return true;
 // }
+
 // let arr = []
 // for (let i = 1; i < 2030; i++) {
 //   if (getDigitsSum(i) == 13) {
@@ -3794,6 +3797,7 @@
 //   }
 // }
 // console.log(arr)
+
 // function getDigitsSum(num) {
 //   let sum = 0;
 //   let digits = String(num).split('');
@@ -3802,6 +3806,7 @@
 //   }
 //   return sum;
 // }
+
 // let nums = [123, 456, 789];
 // function getDigitsReverse(arr) {
 //   let result = [];
@@ -3877,12 +3882,14 @@
 //   let sum = getSum(getDigits(num));
 //   return sum >= 1 && sum <= 9
 // }
+
 // function getSum(arr) {
 //   let sum = 0
 //   for (let elem of arr) {
 //     sum += Number(elem)
 //   } return sum;
 // }
+
 // function getDigits(num) {
 //   return String(num).split('')
 // }
@@ -3892,6 +3899,7 @@
 //   }
 // }
 // console.log(result)
+
 // function isFreindly(num1, num2) {
 //   let sum1 = getSum(getOwnDivisors(num1));
 //   let sum2 = getSum(getOwnDivisors(num2));
@@ -3901,6 +3909,7 @@
 //     return false;
 //   }
 // }
+
 // function getOwnDivisors(num) {
 //   let arr = [];
 //   for (let i = 1; i < num; i++) {
@@ -3909,6 +3918,7 @@
 //     }
 //   } return arr;
 // }
+
 // function getSum(arr) {
 //   let sum = 0;
 //   for (let elem of arr) {
@@ -3918,6 +3928,7 @@
 // function getFriendly(num1, num2) {
 // }
 // console.log(getFriendly(1, 9000))
+
 // function getOwnDivisors(num) {
 //   let arr = [];
 //   for (let i = 1; i < num; i++) {
@@ -3926,12 +3937,14 @@
 //     }
 //   } return arr;
 // }
+
 // function getSum(arr) {
 //   let sum = 0;
 //   for (let elem of arr) {
 //     sum += elem
 //   } return sum;
 // }
+
 // function getPerfect(num) {
 //   let sum = getSum(getOwnDivisors(num))
 //   if (sum == num) {
@@ -3947,6 +3960,78 @@
 // console.log(arr)
 
 ////////////////////////////////////////////////////
+
+// let num1 = 12;
+// let num2 = 18;
+
+// // выводит делители
+// function common(num) {
+//   let arr = [];
+//   for (let i = 1; i <= num; i++) {
+//     if (num % i == 0) arr.push(i);
+//   }
+//   return arr;
+// }
+
+// // Проверяет элемент
+// function inArray(elem, arr) {
+//   return arr.indexOf(elem) !== -1;
+// }
+
+// function getInt(arr1, arr2) {
+//   let result = [];
+//   for (let elem of arr1) {
+//     if (inArray(elem, arr2)) result.push(elem);
+//   }
+//   let Max = Math.max.apply(null, result);
+//   return Max;
+// }
+// console.log(getInt(common(num1), common(num2)));
+
+// let num1 = 13;
+// let num2 = 15;
+
+// // выводит делители
+// function common(num) {
+//   let arr = [];
+//   for (let i = 1; i <= num; i++) {
+//     if (num % i == 0) arr.push(i);
+//   }
+//   return arr;
+// }
+
+// // Проверяет элемент
+// function inArray(elem, arr) {
+//   return arr.indexOf(elem) !== -1;
+// }
+
+// function getInt(arr1, arr2) {
+//   let result = [];
+//   for (let elem of arr1) {
+//     if (inArray(elem, arr2)) result.push(elem);
+//   }
+//   return result;
+// }
+
+// function check(num1, num2) {
+//   return getInt(common(num1), common(num2)) == 1;
+// }
+// console.log(check(num1, num2));
+
+// function getIn(arr1, arr2) {
+//   let result = []
+//   for (let elem of arr1) {
+//     if (inArray(elem, arr2)) result.push(elem)
+//   } return result
+// }
+// function inArray(elem, arr) {
+//   if (arr.indexOf(elem) === -1) {
+//     return false;
+//   }
+//   else { return true }
+// }
+// console.log(inArray(3, [1, 2, 3]))
+// console.log(inArray(5, [1, 2, 3]))
 
 // function getGreatestCommonDivisor(num1, num2) {
 //   let arr = [];
@@ -3999,17 +4084,12 @@
 //   let sum = 0
 //   let key = getRandomInt(0, arr.length - 1);
 //   return sum = (arr[key] + arr[key] + arr[key]);
-
 // }
 
 // let arr = [1, 2, 3, 4, 5];
 // console.log(random(arr));
 
 ////////////////////////////////////////////////////
-
-// function getRandomInt(min, max) {
-//   return Math.floor(Math.random() * (max - min + 1)) + min;
-// }
 
 // let arr = [1, 2, 3, 4, 5];
 // // let random = getRandomInt(0, arr.length - 1);

@@ -118,3 +118,10 @@
 // button1.addEventListener('click', function () {
 //   elem1.innerHTML = '<b>жирный текст</b>';
 // });
+
+// let button1 = document.querySelector('#button1');
+// let elem1 = document.querySelector('#elem1');
+// button1.addEventListener('click', function () {
+//   let item = elem1.innerHTML;
+//   elem1.innerHTML = `<b>${item}</b>`;
+// });

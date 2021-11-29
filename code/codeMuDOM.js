@@ -126,6 +126,8 @@
 //   elem1.innerHTML = `<b>${item}</b>`;
 // });
 
+// ======================================================================159
+
 // let button1 = document.querySelector('#button');
 // let elem1 = document.querySelector('#elem');
 // button1.addEventListener('click', function () {
@@ -181,3 +183,49 @@
 // btn2.addEventListener('click', function () {
 //   img2.src = img1.src;
 // });
+
+// ======================================================================160
+
+// let elem = document.querySelector('#elem');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   alert(elem.value);
+// });
+
+// let elem = document.querySelector('#elem');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   elem.value = 'я новый текст';
+// });
+
+// let elem = document.querySelector('#elem');
+// let btn = document.querySelector('.btn');
+// let text = document.querySelector('.text');
+// btn.addEventListener('click', function () {
+//   text.innerHTML = elem.value;
+// });
+
+// let elem = document.querySelector('#elem');
+// let btn = document.querySelector('.btn');
+// let elem2 = document.querySelector('#elem2');
+// btn.addEventListener('click', function () {
+//   elem2.value = elem.value * 2;
+// });
+
+// let elem = document.querySelector('#elem');
+// let btn = document.querySelector('.btn');
+// let elem2 = document.querySelector('#elem2');
+// btn.addEventListener('click', function () {
+//   elem2.value = elem.value;
+//   elem.value = elem2.value;
+// });
+
+// let elem = document.querySelector('#elem');
+// let btn = document.querySelector('.btn');
+// let elem2 = document.querySelector('#elem2');
+// let text = document.querySelector('.text');
+// btn.addEventListener('click', function () {
+//   text.innerHTML = (Number(elem.value) + Number(elem2.value)) / 2;
+// });
+
+// ======================================================================161

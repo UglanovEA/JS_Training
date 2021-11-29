@@ -330,3 +330,35 @@
 // }
 
 // ======================================================================165
+
+// let elems = document.querySelectorAll('.www');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', func);
+// function func() {
+//   for (let elem of elems) {
+//     elem.innerHTML = 'text';
+//   }
+// }
+
+// let elems = document.querySelectorAll('.www');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', func);
+// function func() {
+//   for (let i = 0; i < elems.length; i++) {
+//     elems[i].innerHTML += i;
+//   }
+// }
+
+// let elems = document.querySelectorAll('.www');
+// let btn = document.querySelector('.btn');
+// let text = document.querySelector('.text');
+// btn.addEventListener('click', func);
+// function func() {
+//   let sum = 0;
+//   for (elem of elems) {
+//     sum += Number(elem.innerHTML);
+//   }
+//   text.innerHTML = sum;
+// }
+
+// ======================================================================165

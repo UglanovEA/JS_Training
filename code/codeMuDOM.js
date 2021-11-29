@@ -125,3 +125,59 @@
 //   let item = elem1.innerHTML;
 //   elem1.innerHTML = `<b>${item}</b>`;
 // });
+
+// let button1 = document.querySelector('#button');
+// let elem1 = document.querySelector('#elem');
+// button1.addEventListener('click', function () {
+//   console.log(elem1.type);
+// });
+
+// let button1 = document.querySelector('#button');
+// let elem1 = document.querySelector('#elem');
+// button1.addEventListener('click', function () {
+//   elem1.type = 'submit';
+// });
+
+// let link = document.querySelector('.link');
+// let text = document.querySelector('.text');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   text.innerHTML = link.getAttribute('href');
+// });
+
+// let link = document.querySelector('.link');
+// let text = document.querySelector('.text');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   link.innerHTML = link.innerHTML + `(${link.getAttribute('href')})`;
+// });
+
+// let text = document.querySelector('.text');
+// let btn = document.querySelector('.btn');
+// let img = document.querySelector('.img');
+// btn.addEventListener('click', function () {
+//   text.innerHTML = img.getAttribute('src');
+// });
+
+// let btn = document.querySelector('.btn');
+// let img = document.querySelector('.img');
+// btn.addEventListener('click', function () {
+//   img.style.width = 300 + 'px';
+// });
+
+// let btn = document.querySelector('.btn');
+// let img = document.querySelector('.img');
+// btn.addEventListener('click', function () {
+//   img.width = img.width * 2;
+// });
+
+// let btn1 = document.querySelector('.btn1');
+// let btn2 = document.querySelector('.btn2');
+// let img1 = document.querySelector('.img1');
+// let img2 = document.querySelector('.img2');
+// btn1.addEventListener('click', function () {
+//   img1.src = img2.src;
+// });
+// btn2.addEventListener('click', function () {
+//   img2.src = img1.src;
+// });

@@ -229,3 +229,28 @@
 // });
 
 // ======================================================================161
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('focus', function () {
+//   console.log(elem.value);
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('focus', function () {
+//   elem.value = 1;
+// });
+// elem.addEventListener('blur', function () {
+//   elem.value = 2;
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('blur', function () {
+//   elem.value = elem.value * 2;
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('focus', function () {
+//   elem.value = '';
+// });
+
+// ======================================================================162

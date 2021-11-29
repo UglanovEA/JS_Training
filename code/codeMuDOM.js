@@ -254,3 +254,79 @@
 // });
 
 // ======================================================================162
+
+// let btn = document.querySelector('.btn');
+// let elem = document.querySelector('#elem');
+// btn.addEventListener('click', function () {
+//   alert(elem.className);
+// });
+
+// let btn = document.querySelector('.btn');
+// let elem = document.querySelector('#elem');
+// btn.addEventListener('click', function () {
+//   elem.className = 'text';
+// });
+
+// let btn = document.querySelector('.btn');
+// let elem = document.querySelector('#elem');
+// btn.addEventListener('click', function () {
+//   let elems = elem.className;
+//   let arr = elems.split(' ');
+//   console.log(arr);
+// });
+
+// ======================================================================163
+
+// console.log(document.querySelector('#image').src);
+
+// console.log(document.querySelector('#image').src);
+// console.log(document.querySelector('#image').width);
+// console.log(document.querySelector('#image').height);
+
+// let img = document.querySelector('#image');
+// console.log(img.src);
+// console.log(img.width);
+// console.log(img.height);
+
+// ======================================================================164
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('blur', func);
+// function func() {
+//   this.value = '!!!';
+// }
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('focus', function () {
+//   this.value = 1;
+// });
+// elem.addEventListener('blur', function () {
+//   this.value = 2;
+// });
+
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   this.innerHTML = ++this.innerHTML;
+// });
+
+// let text1 = document.querySelector('.text1');
+// let text2 = document.querySelector('.text2');
+// let text3 = document.querySelector('.text3');
+// text1.addEventListener('click', func);
+// text2.addEventListener('click', func);
+// text3.addEventListener('click', func);
+// function func() {
+//   this.innerHTML = this.innerHTML + '!';
+// }
+
+// let inp1 = document.querySelector('.inp1');
+// let inp2 = document.querySelector('.inp2');
+// let inp3 = document.querySelector('.inp3');
+// inp1.addEventListener('blur', func);
+// inp2.addEventListener('blur', func);
+// inp3.addEventListener('blur', func);
+// function func() {
+//   this.value *= 2;
+// }
+
+// ======================================================================165

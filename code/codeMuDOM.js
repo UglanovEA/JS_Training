@@ -514,4 +514,18 @@
 // btn.addEventListener('click', function () {
 //   elem.value = elem.getAttribute('value');
 // });
+
 // ======================================================================172
+
+// let elem = document.querySelector('#elem');
+// console.log(elem.classList.length);
+// let lists = elem.classList;
+// elem.classList.add('xxx');
+// elem.classList.remove('www', 'zzz');
+// console.log(elem.classList.contains('ggg'));
+// elem.classList.toggle('www');
+// for (let item of lists) {
+//   document.write(item + '<br />');
+// }
+
+// ======================================================================173

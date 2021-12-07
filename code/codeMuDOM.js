@@ -361,7 +361,7 @@
 //   text.innerHTML = sum;
 // }
 
-// ======================================================================165
+// ======================================================================166
 
 // let elems = document.querySelectorAll('p');
 // for (let elem of elems) {
@@ -401,4 +401,50 @@
 //   });
 // }
 
-// ======================================================================166
+// ======================================================================167
+
+// let button = document.querySelector('.btn');
+// button.addEventListener('click', func);
+// function func() {
+//   alert('!!!');
+//   this.removeEventListener('click', func);
+// }
+
+// let link = document.querySelector('.link');
+// link.addEventListener('click', func);
+// link.preventDefault();
+// function func() {
+//   this.innerHTML = this.innerHTML + `(${link.href})`;
+//   this.removeEventListener('click', func);
+// }
+
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', func);
+// function func() {
+//   this.innerHTML = Number(this.innerHTML) + 1;
+//   if (this.innerHTML >= 10) {
+//     this.removeEventListener('click', func);
+//   }
+// }
+
+// ======================================================================168
+
+// let elems = document.querySelectorAll('p');
+// for (let elem of elems) {
+//   elem.addEventListener('click', func);
+// }
+// function func() {
+//   alert(this.innerHTML);
+//   this.removeEventListener('click', func); // отвязываем обработчик
+// }
+
+// let elems = document.querySelectorAll('p');
+// for (let elem of elems) {
+//   elem.addEventListener('click', func);
+// }
+// function func() {
+//   this.innerHTML = this.innerHTML + '!';
+//   this.removeEventListener('click', func); // отвязываем обработчик
+// }
+
+// ======================================================================169

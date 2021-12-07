@@ -448,3 +448,70 @@
 // }
 
 // ======================================================================169
+
+// let elems = document.querySelectorAll('p');
+// for (let elem of elems) {
+//   elem.addEventListener('click', function func() {
+//     alert(this.innerHTML);
+//     this.removeEventListener('click', func);
+//   });
+// }
+
+// ======================================================================170
+
+// let elem = document.querySelector('#elem');
+// let value = elem.getAttribute('value');
+// console.log(value);
+
+// let elem = document.querySelector('#elem');
+// let value = elem.getAttribute('value');
+// console.log(value);
+
+// let elem = document.querySelector('#elem');
+// let value = elem.getAttribute('class');
+// console.log(value);
+
+// let elem = document.querySelector('#elem');
+// let value = elem.setAttribute('value', 'text');
+// console.log(elem);
+
+// let elem = document.querySelector('#elem');
+// let value = elem.setAttribute('class', 'valid');
+// console.log(elem);
+
+// let elem = document.querySelector('#elem');
+// let value = elem.removeAttribute('value');
+// console.log(elem);
+
+// let elem = document.querySelector('#elem');
+// let value = elem.hasAttribute('value');
+// console.log(value);
+
+// ======================================================================171
+
+// let elem = document.querySelector('#elem');
+// elem.value = 'new'; // поменяли свойство
+// let value = elem.getAttribute('value');
+// console.log(value); // выведет 	'old' - свойство не поменялось
+
+// let elem = document.querySelector('#elem');
+// let btn = document.querySelector('.btn');
+// elem.value = 'new';
+// btn.addEventListener('click', function () {
+//   if (elem.value === elem.getAttribute('value')) {
+//     alert('no');
+//   } else {
+//     alert('yes');
+//   }
+// });
+
+// elem.setAttribute('value', 'new');
+// let value = elem.value;
+// console.log(value); // выведет 'new'
+
+// let elem = document.querySelector('#elem');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   elem.value = elem.getAttribute('value');
+// });
+// ======================================================================172

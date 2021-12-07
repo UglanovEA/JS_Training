@@ -362,3 +362,43 @@
 // }
 
 // ======================================================================165
+
+// let elems = document.querySelectorAll('p');
+// for (let elem of elems) {
+//   elem.addEventListener('click', func);
+// }
+// function func() {
+//   alert(this.innerHTML);
+// }
+
+// let elems = document.querySelectorAll('.in');
+// function func() {
+//   this.value = Number(this.value) + 1;
+// }
+// for (let elem of elems) {
+//   elem.addEventListener('blur', func);
+// }
+
+// let elems = document.querySelectorAll('p');
+// for (let elem of elems) {
+//   elem.addEventListener('click', func);
+// }
+// function func() {
+//   this.innerHTML = Number(this.innerHTML) ** 2;
+// }
+
+// let elems = document.querySelectorAll('p');
+// for (let elem of elems) {
+//   elem.addEventListener('click', function () {
+//     alert(this.innerHTML);
+//   });
+// }
+
+// let divs = document.querySelectorAll('div');
+// for (let div of divs) {
+//   div.addEventListener('click', function () {
+//     this.innerHTML++;
+//   });
+// }
+
+// ======================================================================166

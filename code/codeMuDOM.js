@@ -634,3 +634,71 @@
 // console.log(elems);
 
 // ======================================================================177
+
+// let parent = document.querySelector('#parent');
+// let elems1 = parent.querySelectorAll('.www');
+// let elems2 = parent.querySelectorAll('.ggg');
+// console.log(elems1);
+// console.log(elems2);
+
+// ======================================================================178
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function () {
+//   elem.innerHTML += elem.dataset.text;
+// });
+
+// let elems = document.querySelectorAll('div');
+// for (let elem of elems) {
+//   elem.addEventListener('click', func);
+// }
+// function func() {
+//   this.innerHTML += this.dataset.num;
+// }
+
+// let btn = document.querySelector('.btn');
+// let span = document.querySelector('.view');
+
+// btn.addEventListener('click', function () {
+//   btn.dataset.num++;
+// });
+// btn.addEventListener('dblclick', function () {
+//   span.innerHTML = btn.dataset.num;
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('blur', function () {
+//   if (elem.value.length == elem.dataset.length) {
+//     console.log('норм');
+//   } else {
+//     console.log('ошибка');
+//   }
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('blur', function () {
+//   if (
+//     Number(elem.value) >= elem.dataset.min &&
+//     Number(elem.value) <= elem.dataset.max
+//   ) {
+//     console.log('норм');
+//   } else {
+//     console.log('ошибка');
+//   }
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function () {
+//   elem.innerHTML += elem.dataset.productPrice * elem.dataset.productAmount;
+// });
+
+// let elem = document.querySelector('#elem');
+// alert(elem.getAttribute('data-num')); // выведет 1000
+// alert(elem.getAttribute('data-my-num')); // выведет 2000
+
+// let texts = document.querySelectorAll('.text');
+// for (let i = 0; i < texts.length; i++) {
+//   texts[i].setAttribute('data-num', i);
+// }
+
+// ======================================================================179

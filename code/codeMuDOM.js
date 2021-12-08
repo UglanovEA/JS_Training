@@ -702,3 +702,33 @@
 // }
 
 // ======================================================================179
+
+// let elem = document.querySelector('#elem');
+// console.log(elem.firstChild); // комментарий
+// console.log(elem.firstElementChild); // тег span
+
+// let elem = document.querySelector('.parent');
+// console.log(elem.lastChild);
+// console.log(elem.lastElementChild);
+
+// let elem = document.querySelector('.child');
+// console.log(elem.nextSibling);
+// console.log(elem.nextElementSibling);
+
+// let elem = document.querySelector('.child');
+// console.log(elem.previousSibling);
+// console.log(elem.previousElementSibling);
+
+// let elem = document.querySelector('#elem');
+// for (let node of elem.childNodes) {
+//   console.log(node);
+// }
+
+// let elem = document.querySelector('#elem');
+// for (let node of elem.childNodes) {
+//   if (node.nodeType == 3) {
+//     console.log(node.textContent);
+//   }
+// }
+
+// ======================================================================180

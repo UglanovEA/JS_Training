@@ -587,3 +587,50 @@
 // });
 
 // ======================================================================175
+
+// let ul = document.querySelector('#elem');
+// let text = ul.firstElementChild;
+// text.style.color = 'red';
+
+// let ul = document.querySelector('#elem');
+// let text = ul.lastElementChild;
+// text.style.color = 'red';
+
+// let ul = document.querySelector('#elem');
+// let texts = ul.children;
+// for (let item of texts) {
+//   item.innerHTML = item.innerHTML + '!';
+// }
+
+// let elem = document.querySelector('#elem');
+// let parent = elem.parentElement;
+// let parentParent = parent.parentElement;
+// parentParent.style.border = '1px solid red';
+
+// let elem = document.querySelector('#elem');
+// let parent = elem.closest('div');
+// console.log(parent);
+
+// let elem = document.querySelector('#elem');
+// let parent = elem.closest('.www');
+// console.log(parent);
+
+// let elem = document.querySelector('#elem');
+// let prevElem = elem.previousElementSibling;
+// let nextElem = elem.nextElementSibling;
+// let saveElem = prevElem.innerHTML;
+// prevElem.innerHTML = nextElem.innerHTML;
+// nextElem.innerHTML = saveElem;
+
+// ======================================================================176
+
+// let div = document.getElementById('elem');
+// console.log(div);
+
+// let elems = document.getElementsByTagName('li');
+// console.log(elems);
+
+// let elems = document.getElementsByClassName('www');
+// console.log(elems);
+
+// ======================================================================177

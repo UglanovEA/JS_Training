@@ -204,3 +204,20 @@
 // f();
 
 // =======================================================
+
+// const colorConfig = {
+//   red: true,
+//   blue: false,
+//   green: true,
+// };
+
+// const colors = ['pink', 'red', 'blue'];
+// console.log(colorConfig.colors[1]); //typeError
+
+// =======================================================
+
+// let newList = [1, 2, 3].push(4);
+// console.log(newList.push(5));
+
+// =======================================================
+

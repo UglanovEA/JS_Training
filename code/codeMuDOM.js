@@ -529,3 +529,26 @@
 // }
 
 // ======================================================================173
+
+// let elem = document.querySelector('#elem');
+// elem.style.color = 'red';
+
+// let btn = document.querySelector('.btn');
+// let div = document.querySelector('.block');
+// btn.addEventListener('click', function () {
+//   elem.style.width = '200px';
+//   elem.style.height = '200px';
+//   elem.style.border = '1px solid';
+//   elem.style.fontSize = '20px';
+//   elem.style.backgroundColor = 'grey';
+// });
+
+// let btn = document.querySelector('.btn');
+// let list = document.querySelectorAll('li');
+// btn.addEventListener('click', function () {
+//   for (let item of list) {
+//     item.style.cssFloat = 'left';
+//   }
+// });
+
+// ======================================================================174

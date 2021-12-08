@@ -552,3 +552,38 @@
 // });
 
 // ======================================================================174
+
+// let elems = document.querySelectorAll('p');
+
+// for (let elem of elems) {
+//   elem.addEventListener('click', function () {
+//     this.classList.add('colored'); // добавляем абзацу класс
+//   });
+// }
+
+// let text = document.querySelector('.text');
+// let btns = document.querySelectorAll('.btn');
+// for (let item of btns) {
+//   item.addEventListener('click', func);
+// }
+// function func() {
+//   text.classList.add('col');
+// }
+
+// let elems = document.querySelectorAll('p');
+// for (let elem of elems) {
+//   elem.addEventListener('click', func);
+//   function func() {
+//     this.classList.toggle('colored');
+//     this.removeEventListener('click', func);
+//   }
+// }
+
+// let button = document.querySelector('#button');
+// let elem = document.querySelector('#elem');
+
+// button.addEventListener('click', function () {
+//   elem.classList.toggle('active');
+// });
+
+// ======================================================================175

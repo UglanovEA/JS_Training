@@ -732,3 +732,143 @@
 // }
 
 // ======================================================================180
+
+// let elem = document.querySelector('.elem');
+// let text = document.querySelector('.text');
+// elem.addEventListener('blur', function () {
+//   text.innerHTML += elem.value;
+// });
+
+// let elems = document.querySelectorAll('.elem');
+// let text = document.querySelector('.text');
+// let btn = document.querySelector('.btn');
+// let sum = 0;
+// for (let elem of elems) {
+//   sum += Number(elem.value);
+// }
+// btn.addEventListener('click', function () {
+//   text.innerHTML = sum;
+// });
+
+// let elem = document.querySelector('.elem');
+// elem.addEventListener('blur', function () {
+//   let str = elem.value;
+//   let arr = str.split('');
+//   let sum = 0;
+//   for (let item of arr) {
+//     sum += Number(item);
+//   }
+// });
+
+// let elem = document.querySelector('.elem');
+// elem.addEventListener('blur', function () {
+//   let str = elem.value;
+//   let arr = str.split(',');
+//   let sum = 0;
+//   let sred = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum += Number(arr[i]);
+//     sred = sum / arr.length;
+//   }
+//   console.log(sred);
+// });
+
+// let fullName = document.querySelector('.fullName');
+// let name = document.querySelector('.name');
+// let surname = document.querySelector('.surname');
+// let patronymic = document.querySelector('.patronymic');
+// fullName.addEventListener('blur', function () {
+//   let str = fullName.value;
+//   let arr = str.split(' ');
+//   name.value = arr[1];
+//   surname.value = arr[0];
+//   patronymic.value = arr[2];
+// });
+
+// let fullName = document.querySelector('.fullName');
+// function upCase(str) {
+//   let arr = str.split(' ');
+//   for (let i = 0; i < arr.length; i++) {
+//     arr[i] = arr[i].split('');
+//     arr[i][0] = arr[i][0].toUpperCase();
+//     arr[i] = arr[i].join('');
+//   }
+//   str = arr.join(' ');
+//   return str;
+// }
+// fullName.addEventListener('blur', function () {
+//   fullName.value = upCase(fullName.value);
+// });
+
+// let fullName = document.querySelector('.fullName');
+// fullName.addEventListener('blur', function () {
+//   let str = fullName.value;
+//   let arr = str.split(' ');
+//   console.log(arr.length);
+// });
+
+// let fullName = document.querySelector('.fullName');
+// fullName.addEventListener('blur', function () {
+//   let str = fullName.value;
+//   let arr = str.split('.').reverse();
+//   fullName.value = arr.join('-');
+// });
+
+// let fullName = document.querySelector('.fullName');
+// fullName.addEventListener('blur', function () {
+//   let str = fullName.value;
+//   let arr1 = str.split('');
+//   let arr2 = str.split('').reverse();
+//   for (let i = 0; i < arr1.length; i++) {
+//     if (arr1[i] !== arr2[i]) {
+//       console.log('это не палиндром');
+//       return;
+//     }
+//     console.log('это палиндром');
+//   }
+// });
+
+// let fullName = document.querySelector('.fullName');
+// let flag = false;
+// fullName.addEventListener('blur', func);
+// function func() {
+//   let str = fullName.value;
+//   let arr = str.split('');
+//   for (let i = 0; i < arr.length; i++) {
+//     if (Number(arr[i]) == 3) {
+//       flag = true;
+//       break;
+//     }
+//   }
+//   if (flag === true) {
+//     console.log('есть');
+//   } else {
+//     console.log('нет');
+//   }
+// }
+
+// let texts = document.querySelectorAll('.text');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   for (let i = 0; i < texts.length; i++) {
+//     texts[i].innerHTML = texts[i].innerHTML + (i + 1);
+//   }
+// });
+
+// let texts = document.querySelectorAll('.link');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   for (let i = 0; i < texts.length; i++) {
+//     texts[i].innerHTML = texts[i].innerHTML + texts[i].getAttribute('href');
+//   }
+// });
+
+// let texts = document.querySelectorAll('.link');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   for (const elem of texts) {
+//     if (elem.getAttribute('href').includes('http://')) {
+//       texts.innerHTML += ` ${'&rarr;'}`;
+//     }
+//   }
+// });

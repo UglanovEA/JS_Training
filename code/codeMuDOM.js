@@ -924,3 +924,43 @@
 // });
 
 // ======================================================================183
+
+// let elem = document.querySelector('#elem');
+// console.log(elem.checked);
+
+// let elem = document.querySelector('#elem');
+// let unbtn = document.querySelector('.btn1');
+// let blbtn = document.querySelector('.btn2');
+// unbtn.addEventListener('click', function () {
+//   elem.checked = true;
+// });
+// blbtn.addEventListener('click', function () {
+//   elem.checked = false;
+// });
+
+// let elem = document.querySelector('#elem');
+// let btn = document.querySelector('.btn');
+// let text = document.querySelector('.text');
+// btn.addEventListener('click', function () {
+//   if (elem.checked) {
+//     text.innerHTML = 'Привет';
+//   } else {
+//     text.innerHTML = 'Пока';
+//   }
+// });
+
+// ======================================================================184
+
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function () {
+//   elem.disabled = !elem.disabled;
+// });
+
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function () {
+//   elem.checked = !elem.checked;
+// });
+
+// ======================================================================185

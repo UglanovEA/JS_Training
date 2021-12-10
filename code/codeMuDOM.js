@@ -964,3 +964,55 @@
 // });
 
 // ======================================================================185
+
+// let radios = document.querySelectorAll('input[type="radio"]');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function () {
+//   for (let radio of radios) {
+//     if (radio.checked) {
+//       console.log(radio.value);
+//     }
+//   }
+// });
+
+// let radios = document.querySelectorAll('.radio');
+// let button = document.querySelector('.button');
+// let text = document.querySelector('.text');
+// button.addEventListener('click', function () {
+//   for (let radio of radios) {
+//     if (radio.checked) {
+//       text.innerHTML = radio.value;
+//     }
+//   }
+// });
+
+// ======================================================================186
+
+// let elem = document.querySelector('#elem');
+// let text = document.querySelector('.text');
+// elem.addEventListener('change', function () {
+//   text.innerHTML = elem.value;
+// });
+
+// let elem = document.querySelector('#elem');
+// let text = document.querySelector('.text');
+// elem.addEventListener('change', function () {
+//   if (elem.checked) {
+//     text.innerHTML = 'отмечен';
+//   } else {
+//     text.innerHTML = 'не отмечен';
+//   }
+// });
+
+// let elem = document.querySelector('#elem');
+// console.log(elem);
+// elem.addEventListener('change', function () {
+//   let str = elem.value.length;
+//   if (str <= 5) {
+//     elem.style.border = '1px solid white';
+//   } else {
+//     elem.style.border = '1px solid red';
+//   }
+// });
+
+// ======================================================================187

@@ -872,3 +872,55 @@
 //     }
 //   }
 // });
+
+// let texts = document.querySelectorAll('.text');
+// for (let text of texts) {
+//   text.addEventListener('click', function () {
+//     text.innerHTML = text.innerHTML ** 2;
+//   });
+// }
+
+// ======================================================================181
+
+// let elem = document.querySelector('#elem');
+// console.log(elem.value); // выведет 'text'
+
+// let elem = document.querySelector('#elem');
+// let text = document.querySelector('.text');
+// elem.addEventListener('blur', function () {
+//   text.innerHTML = elem.value;
+// });
+
+// ======================================================================182
+
+// let elem = document.querySelector('#elem');
+// console.log(elem.disabled); // выведет true
+// elem.disabled = false;
+
+// let elem = document.querySelector('.elem');
+// let btn = document.querySelector('.btn');
+// btn.addEventListener('click', function () {
+//   elem.disabled = false;
+// });
+
+// let elem = document.querySelector('.elem');
+// let unbtn = document.querySelector('.btn1');
+// let blbtn = document.querySelector('.btn2');
+// unbtn.addEventListener('click', function () {
+//   elem.disabled = false;
+// });
+// blbtn.addEventListener('click', function () {
+//   elem.disabled = true;
+// });
+
+// let elem = document.querySelector('.elem');
+// let btn = document.querySelector('.btn1');
+// btn.addEventListener('click', function () {
+//   if (elem.disabled == false) {
+//     alert('Input разблокирован');
+//   } else {
+//     alert('Input заблокирован');
+//   }
+// });
+
+// ======================================================================183

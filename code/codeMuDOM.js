@@ -1016,3 +1016,26 @@
 // });
 
 // ======================================================================187
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('input', function () {
+//   console.log(this.value);
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('input', function () {
+//   if (this.value.length == 5) {
+//     console.log('длина равна 5');
+//   }
+// });
+
+// let elem = document.querySelector('#elem');
+// let text = document.querySelector('.text');
+// elem.addEventListener('input', function () {
+//   if (this.value.length > 5) {
+//     text.innerHTML =
+//       'Превышен лимит символов на' + ' ' + `${this.value.length - 5}`;
+//   }
+// });
+
+// ======================================================================188

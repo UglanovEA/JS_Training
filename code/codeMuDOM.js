@@ -1106,3 +1106,85 @@
 // select.value = date.getMonth();
 
 // ======================================================================191
+
+// let select = document.querySelector('#select');
+// console.log(select.selectedIndex); // выведет 1
+
+// let select = document.querySelector('#select');
+// select.selectedIndex = 2; // выберет 'три'
+
+// let select = document.querySelector('#select');
+// let elem = document.querySelector('.elem');
+// elem.addEventListener('blur', function () {
+//   select.value = elem.value;
+// });
+
+// let select = document.querySelector('#select');
+// let date = new Date();
+// select.value = date.getDay();
+
+// ======================================================================192
+
+// console.log(document.querySelectorAll('#select option'));
+
+// let select = document.querySelector('#select');
+// console.log(select.querySelectorAll('option'));
+
+// let select = document.querySelector('#select');
+// for (let option of select) {
+//   console.log(option);
+// }
+
+// let select = document.querySelector('#select');
+// console.log(select[0]);
+
+// let select = document.querySelector('#select');
+// for (let option of select) {
+//   option.innerHTML = option.innerHTML + ' ' + option.value;
+// }
+
+// ======================================================================193
+
+// let select = document.querySelector('#select');
+// let option = select[0];
+
+// console.log(option.text);
+// console.log(option.value);
+// console.log(option.selected);
+
+// let select = document.querySelector('#select');
+// for (let option of select) {
+//   if (option.selected == true) {
+//     option.text += '!';
+//   } else {
+//     option.text += '?';
+//   }
+// }
+
+// let select = document.querySelector('#select');
+// let option = select[2];
+// option.selected = true;
+
+// let select = document.querySelector('#select');
+// let button = document.querySelector('.btn');
+// button.addEventListener('click', function () {
+//   let option = select[2];
+//   option.selected = true;
+// });
+
+// let select = document.querySelector('#select');
+// console.log(select[select.selectedIndex]);
+
+// let select = document.querySelector('#select');
+// let button = document.querySelector('.btn');
+// button.addEventListener('click', function () {
+//   console.log(select[select.selectedIndex].innerHTML);
+// });
+
+// let select = document.querySelector('#select');
+// let button = document.querySelector('.btn');
+// button.addEventListener('click', function () {
+//   select[select.selectedIndex].innerHTML += '!';
+// });
+
+// ======================================================================194

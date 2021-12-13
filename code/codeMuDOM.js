@@ -1060,3 +1060,49 @@
 // });
 
 // ======================================================================189
+
+// let select = document.querySelector('#select');
+// select.addEventListener('change', function () {
+//   console.log(this.value);
+// });
+
+// let select = document.querySelector('#select');
+// let text = document.querySelector('.text');
+// let button = document.querySelector('.btn');
+// button.addEventListener('click', function () {
+//   text.innerHTML = select.value;
+// });
+
+// let select = document.querySelector('#select');
+// select.addEventListener('change', function () {
+//   if (Number(select.value) == 2023 || Number(select.value) == 2027) {
+//     console.log('високосный год');
+//   }
+// });
+
+// select.addEventListener('change', function () {
+//   console.log(this.value);
+// });
+
+// let select = document.querySelector('#select');
+// select.addEventListener('change', function () {
+//   if (this.value == 6 || this.value == 7) {
+//     console.log('сегодня выходной');
+//   } else {
+//     console.log('сегодня рабочий день');
+//   }
+// });
+
+// ======================================================================190
+
+// let select = document.querySelector('#select');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function () {
+//   select.value = 'one';
+// });
+
+// let select = document.querySelector('#select');
+// let date = new Date();
+// select.value = date.getMonth();
+
+// ======================================================================191

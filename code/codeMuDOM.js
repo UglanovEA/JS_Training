@@ -1202,3 +1202,40 @@
 // });
 
 // ======================================================================196
+
+// elem.addEventListener('click', function (event) {
+//   console.log(event.type); // выведет 'click'
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', func);
+// elem.addEventListener('dblclick', func);
+// function func(event) {
+//   console.log(event.type);
+//   if (event.type == 'click') {
+//     elem.style.color = 'green';
+//   } else if (event.type == 'dblclick') {
+//     elem.style.color = 'red';
+//   }
+// }
+
+// ======================================================================197
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function (event) {
+//   console.log(event.target); // выведет наш абзац
+//   console.log(this); // выведет наш див
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function (event) {
+//   if (event.target.tagName == 'UL') {
+//     let li = document.createElement('LI');
+//     li.innerHTML = 'text';
+//     elem.appendChild(li);
+//   } else if (event.target.tagName == 'LI') {
+//     event.target.innerHTML += '!';
+//   }
+// });
+
+// ======================================================================198

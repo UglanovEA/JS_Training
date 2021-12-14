@@ -1188,3 +1188,17 @@
 // });
 
 // ======================================================================194
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function (event) {
+//   console.log(event);
+// });
+
+// ======================================================================195
+
+// let elem = document.querySelector('#elem');
+// window.addEventListener('mousemove', function (event) {
+//   elem.innerHTML = event.pageX + ':' + event.pageY;
+// });
+
+// ======================================================================196

@@ -1249,3 +1249,62 @@
 // });
 
 // ======================================================================199
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function (event) {
+//   if (event.ctrlKey) {
+//     alert('нажат Ctrl');
+//   }
+//   if (event.altKey) {
+//     alert('нажат Alt');
+//   }
+//   if (event.shiftKey) {
+//     alert('нажат Shift');
+//   }
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function (event) {
+//   if (event.altKey) {
+//     elem.style.backgroundColor = 'red';
+//   }
+// });
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function (event) {
+//   if (event.target.tagName == 'LI' && event.ctrlKey) {
+//     event.target.innerHTML += 1;
+//   } else if (event.target.tagName == 'LI' && event.shiftKey) {
+//     event.target.innerHTML += 2;
+//   }
+// });
+
+// ======================================================================200
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function (event) {
+//   event.preventDefault();
+//   alert('Вы не можете перейти по этой ссылке!');
+// });
+
+// let elems = document.querySelectorAll('.elem');
+// for (let elem of elems) {
+//   elem.addEventListener('click', function (event) {
+//     event.preventDefault();
+//     elem.innerHTML += elem.href;
+//   });
+// }
+
+// let inputs = document.querySelectorAll('.input');
+// let text = document.querySelector('.text');
+// let link = document.querySelector('.link');
+// link.addEventListener('click', function (event) {
+//   for (let input of inputs) {
+//     event.preventDefault();
+//     let sum = 0;
+//     sum = Number(inputs[0].value) + Number(inputs[1].value);
+//     text.innerHTML = sum;
+//   }
+// });
+
+// ======================================================================201

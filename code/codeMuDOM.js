@@ -1239,3 +1239,13 @@
 // });
 
 // ======================================================================198
+
+// let text = document.querySelector('.text');
+// let input = document.querySelector('.input');
+// input.addEventListener('keydown', function (event) {
+//   if (event.key == 'Enter') {
+//     text.innerHTML = input.value;
+//   }
+// });
+
+// ======================================================================199

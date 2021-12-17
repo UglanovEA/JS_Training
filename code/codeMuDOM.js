@@ -1324,3 +1324,58 @@
 // });
 
 // ======================================================================202
+
+// let div = document.querySelector('div');
+// div.addEventListener('click', function (event) {
+//   console.log(event.target); // или див, или абзац
+// });
+
+// let div = document.querySelector('div');
+// div.addEventListener('click', function (event) {
+//   if (event.target.tagName === 'DIV') {
+//     alert('клик именно по диву');
+//   }
+//   if (event.target.tagName === 'P') {
+//     alert('клик именно по абзацу');
+//   }
+// });
+
+// let div = document.querySelector('div');
+// div.addEventListener('click', function (event) {
+//   if (event.target.matches('div')) {
+//     alert('клик именно по диву');
+//   }
+//   if (event.target.matches('p')) {
+//     alert('клик именно по абзацу');
+//   }
+// });
+
+// let div = document.querySelector('div');
+// div.addEventListener('click', function (event) {
+//   if (event.target.matches('div')) {
+//     alert('клик именно по диву');
+//   }
+//   if (event.target.matches('ul')) {
+//     let li = document.createElement('LI');
+//     li.innerHTML += 1;
+//     event.target.appendChild(li);
+//   }
+//   if (event.target.matches('li')) {
+//     event.target.innerHTML += '!';
+//   }
+// });
+
+// ======================================================================203
+
+// let parent = document.querySelector('#parent');
+// let button = document.querySelector('button');
+// let block = document.querySelector('#block');
+// button.addEventListener('click', function (event) {
+//   block.classList.add('active');
+//   event.stopPropagation();
+// });
+// parent.addEventListener('click', function () {
+//   block.classList.remove('active');
+// });
+
+// ======================================================================204

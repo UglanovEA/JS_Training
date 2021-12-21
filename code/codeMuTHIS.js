@@ -129,3 +129,53 @@
 // }
 
 // ======================================================================211
+
+// let elem = document.querySelector('#elem');
+// function func() {
+//   console.log(this.value); // выведет value инпута
+// }
+// func.call(elem);
+
+// let elem1 = document.querySelector('#elem1');
+// let elem2 = document.querySelector('#elem2');
+// let elem3 = document.querySelector('#elem3');
+// function func() {
+//   console.log(this.value);
+// }
+// func.call(elem1);
+// func.call(elem2);
+// func.call(elem3);
+
+// let elem = document.querySelector('#elem');
+// function func(surname, name) {
+//   console.log(this.value + ', ' + surname + ' ' + name);
+// }
+// func.call(elem, 'Иванов', 'Иван'); // тут должно вывести 'привет, Иванов Иван'
+
+// ======================================================================212
+
+// let elem = document.querySelector('#elem');
+// function func(surname, name) {
+//   console.log(this.value + ', ' + surname + ' ' + name);
+// }
+// func.apply(elem, ['Иванов', 'Иван']); // тут должно вывести 'привет, Иванов Иван'
+
+// ======================================================================213
+
+// let elem = document.getElementById('elem');
+// function func(param1, param2) {
+//   console.log(this.value + param1 + param2);
+// }
+// let newFunc = func.bind(elem);
+// newFunc('1', '2'); // выведет 'text12'
+
+// let elem = document.getElementById('elem');
+// function func(surname, name) {
+//   console.log(this.value + ', ' + surname + ' ' + name);
+// }
+// // Тут напишите конструкцию с bind()
+// func = func.bind(elem);
+// func('Иванов', 'Иван'); // тут должно 	вывести 'привет, Иванов Иван'
+// func('Петров', 'Петр'); // тут должно 	вывести 'привет, Петров Петр'
+
+// ======================================================================214

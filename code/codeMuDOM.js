@@ -1379,3 +1379,96 @@
 // });
 
 // ======================================================================204
+
+// elem1.addEventListener(
+//   'click',
+//   function () {
+//     alert('зеленый - погружение');
+//   },
+//   true
+// );
+// elem1.addEventListener(
+//   'click',
+//   function () {
+//     alert('зеленый - всплытие');
+//   },
+//   false
+// );
+
+// elem2.addEventListener(
+//   'click',
+//   function () {
+//     alert('голубой - погружение');
+//   },
+//   true
+// );
+// elem2.addEventListener(
+//   'click',
+//   function () {
+//     alert('голубой - всплытие');
+//   },
+//   false
+// );
+
+// elem3.addEventListener(
+//   'click',
+//   function () {
+//     alert('красный - погружение');
+//   },
+//   true
+// );
+// elem3.addEventListener(
+//   'click',
+//   function () {
+//     alert('красный- всплытие');
+//   },
+//   false
+// );
+
+// ======================================================================205
+
+// let button = document.querySelector('button');
+// let list = document.querySelector('ul');
+// let items = list.querySelectorAll('li');
+
+// for (let item of items) {
+//   item.addEventListener('click', handler);
+// }
+
+// button.addEventListener('click', function () {
+//   let item = document.createElement('li');
+//   item.innerHTML = 'item';
+//   item.addEventListener('click', handler);
+//   list.appendChild(item);
+// });
+
+// function handler() {
+//   this.innerHTML = this.innerHTML + '!';
+// }
+
+// ======================================================================206
+
+// let button = document.querySelector('button');
+// let list = document.querySelector('ul');
+// let items = list.querySelectorAll('li');
+
+// list.addEventListener('click', handler);
+
+// button.addEventListener('click', function () {
+//   let item = document.createElement('li');
+//   item.innerHTML = 'item';
+//   list.appendChild(item);
+// });
+
+// function handler(event) {
+//   event.target.innerHTML = event.target.innerHTML + '!';
+// }
+
+// list.addEventListener('click', function (event) {
+//   let li = event.target.closest('li');
+//   if (li) {
+//     li.innerHTML = li.innerHTML + '!';
+//   }
+// });
+
+// ======================================================================207

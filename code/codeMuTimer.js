@@ -320,3 +320,68 @@
 //     }, 1000);
 //   });
 // });
+
+// let start = document.querySelector('.btn1');
+// let btn2 = document.querySelector('.btn2');
+// let text = document.querySelector('.text');
+// let timerId;
+// start.addEventListener('click', function () {
+//   timerId = setInterval(function () {
+//     text.innerHTML = Number(text.innerHTML) + 1;
+//   }, 1000);
+// });
+// btn2.addEventListener('click', function () {
+//   clearInterval(timerId);
+// });
+
+// let text = document.querySelector('.text');
+
+// setInterval(function () {
+//   text.style.backgroundColor = 'red';
+// }, 1000);
+// setInterval(function () {
+//   text.style.backgroundColor = 'green';
+// }, 2000);
+
+// let text = document.querySelector('.text');
+
+// setInterval(function () {
+//   let date = new Date();
+//   text.innerHTML =
+//     date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
+// }, 1000);
+
+// ======================================================================223
+
+// let elem = document.querySelector('#elem');
+
+// elem.addEventListener('click', function () {
+//   setTimeout(function () {
+//     alert('!');
+//   }, 3000);
+// });
+
+// let text = document.querySelector('.text');
+// setTimeout(function () {
+//   text.innerHTML += 'Hello';
+// }, 10000);
+
+// let i = 0;
+// function timer() {
+//   setTimeout(function () {
+//     console.log(++i);
+//     timer(); // вызовем сами себя
+//   }, 1000);
+// }
+// timer();
+
+// let i = 0;
+// function timer() {
+//   setTimeout(function () {
+//     console.log(i++);
+//     timer();
+//   }, 1000);
+// }
+// timer();
+
+// ======================================================================224

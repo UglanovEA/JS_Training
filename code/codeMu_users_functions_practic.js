@@ -221,3 +221,43 @@
 // console.log(getPerfect(min, max));
 
 // ======================================================================120
+
+// function getInt(arr1, arr2) {
+//   let arr = [];
+//   for (let item of arr1) {
+//     if (inArray(item, arr2)) {
+//       arr.push(item);
+//     }
+//   }
+//   return arr;
+// }
+// function inArray(item, arr) {
+//   return arr.indexOf(item) !== -1;
+// }
+// console.log(getInt([1, 2, 3, 4], [1, 3, 5, 6]));
+
+// ======================================================================121
+
+// let arr1 = [1, 2, 3];
+// let arr2 = [2, 3, 4, 5];
+// function getDiff(arr1, arr2) {
+//   let result = [];
+//   result = result.concat(getFirstDiff(arr1, arr2));
+//   result = result.concat(getFirstDiff(arr2, arr1));
+//   return result;
+// }
+// function getFirstDiff(arr1, arr2) {
+//   let arr = [];
+//   for (let item of arr1) {
+//     if (!inArray(item, arr2)) {
+//       arr.push(item);
+//     }
+//   }
+//   return arr;
+// }
+// function inArray(item, arr) {
+//   return arr.indexOf(item) !== -1;
+// }
+// console.log(getDiff([1, 2, 3], [2, 3, 4, 5]));
+
+// ======================================================================122

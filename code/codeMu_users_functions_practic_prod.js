@@ -268,3 +268,268 @@
 // +alert('!');
 
 // ======================================================================135
+
+// let arr = [
+//   function () {
+//     return 1;
+//   },
+//   function () {
+//     return 2;
+//   },
+//   function () {
+//     return 3;
+//   },
+// ];
+
+// console.log(arr[2]() + arr[1]() + arr[0]());
+// for (let item of arr) {
+//   console.log(item());
+// }
+
+// ======================================================================136
+
+// let obj = {
+//   func1: function () {
+//     return 1;
+//   },
+//   func2: function () {
+//     return 2;
+//   },
+//   func3: function () {
+//     return 3;
+//   },
+// };
+// console.log(obj.func1() + obj.func2() + obj.func3());
+// for (let key in obj) {
+//   console.log(obj[key]());
+// }
+
+// let obj = {
+//   func1: function (arr) {
+//     let sum = 0;
+//     for (let item of arr) {
+//       sum += item;
+//     }
+//     return sum;
+//   },
+//   func2: function (arr) {
+//     let sum = 0;
+//     for (let item of arr) {
+//       sum += item * item;
+//     }
+//     return sum;
+//   },
+//   func3: function (arr) {
+//     let sum = 0;
+//     for (let item of arr) {
+//       sum += item * item * item;
+//     }
+//     return sum;
+//   },
+// };
+// console.log(obj.func1([1, 2, 3]));
+// console.log(obj.func2([1, 2, 3]));
+// console.log(obj.func3([1, 2, 3]));
+
+// ======================================================================137
+
+// function test(func1, func2, func3) {
+//   return func1() + func2() + func3();
+// }
+// function func1() {
+//   return 1;
+// }
+// function func2() {
+//   return 2;
+// }
+// function func3() {
+//   return 3;
+// }
+// console.log(test(func1, func2, func3));
+
+// function test(func) {
+//   console.log(func(1, 2));
+// }
+// let func = function func(num1, num2) {
+//   return num1 + num2;
+// };
+// test(func);
+
+// function test(num, func1, func2) {
+//   return func1(num) + func2(num);
+// }
+// function func1(num) {
+//   return num * num;
+// }
+// function func2(num) {
+//   return num * num * num;
+// }
+// console.log(test(2, func1, func2));
+
+// function test(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     arr[i] = (function () {
+//       return arr[i] * arr[i] * arr[i];
+//     })();
+//   }
+//   return arr;
+// }
+// console.log(test([1, 2, 3]));
+
+// ======================================================================138
+// ======================================================================139
+
+// function func(num1, num2) {
+//   function square(num1) {
+//     return num1 * num1;
+//   }
+//   function cube(num2) {
+//     return num2 * num2 * num2;
+//   }
+//   return square(num1) + cube(num2);
+// }
+// console.log(func(2, 3));
+
+// ======================================================================140
+
+// function test() {
+//   let num = 1;
+//   function func() {
+//     alert(num);
+//   }
+//   func();
+// }
+// test();
+
+// function test() {
+//   let num = 1;
+//   function func() {
+//     alert(num);
+//   }
+// }
+// test();
+
+// function test() {
+//   let num = 1;
+//   function func() {
+//     alert(num);
+//   }
+//   func();
+// }
+
+// function test() {
+//   let num;
+//   function func() {
+//     alert(num);
+//   }
+//   num = 1;
+//   func();
+//   num = 2;
+//   func();
+// }
+// test();
+
+// function test(num1, num2) {
+//   function func() {
+//     alert(num1 + num2);
+//   }
+//   func();
+// }
+// test(1, 2);
+
+// function test(num1, num2) {
+//   function func() {
+//     alert(num1 + num2);
+//   }
+//   num1 = 2;
+//   func();
+// }
+// test(1, 2);
+
+// function test(num) {
+//   function func(localNum) {
+//     alert(localNum);
+//   }
+//   func(num);
+// }
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     alert(localNum);
+//   }
+//   func(num + 1);
+// }
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     alert(num);
+//   }
+//   func(num + 1);
+// }
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     localNum = 2;
+//   }
+//   func(num);
+//   alert(num);
+// }
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     localNum = 2;
+//   }
+//   func(num);
+//   alert(localNum);
+// }
+// test(1);
+
+// function test(num) {
+//   function func(localNum) {
+//     num = 2;
+//   }
+//   func(num);
+//   alert(num);
+// }
+// test(1);
+
+// function test(num) {
+//   function func(num) {
+//     alert(num);
+//   }
+//   func(num);
+// }
+// test(1);
+
+// function test(num) {
+//   function func(num) {
+//     num = 2;
+//   }
+//   func(num);
+//   alert(num);
+// }
+// test(1);
+
+// function test(num) {
+//   function func(num) {
+//     alert(num);
+//   }
+//   num = 2;
+//   func(num);
+// }
+// test(1);
+
+// function test(num) {
+//   function func(num) {
+//     alert(num);
+//   }
+//   func(num);
+//   num = 2;
+// }
+// test(1);
+
+// ======================================================================141

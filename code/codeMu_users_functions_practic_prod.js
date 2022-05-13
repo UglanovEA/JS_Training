@@ -716,3 +716,79 @@
 // func2();
 
 // ======================================================================144
+
+// !(function () {
+//   alert('!');
+// })(); // !
+
+// (function funk() {
+//   alert('!');
+// })();
+
+// let result = (function () {
+//   return '!';
+// })();
+// alert(result);
+
+// let result = function () {
+//   return '!';
+// };
+// alert(result);
+
+// let result = function () {
+//   return '!';
+// };
+// alert(result());
+
+// let result =
+//   (function () {
+//     return 1;
+//   })() +
+//   (function () {
+//     return 2;
+//   })();
+// alert(result);
+
+// let result = (function () {
+//   return '!';
+// })();
+// alert(result);
+
+// let result = (function () {
+//   return '!';
+// })();
+// alert(result);
+
+// let result = function () {
+//   return '!';
+// };
+// alert(result);
+
+// (function (num1, num2) {
+//   alert(num1 + num2);
+// })(1, 2);
+
+// (function () {
+//   return function () {
+//     return function () {
+//       console.log('!');
+//     };
+//   };
+// })()()();
+
+// (function (num1) {
+//   return function (num2) {
+//     return console.log(num1 + num2);
+//   };
+// })(1)(2);
+
+// let str = 'str';
+// (function () {
+//   alert(1);
+// })();
+
+// let str = 'str'(function () {
+//   alert(1);
+// })();
+
+// ======================================================================145

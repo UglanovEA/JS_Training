@@ -533,3 +533,186 @@
 // test(1);
 
 // ======================================================================141
+
+// function func() {
+//   return function func1() {
+//     return 1;
+//   };
+// }
+// console.log(func()());
+
+// function func(num1) {
+//   return function func1(num2) {
+//     return function func2(num3) {
+//       return function func3(num4) {
+//         return function () {
+//           let arr = [];
+//           arr.push(num1, num2, num3, num4);
+//           return arr;
+//         };
+//       };
+//     };
+//   };
+// }
+// console.log(func(2)(3)(4)(5)());
+
+// ======================================================================142
+
+// function test() {
+//   let num1 = 1;
+//   let num2 = 2;
+//   return function () {
+//     return num1 + num2;
+//   };
+// }
+// let func = test();
+// alert(func());
+
+// function test() {
+//   let num1 = 1;
+//   let num2 = 2;
+//   return function () {
+//     return num1 + num2;
+//   };
+// }
+// alert(test()());
+
+// function test() {
+//   let num1 = 1;
+//   return function () {
+//     return num1 + num2;
+//   };
+// }
+// let num2 = 2;
+// let func = test();
+// alert(func());
+
+// function test() {
+//   num = 2;
+//   return function () {
+//     return num;
+//   };
+// }
+// let num = 1;
+// let func = test();
+// alert(func());
+
+// ======================================================================143
+
+// function test() {
+//   let num = 1;
+//   return function () {
+//     console.log(num);
+//     num++;
+//   };
+// }
+// let func = test();
+// let func2 = test();
+// func(); //выведет 1
+// func(); //выведет 2
+// func(); //выведет 3
+// func(); //выведет 4
+// func(); //выведет 5
+// func2();
+
+// function func() {
+//   let num = 10;
+//   return function func2() {
+//     console.log(num);
+//     if (num > 0) {
+//       num--;
+//     } else {
+//       num = 'end';
+//     }
+//   };
+// }
+// let fun = func();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+// fun();
+
+// function func() {
+//   let num = 0;
+//   return function () {
+//     alert(num);
+//     num++;
+//   };
+// }
+// func()(); //0
+// func()(); //0
+// func()(); //0
+
+// function func() {
+//   let num = 0;
+//   return function () {
+//     alert(num);
+//     num++;
+//   };
+// }
+// let test = func;
+// test()();
+// test()();
+// test()();
+
+// let counter = 0;
+// function test() {
+//   return function () {
+//     console.log(counter);
+//     counter++;
+//   };
+// }
+// let func = test;
+// let func1 = func();
+// let func2 = func();
+// func1();
+// func2();
+// func1();
+// func2();
+
+// function test() {
+//   let counter = 0;
+//   return function () {
+//     return function () {
+//       console.log(counter);
+//       counter++;
+//     };
+//   };
+// }
+// let func = test()();
+// let func1 = func;
+// let func2 = func;
+// func1();
+// func2();
+// func1();
+// func2();
+
+// function test() {
+//   let counter = 0;
+//   return function () {
+//     return function () {
+//       console.log(counter);
+//       counter++;
+//     };
+//   };
+// }
+// let func = test();
+// let func1 = func();
+// let func2 = func();
+// func1();
+// func2();
+// func1();
+// func2();
+
+// ======================================================================144

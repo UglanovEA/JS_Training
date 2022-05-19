@@ -44,3 +44,71 @@
 
 // let a = null + undefined;
 // console.log(a); //NaN
+
+// var a = 5;
+// var test = 5 != a ? 'y' : 'n';
+// console.log(test); //n
+
+// const weakSet = new WeakSet();
+// weakSet.add({});
+// console.log(weakSet.has({})); //false
+// const justSet = new Set();
+// justSet.add({});
+// console.log(justSet.has({})); //false
+
+// [1, 2, 3, 4].reduce((x, y) => console.log(x, y)); //1 2, undefined 3, undefined 4
+
+// function getIt(fruitList, ...args, favoriteFruit) {
+// 	return [...fruitList, ...args, favoriteFruit]
+// }
+// getIt(['banana', 'apple'], 'pear', 'orange') //rest operator должен быть в конце
+
+// const set = new Set();
+// set.add(1);
+// set.add('js tests');
+// set.add({ name: 'js tests' });
+
+// for (let item of set) {
+//   console.log(item + 2);
+// }
+
+// var digitsArray = [1, 2, 3];
+// Array.prototype.each = function () {};
+// var result = '';
+// for (var digit in digitsArray) {
+//   result += digit;
+// }
+// console.log(result); //012each
+
+// const { f: myName } = { f: 'johnny' };
+// console.log(f); //error f is not defined
+
+// console.log([] + 1 + 2); //'12'
+
+// console.log('ToToWe'.slice(-2)); //We
+
+// let a = new Array(1, 2);
+// let b = new Array(3);
+// console.log(a); //[1,2]
+// console.log(b); //[пусто, пусто, пусто]
+// console.log(a[0] + b[0]); //NaN
+
+// let f = (a, b) => arguments.length;
+// console.log(f(1, 2)); //error arguments is not defined
+
+// console.log(Number(2) === Number(2)); //true
+// console.log(Boolean(false) === Boolean(false)); //true
+// console.log(Symbol('foo') === Symbol('foo')); //false
+
+// class Person {
+//   constructor() {
+//     this.name = 'Johnny';
+//   }
+// }
+// Person = class AnotherPerson {
+//   constructor() {
+//     this.name = 'Richard';
+//   }
+// };
+// const member = new Person();
+// console.log(member.name); //richard

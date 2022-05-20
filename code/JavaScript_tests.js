@@ -112,3 +112,60 @@
 // };
 // const member = new Person();
 // console.log(member.name); //richard
+
+// let res = (2.55).toFixed(1) + 1;
+// console.log(res); // 2.51
+
+// let obj = {
+//   '1': 0,
+//   1: 1,
+//   0: 0,
+// };
+// console.log(obj['1']); //1
+
+// const settings = {
+//   username: 'js',
+//   level: 15,
+//   health: 100,
+// };
+// const data = JSON.stringify(settings, ['level', 'health']);
+// console.log(data); //{"level":15,"health":100}
+
+// console.log((20e-1)['toString'](2)); //10
+
+// var b = 10;
+// if (b % 3 == 0) {
+//   var i = 10;
+// }
+// console.log(i);//undefined
+
+// let arr = [1, 2, 3];
+// console.log(String(arr)); //'1,2,3'
+// console.log(String(arr) === '1,2,3'); //true
+
+// const car = {
+//   name: 'ford',
+//   year: 2000,
+//   getName() {
+//     return this.name;
+//   },
+// };
+// console.log(car.getName()); //ford
+
+// const o = {};
+// console.log(o.toString()); // [object Object]
+// console.log(o);
+
+// console.log(!!null);
+// console.log(!!false);
+// console.log(!!{});
+
+// function sum() {
+//   var sum = 0;
+//   for (var i = 0; i < arguments.length; i++) {
+//     sum += arguments[i];
+//   }
+//   return sum;
+// }
+// var a = sum(5, -5, false, '-5', 5);
+// console.log(a); //'0-55'

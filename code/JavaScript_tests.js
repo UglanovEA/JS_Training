@@ -169,3 +169,44 @@
 // }
 // var a = sum(5, -5, false, '-5', 5);
 // console.log(a); //'0-55'
+
+// console.log(3 === new Number(3)); //false
+
+// let user = null;
+// console.log(user.address); //error
+
+// let num = 10;
+// const i = () => num++;
+// const i2 = (number) => number++;
+// const num1 = i();
+// const num2 = i2(num1);
+// console.log(num1); //10
+// console.log(num2); //10
+
+// const info = {
+//   [Symbol('a')]: 'b',
+// };
+// console.log(info); //{Symbol(a): 'b'}
+// console.log(Object.keys(info)); //[]
+
+// console.log(2 && 1 && null && 0 && undefined); //null оператор возвращает первый ложный
+
+// const nam = 'And';
+// age = 20;
+// console.log(delete nam); //false
+// console.log(delete age); //true
+
+// let a = (x) => (x, 1, 2, 3);
+// let res = a(5);
+// console.log(res); //3
+
+// let a = 1;
+// let b = {
+//   toString() {
+//     return '1';
+//   },
+// };
+// let c = 1;
+// console.log(a + b + c); //111
+
+/* 25.02.2022 =========THE END==========      */

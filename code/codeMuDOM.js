@@ -1,3 +1,7 @@
+'use strict';
+// ======================================================================179
+// ======================================================================180
+// ======================================================================181
 // let button = document.querySelector('#button');
 // console.log(button);
 
@@ -7,6 +11,8 @@
 // console.log(p1);
 // console.log(p2);
 // console.log(p3);
+
+// ======================================================================182
 
 // let elem = document.querySelector('#parent input');
 // console.log(elem);
@@ -23,6 +29,8 @@
 //   alert('hey');
 // });
 
+// ======================================================================184
+
 // let button1 = document.querySelector('#button1');
 // let button2 = document.querySelector('#button2');
 
@@ -35,6 +43,8 @@
 // function func2() {
 //   alert(2);
 // }
+
+// ======================================================================185
 
 // let text1 = document.querySelector('#elem1');
 // let text2 = document.querySelector('#elem2');
@@ -50,6 +60,8 @@
 // function func() {
 //   alert('message');
 // }
+
+// ======================================================================186
 
 // let button = document.querySelector('#button');
 

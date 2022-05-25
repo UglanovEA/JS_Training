@@ -202,4 +202,35 @@ Array.prototype.map передает в функцию-коллбэк 3 аргу
 
 // console.log(typeof typeof null);
 
-/*=========== 1 мая==============*/
+// console.log(parseInt(1 / 0, 19)); //18
+
+// console.log(parseInt('08')); //8
+
+// function func() {
+//   var a = 1;
+//   if (a == 1) {
+//     var b = 2;
+//   }
+//   return b;
+// }
+// console.log(func()); //2
+
+// console.log(a); //undefined
+// var a = 'a';
+// function func() {
+//   console.log(a); //undefined
+//   var a = 'a1';
+//   console.log(a); //a1
+// }
+// func();
+
+// var n = 3;
+// var b = true;
+// n = n.toString(2) + Number(b) + n.toString() - 3 + !Number(b);
+// console.log(n); //1110
+
+// var a = Array();
+// a[a.length] = 0;
+// console.log(a.length); //1
+
+/* 19 октября */

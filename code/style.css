@@ -1,9 +1,5 @@
-.block {
-}
-.block::before {
-	display: block;
-	content: "";
-	width: 50px;
-	height: 50px;
-	background-color: orange;
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
 }
